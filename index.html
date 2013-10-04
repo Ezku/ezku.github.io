@@ -37,10 +37,8 @@
   <div class="container">
     <section id="intro">
       <div class="jumbotron">
-        <h1>
-          Eevert Saukkokoski
-          <small>web software craftsman</small>
-        </h1>
+        <h1>Eevert Saukkokoski,</h1>
+        <h2>web software craftsman.</h2>
 
         <div class="row lead">
           <div class="col-md-6">
@@ -54,8 +52,8 @@
 
           <div class="col-md-6">
             <dl>
-              <dt>You're looking for someone like me. I love...</dt>
-              <dd>building reactive and scalable web applications with modern tools.</dd>
+              <dt>You're looking for someone like me. I can help you with...</dt>
+              <dd>building reactive and scalable web applications with modern tools and practices.</dd>
               <dd>applying service design thinking to creating solutions.</dd>
               <dd>lean workflows and thinking about ways to do things better.</dd>
             </dl>
@@ -88,6 +86,7 @@
               <button type="button" class="btn btn-default btn-xs">Node.js</button>
               <button type="button" class="btn btn-default btn-xs">Grunt</button>
               <button type="button" class="btn btn-default btn-xs">AngularJS</button>
+              <button type="button" class="btn btn-default btn-xs">Selenium</button>
               <button type="button" class="btn btn-default btn-xs">CoffeeScript</button>
               <button type="button" class="btn btn-default btn-xs">Bootstrap</button>
               <button type="button" class="btn btn-default btn-xs">Scrum</button>
@@ -107,6 +106,7 @@
             </div>
             <div class="panel-footer">
               <button type="button" class="btn btn-default btn-xs">AngularJS</button>
+              <button type="button" class="btn btn-default btn-xs">Karma</button>
               <button type="button" class="btn btn-default btn-xs">CoffeeScript</button>
               <button type="button" class="btn btn-default btn-xs">Compass</button>
               <button type="button" class="btn btn-default btn-xs">Susy</button>
@@ -156,6 +156,7 @@
               <button type="button" class="btn btn-default btn-xs">PHPUnit</button>
               <button type="button" class="btn btn-default btn-xs">jQuery</button>
               <button type="button" class="btn btn-default btn-xs">Agile Transformation</button>
+              <button type="button" class="btn btn-default btn-xs">Open Source</button>
             </div>
           </div>
         </section>
@@ -235,15 +236,47 @@
   </div>
 
   <style type="text/css">
+    /* Typography */
+    @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
     body {
-      padding-top: 70px;
-      padding-bottom: 70px;
+      font-family: Lato, "Helvetica Neue", Arial, sans-serif;
     }
+    h1, h2, h3, h4 {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      letter-spacing: -0.04em;
+    }
+    h1 {
+      font-weight: 900;
+    }
+    h2 {
+      margin-top: 0;
+    }
+
     section[id]:before {
       content:"";
       display:block;
       height:70px;
       margin:-70px 0 0;
+    }
+
+    dd:before {
+      content:"…";
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    dd {
+      margin-left: 1em;
+    }
+
+
+    #intro h1, #intro h2, #intro p, #contact .jumbotron {
+      text-align: center;
+    }
+    /* Layout */
+    body {
+      padding-top: 70px;
+      padding-bottom: 70px;
     }
     h3.panel-heading {
       margin-top: 0;
@@ -251,24 +284,18 @@
     .panel-footer button {
       margin: 0.2em 0;
     }
-    h1 small, h2 small {
-      display: block;
-    }
-    dd:before {
-      content:"…";
-      margin-left: -1em;
-    }
-    dd {
-      margin-left: 1em;
-    }
-    #intro h1, #intro p {
-      text-align: center;
-    }
-    #contact .jumbotron {
-      text-align: center;
-    }
   </style>
   <script src="//code.jquery.com/jquery.js"></script>
+  <script>
+  $(window.document).ready(function() {
+    $('a[href^="#"]').click(function(e) {
+      e.preventDefault();
+
+      var target = $(this).attr('href');
+      $('html, body').animate({ scrollTop: $(target).offset().top });
+    });
+  });
+  </script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

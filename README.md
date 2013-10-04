@@ -34,11 +34,13 @@ Eh, could be worth a try.
 ### Eevert Saukkokoski, web software craftsman
 
 You're looking for someone to wear many hats.
+
 - I do web dev and craft software.
 - I design digital services.
 - I facilitate and improve processes.
 
 You're looking for someone to solve problems for you.
+
 - I love to build reactive and scalable applications with tools like Node.js, CoffeeScript and Scala.
 - I'm keen on applying a service design perspective to creating solutions.
 - I'm a fan of continuous improvement and thinking about ways to do things better.
@@ -52,7 +54,7 @@ You're looking for someone to solve problems for you.
 - Modern web technology specialist
 - Client-facing software development process facilitation
 
-- Backbone, Grunt, AngularJS, CoffeeScript
+Backbone, Grunt, AngularJS, CoffeeScript, Bootstrap
 
 #### Software architect @ Valo Electric 2013
 
@@ -60,8 +62,8 @@ You're looking for someone to solve problems for you.
 - Frontend test automation of a business intelligence application for a client in engineering and manufacturing
 - Service design and implementation of a new responsive brand frontpage
 
-- Ruby on Rails, AngularJS and CoffeeScript
-- Compass, Susy, Sinatra, BaconJS
+Ruby on Rails, AngularJS and CoffeeScript
+Compass, Susy, Sinatra, BaconJS
 
 #### Software developer @ Reaktor 2012
 
@@ -69,8 +71,8 @@ You're looking for someone to solve problems for you.
 - Designed, built and tested front-end web software
 - Made decisions on architecture and technology stack levels
 
-- Vagrant
-- Scala, CoffeeScript, Rx.js
+Vagrant
+Scala, CoffeeScript, Rx.js
 
 #### Software architect, software developer @ Soprano Brain Alliance 2006-2012
 
@@ -80,10 +82,7 @@ You're looking for someone to solve problems for you.
 - Spearheaded a corporate-endorsed open source code sharing effort to reduce repeated effort and improve company profile internally
 - Was responsible for an in-house application boilerplate used in a multitude of different projects
 
-- Zend Framework
-- Doctrine ORM
-- PHPUnit
-- jQuery
+Zend Framework, Doctrine ORM, PHPUnit, jQuery
 
 ### Studies
 

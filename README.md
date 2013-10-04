@@ -85,6 +85,13 @@ You're looking for someone to solve problems for you.
 - PHPUnit
 - jQuery
 
+### Studies
+
+#### Information Networks, Aalto University School of Science, 2008–
+
+- Major in Business Networks
+- Bachelor's thesis on applying software architectural thinking within an agile workflow
+
 ### Portfolio
 
 - Xi project and subprojects

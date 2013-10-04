@@ -269,7 +269,6 @@
       margin-left: 1em;
     }
 
-
     #intro h1, #intro h2, #intro p, #contact .jumbotron {
       text-align: center;
     }
@@ -287,14 +286,25 @@
   </style>
   <script src="//code.jquery.com/jquery.js"></script>
   <script>
-  $(window.document).ready(function() {
-    $('a[href^="#"]').click(function(e) {
-      e.preventDefault();
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44621760-1']);
+    _gaq.push(['_trackPageview']);
 
-      var target = $(this).attr('href');
-      $('html, body').animate({ scrollTop: $(target).offset().top });
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    $(window.document).ready(function() {
+      $('a[href^="#"]').click(function(e) {
+        e.preventDefault();
+
+        var target = $(this).attr('href');
+        $('html, body').animate({ scrollTop: $(target).offset().top });
+      });
     });
-  });
+
   </script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>

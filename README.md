@@ -89,8 +89,10 @@ You're looking for someone to solve problems for you.
 
 #### Information Networks, Aalto University School of Science, 2008–
 
+- Multidisciplinary studies including ICT, business and humanities
 - Major in Business Networks
 - Bachelor's thesis on applying software architectural thinking within an agile workflow
+- Served as toastmaster for the Information Networks' student guild, Athene, in 2011-2013
 
 ### Portfolio
 

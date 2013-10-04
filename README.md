@@ -75,10 +75,10 @@ You're looking for someone to solve problems for you.
 #### Software architect, software developer @ Soprano Brain Alliance 2006-2012
 
 - Web software architect with many hats in a team of a dozen developers
-- Organized TDD workshops and presentations on tech subjects to disseminate information
+- Project work for clients ranging from small US-based startups to large domestic enterprises
+- Organized TDD workshops and presentations on other tech subjects to disseminate information
 - Spearheaded a corporate-endorsed open source code sharing effort to reduce repeated effort and improve company profile internally
 - Was responsible for an in-house application boilerplate used in a multitude of different projects
-- Project work for clients ranging from small US-based startups to large domestic enterprises
 
 - Zend Framework
 - Doctrine ORM
@@ -92,14 +92,34 @@ You're looking for someone to solve problems for you.
 
 ### Recommendations
 
+"Eevert demonstrated solid capabilities in crafting high quality responsive and reactive Javascript-based applications. ... In addition to solid technical skills, Eevert has provided value in project domain by applying his expertise in software development methodologies and facilitation."
+- Paavo Punkari, Business Director, Futurice http://www.linkedin.com/profile/view?id=3814375
+
+"Dedicated ambition and a serious strive towards professionalism ... coupled with a great attitude towards learning and improving."
+- Taneli Tikka, CEO, Soprano Brain Alliance http://www.linkedin.com/profile/view?id=48343
+
+"Eevert is an innovative software architect with great attention to detail. He does not accept solutions as they are automatically, but has the confidence to challenge and eventually improve them."
+- Mikko Hämäläinen, COO, Soprano Brain Alliance http://www.linkedin.com/profile/view?id=8329709
+
 ### Personal
 
-- "Towards new challenges Eevert has a strong can-do attitude."
-- "He is both straightforward and to the point in communication, continually strives towards improvement and bravely takes initiative."
+#### I thrive on
 
-- "Find myself to be an INTJ personality type."
-- "Was not a fan of Steve Jobs, but had deep respect for his goal:"
-- "Be a yardstick of quality."
+- Feedback
+- Working on new ideas
+- Multidisciplinary environments
 
-### How to reach me
+#### I value
+
+- Flat organizations
+- Flexibility
+- Straightforward communication
+
+#### Things to know about me
+
+- I stay active with running, biking, wall climbing, gym and photography.
+- I'm a lover of scifi, board games and singing.
+- I identify as an INTJ on the MBTI personality typology.
+
+### So, that's me. Let's talk about us.
 

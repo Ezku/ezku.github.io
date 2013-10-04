@@ -12,122 +12,169 @@
   <![endif]-->
 </head>
 <body>
-  <header>
-    <h1>Eevert Saukkokoski, <small>web software craftsman</small></h1>
+  <header class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="header .navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#intro" class="navbar-brand">CV</a>
+      </div>
+      <nav class="navbar-collapse collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a href="#work-history">Work history</a></li>
+          <li><a href="#studies">Studies</a></li>
+          <li><a href="#work-samples">Work samples</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+          <li><a href="#personal">Personal</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <p>You're looking for someone to wear many hats.</p>
-    <ul>
-      <li>You want a web developer who can craft quality software.</li>
-      <li>You want someone who can create digital services with users and business in mind.</li>
-      <li>You want a generalist with an eye for process improvement and facilitation.</li>
-    </ul>
+  <div class="container">
+    <section id="intro">
+      <div class="jumbotron">
+        <h1>Eevert Saukkokoski</h1>
+        <h2>web software craftsman</h2>
+      </div>
+      <p>You're looking for someone to wear many hats. You want...</p>
+      <ul>
+        <li>a web developer who can craft quality software.</li>
+        <li>someone who can create digital services with users and business in mind.</li>
+        <li>a generalist with an eye for process improvement and facilitation.</li>
+      </ul>
 
-    <p>You're looking for someone like me.</p>
-    <ul>
-      <li>I love to build reactive and scalable applications with tools like Node.js, CoffeeScript and Scala.</li>
-      <li>I'm keen on applying Service Design thinking to creating solutions.</li>
-      <li>I have worked in environments both lean and agile, and love thinking about ways to do things better.</li>
-    </ul>
-  </section>
+      <p>You're looking for someone like me.</p>
+      <ul>
+        <li>I love to build reactive and scalable applications with tools like Node.js, CoffeeScript and Scala.</li>
+        <li>I'm keen on applying Service Design thinking to creating solutions.</li>
+        <li>I have worked in environments both lean and agile, and love thinking about ways to do things better.</li>
+      </ul>
+    </section>
 
-  <hr />
+    <hr />
 
-  <section>
-    <h2 id="job-history">Job history</h2>
-    <h3 id="software-craftsman-futurice-2013">Software craftsman @ <a href="http://www.futurice.com">Futurice</a> 2013</h3>
-    <ul>
-      <li>IT consultant for medium-sized to large multinational client companies</li>
-      <li>Drafted and led the creation of proposals for client projects</li>
-      <li>Modern web technology specialist</li>
-      <li>Client-facing software development process facilitation</li>
-    </ul>
-    <p>Keywords: Backbone, Grunt, AngularJS, CoffeeScript, Bootstrap, Scrum, MVP</p>
-    <h3 id="software-architect-valo-electric-2013">Software architect @ <a href="http://ideapalveluksi.fi">Valo Electric</a> 2013</h3>
-    <ul>
-      <li>Part of a small team crafting boutique software</li>
-      <li>Frontend test automation of a business intelligence application for a client in engineering and manufacturing</li>
-      <li>Service design and implementation of a new responsive brand frontpage</li>
-    </ul>
-    <p>Keywords: Ruby on Rails, AngularJS, CoffeeScript, Compass, Susy, Sinatra, Bacon.js, Service Design</p>
-    <h3 id="software-developer-reaktor-2012">Software developer @ <a href="http://reaktor.fi">Reaktor</a> 2012</h3>
-    <ul>
-      <li>IT consultant for large domestic and multinational client companies</li>
-      <li>Designed, built and tested front-end web software</li>
-      <li>Made decisions on architecture and technology stack levels</li>
-    </ul>
-    <p>Keywords: Vagrant, Scala, CoffeeScript, Rx.js, Continuous Integration, Lean Software Development, Kanban</p>
-    <h3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">Software architect, software developer @ <a href="http://soprano.fi">Soprano Brain Alliance</a> 2006–2012</h3>
-    <ul>
-      <li>Web software architect with many hats in a team of a dozen developers</li>
-      <li>Project work for clients ranging from small US-based startups to large domestic enterprises</li>
-      <li>Organized TDD workshops and presentations on other tech subjects to disseminate information</li>
-      <li>Spearheaded a corporate-endorsed open source code sharing effort to reduce repeated effort and improve company profile internally</li>
-      <li>Was responsible for an in-house application boilerplate used in a multitude of different projects</li>
-    </ul>
-    <p>Keywords: Zend Framework, Doctrine ORM, PHPUnit, jQuery, Agile Transformation</p>
-  </section>
+    <section id="work-history">
+      <h2>Work history</h2>
+      <section>
+        <h3 id="software-craftsman-futurice-2013">Software craftsman @ <a href="http://www.futurice.com">Futurice</a> 2013</h3>
+        <ul>
+          <li>IT consultant for medium-sized to large multinational client companies</li>
+          <li>Drafted and led the creation of proposals for client projects</li>
+          <li>Modern web technology specialist</li>
+          <li>Client-facing software development process facilitation</li>
+        </ul>
+        <p>Keywords: Backbone, Grunt, AngularJS, CoffeeScript, Bootstrap, Scrum, MVP</p>
+      </section>
+      <section>
+        <h3 id="software-architect-valo-electric-2013">Software architect @ <a href="http://ideapalveluksi.fi">Valo Electric</a> 2013</h3>
+        <ul>
+          <li>Part of a small team crafting boutique software</li>
+          <li>Frontend test automation of a business intelligence application for a client in engineering and manufacturing</li>
+          <li>Service design and implementation of a new responsive brand frontpage</li>
+        </ul>
+        <p>Keywords: Ruby on Rails, AngularJS, CoffeeScript, Compass, Susy, Sinatra, Bacon.js, Service Design</p>
+      </section>
+      <section>
+        <h3 id="software-developer-reaktor-2012">Software developer @ <a href="http://reaktor.fi">Reaktor</a> 2012</h3>
+        <ul>
+          <li>IT consultant for large domestic and multinational client companies</li>
+          <li>Designed, built and tested front-end web software</li>
+          <li>Made decisions on architecture and technology stack levels</li>
+        </ul>
+        <p>Keywords: Vagrant, Scala, CoffeeScript, Rx.js, Continuous Integration, Lean Software Development, Kanban</p>
+      </section>
+      <section>
+        <h3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">Software architect, software developer @ <a href="http://soprano.fi">Soprano Brain Alliance</a> 2006–2012</h3>
+        <ul>
+          <li>Web software architect with many hats in a team of a dozen developers</li>
+          <li>Project work for clients ranging from small US-based startups to large domestic enterprises</li>
+          <li>Organized TDD workshops and presentations on other tech subjects to disseminate information</li>
+          <li>Spearheaded a corporate-endorsed open source code sharing effort to reduce repeated effort and improve company profile internally</li>
+          <li>Was responsible for an in-house application boilerplate used in a multitude of different projects</li>
+        </ul>
+        <p>Keywords: Zend Framework, Doctrine ORM, PHPUnit, jQuery, Agile Transformation</p>
+      </section>
+    </section>
 
-  <hr />
+    <hr />
 
-  <section>
-    <h2 id="studies">Studies</h2>
-    <h3 id="information-networks-aalto-university-school-of-science-2008">Information Networks, Aalto University School of Science, 2008–</h3>
-    <ul>
-      <li>Multidisciplinary studies including ICT, business and humanities, with a major in Business Networks</li>
-      <li>Bachelor's thesis on applying software architectural thinking within an agile workflow</li>
-      <li>Served as toastmaster for the Information Networks' student guild, <a href="http://www.athene.fi">Athene</a>, in 2011-2013</li>
-    </ul>
-  </section>
+    <section id="studies">
+      <h2>Studies</h2>
+      <h3 id="information-networks-aalto-university-school-of-science-2008">Information Networks, Aalto University School of Science, 2008–</h3>
+      <ul>
+        <li>Multidisciplinary studies including ICT, business and humanities, with a major in Business Networks</li>
+        <li>Bachelor's thesis on applying software architectural thinking within an agile workflow</li>
+        <li>Served as toastmaster for the Information Networks' student guild, <a href="http://www.athene.fi">Athene</a>, in 2011-2013</li>
+      </ul>
+    </section>
 
-  <hr />
+    <hr />
 
-  <section>
-    <h2 id="portfolio">Work samples</h2>
-    <ul>
-      <li><a href="https://github.com/xi-project/zf-boilerplate">ZF Boilerplate</a>, a package of conventions and libraries for Zend Framework 1 development</li>
-      <li><a href="https://github.com/xi-project/xi-collections">Xi-Collections</a>, functional, immutable and extensible enumerations and collections for PHP</li>
-      <li><a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>, an asynchronous dependency injection container written in CoffeeScript</li>
-    </ul>
-  </section>
+    <section id="work-samples">
+      <h2>Work samples</h2>
+      <ul>
+        <li><a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>, an asynchronous dependency injection container written in CoffeeScript</li>
+        <li><a href="https://github.com/Ezku/nodeboard">Nodeboard</a>, imageboard software built with Node.js, CoffeeScript and MongoDB.</li>
+        <li><a href="https://github.com/xi-project/xi-collections">Xi-Collections</a>, functional, immutable and extensible enumerations and collections for PHP</li>
+      </ul>
+    </section>
 
-  <hr />
+    <hr />
 
-  <section>
-    <h2 id="recommendations">Recommendations</h2>
-    <blockquote>
-      <p>&quot;Eevert demonstrated solid capabilities in crafting high quality responsive and reactive Javascript-based applications. ... In addition to solid technical skills, Eevert has provided value in the project domain by applying his expertise in software development methodologies and facilitation.&quot;</p>
-      <cite><a href="http://www.linkedin.com/profile/view?id=3814375">Paavo Punkari</a>, Business Director, Futurice</cite>
-    </blockquote>
-    <blockquote>
-      <p>&quot;Dedicated ambition and a serious strive towards professionalism ... coupled with a great attitude towards learning and improving.&quot;</p>
-      <cite><a href="http://www.linkedin.com/profile/view?id=48343">Taneli Tikka</a>, CEO, Soprano Brain Alliance</cite>
-    </blockquote>
-    <blockquote>
-      <p>&quot;Eevert is an innovative software architect with great attention to detail. He does not accept solutions as they are automatically, but has the confidence to challenge and eventually improve them.&quot;</p>
-      <cite><a href="http://www.linkedin.com/profile/view?id=8329709">Mikko Hämäläinen</a>, COO, Soprano Brain Alliance</cite>
-    </blockquote>
-  </section>
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <blockquote>
+        <p>&quot;Eevert demonstrated solid capabilities in crafting high quality responsive and reactive Javascript-based applications. ... In addition to solid technical skills, Eevert has provided value in the project domain by applying his expertise in software development methodologies and facilitation.&quot;</p>
+        <cite><a href="http://www.linkedin.com/profile/view?id=3814375">Paavo Punkari</a>, Business Director, Futurice</cite>
+      </blockquote>
+      <blockquote>
+        <p>&quot;Dedicated ambition and a serious strive towards professionalism ... coupled with a great attitude towards learning and improving.&quot;</p>
+        <cite><a href="http://www.linkedin.com/profile/view?id=48343">Taneli Tikka</a>, CEO, Soprano Brain Alliance</cite>
+      </blockquote>
+      <blockquote>
+        <p>&quot;Eevert is an innovative software architect with great attention to detail. He does not accept solutions as they are automatically, but has the confidence to challenge and eventually improve them.&quot;</p>
+        <cite><a href="http://www.linkedin.com/profile/view?id=8329709">Mikko Hämäläinen</a>, COO, Soprano Brain Alliance</cite>
+      </blockquote>
+    </section>
 
-  <hr />
+    <hr />
 
-  <section>
-    <h2>Would we be a good fit?</h2>
+    <section id="personal">
+      <h2>Would we be a good fit?</h2>
 
-    <p>Solving problems and working on new ideas are why I get up in the morning. A flat, multidisciplinary organization with transparent and straightforward communication is an environment I highly value, and I thrive on honest feedback.</p>
-    <p>While I love scifi, board games and singing, I also like to stay active with running, biking, wall climbing and gym in my repertoire. Personality-wise, I identify as an <a href="http://en.wikipedia.org/wiki/INTJ">INTJ</a> in the MBTI typology.</p>
-  </section>
+      <p>Solving problems and working on new ideas are why I get up in the morning. A flat, multidisciplinary organization with transparent and straightforward communication is an environment I highly value, and I thrive on honest feedback.</p>
+      <p>While I love scifi, board games and singing, I also like to stay active with running, biking, wall climbing and gym in my repertoire. Personality-wise, I identify as an <a href="http://en.wikipedia.org/wiki/INTJ">INTJ</a> in the MBTI typology.</p>
+    </section>
 
-  <hr />
+    <hr />
 
-  <footer>
-    <h2 id="so-thats-me.-lets-talk-about-us.">So that's me. Let's talk about what we could do together.</h2>
-  </footer>
+    <section id="contact">
+      <h2>So that's me. Let's talk about what we could do together.</h2>
+      <p>You can find me on <a href="http://fi.linkedin.com/pub/eevert-saukkokoski/30/4b8/b8a">LinkedIn</a>, <a href="eevert.saukkokoski+ezku.github.io@gmail.com">mail me</a> or reach me directly through +358405082297.</p>
+      <p>On IRC, <a href="http://github.com/Ezku">Github</a>, <a href="http://www.twitter.com/Ezku">Twitter</a> <a href="http://ezku.tumblr.com/">et al.</a> I'm known as Ezku.</p>
+    </section>
+  </div>
 
 
 
-
+  <style type="text/css">
+    body {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    section[id]:before {
+      content:"";
+      display:block;
+      height:70px;
+      margin:-70px 0 0;
+    }
+  </style>
   <script src="//code.jquery.com/jquery.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>

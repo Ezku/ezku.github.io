@@ -21,13 +21,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#intro" class="navbar-brand">CV</a>
+        <a href="#intro" class="navbar-brand">CV – Eevert Saukkokoski</a>
       </div>
       <nav class="navbar-collapse collapse" role="navigation">
         <ul class="nav navbar-nav">
           <li><a href="#work-history">Work history</a></li>
-          <li><a href="#studies">Studies</a></li>
-          <li><a href="#work-samples">Work samples</a></li>
           <li><a href="#recommendations">Recommendations</a></li>
           <li><a href="#personal">Personal</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -39,28 +37,34 @@
   <div class="container">
     <section id="intro">
       <div class="jumbotron">
-        <h1>Eevert Saukkokoski</h1>
-        <h2>web software craftsman</h2>
-      </div>
+        <h1>
+          Eevert Saukkokoski
+          <small>web software craftsman</small>
+        </h1>
 
-      <div class="row">
-        <div class="col-md-6">
-          <h3>You're looking for someone to wear many hats. You want...</h3>
-          <ul>
-            <li>a web developer who can craft quality software.</li>
-            <li>someone who can create digital services with users and business in mind.</li>
-            <li>a generalist with an eye for process improvement and facilitation.</li>
-          </ul>
+        <div class="row lead">
+          <div class="col-md-6">
+            <dl>
+              <dt>You're looking for someone to wear many hats. You want...</dt>
+              <dd>a web developer who can craft quality software.</dd>
+              <dd>someone who can create digital services with users and business in mind.</dd>
+              <dd>a generalist with an eye for process improvement and facilitation.</li>
+            </dl>
+          </div>
+
+          <div class="col-md-6">
+            <dl>
+              <dt>You're looking for someone like me. I love...</dt>
+              <dd>building reactive and scalable web applications with modern tools.</dd>
+              <dd>applying service design thinking to creating solutions.</dd>
+              <dd>lean workflows and thinking about ways to do things better.</dd>
+            </dl>
+          </div>
         </div>
 
-        <div class="col-md-6">
-          <h3>You're looking for someone like me.</h3>
-          <ul>
-            <li>I love to build reactive and scalable applications with tools like Node.js, CoffeeScript and Scala.</li>
-            <li>I'm keen on applying Service Design thinking to creating solutions.</li>
-            <li>I have worked in environments both lean and agile, and love thinking about ways to do things better.</li>
-          </ul>
-        </div>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#contact">Yes, that's exactly who we need!</a>
+        </p>
       </div>
     </section>
 
@@ -190,7 +194,8 @@
       <h2>Personal</h2>
       <div class="row">
         <div class="col-md-4">
-          <h3 id="information-networks-aalto-university-school-of-science-2008">Information Networks, Aalto University, 2008–</h3>
+          <h3 id="information-networks-aalto-university-school-of-science-2008">Education</h3>
+          <h4>Information Networks, Aalto University, 2008–</h4>
           <ul>
             <li>Multidisciplinary studies including ICT, business and humanities, with a major in Business Networks</li>
             <li>Bachelor's thesis on applying software architectural thinking within an agile workflow</li>
@@ -217,13 +222,17 @@
     <hr />
 
     <section id="contact">
-      <h2>So that's me. Let's talk about what we could do together.</h2>
-      <p>You can find me on <a href="http://fi.linkedin.com/pub/eevert-saukkokoski/30/4b8/b8a">LinkedIn</a>, <a href="eevert.saukkokoski+ezku.github.io@gmail.com">mail me</a> or reach me directly through +358405082297.</p>
-      <p>On IRC, <a href="http://github.com/Ezku">Github</a>, <a href="http://www.twitter.com/Ezku">Twitter</a> <a href="http://ezku.tumblr.com/">et al.</a> I'm known as Ezku.</p>
+      <div class="jumbotron">
+        <h2>So that's me. Let's talk about what we could do together.</h2>
+        <p>You can find me on <a href="http://fi.linkedin.com/pub/eevert-saukkokoski/30/4b8/b8a">LinkedIn</a>, <a href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com">mail me</a> or reach me directly through +358405082297.</p>
+        <p>On IRC, <a href="http://github.com/Ezku">Github</a>, <a href="http://www.twitter.com/Ezku">Twitter</a> <a href="http://ezku.tumblr.com/">et al.</a> I'm known as Ezku.</p>
+
+        <p>
+          <a class="btn btn-lg btn-success" href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We'd%20like%20to%20have%20a%20chat">We'd like to have a chat.</a>
+        </p>
+      </div>
     </section>
   </div>
-
-
 
   <style type="text/css">
     body {
@@ -241,6 +250,22 @@
     }
     .panel-footer button {
       margin: 0.2em 0;
+    }
+    h1 small, h2 small {
+      display: block;
+    }
+    dd:before {
+      content:"…";
+      margin-left: -1em;
+    }
+    dd {
+      margin-left: 1em;
+    }
+    #intro h1, #intro p {
+      text-align: center;
+    }
+    #contact .jumbotron {
+      text-align: center;
     }
   </style>
   <script src="//code.jquery.com/jquery.js"></script>

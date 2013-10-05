@@ -282,7 +282,7 @@
     /* Layout */
     body {
       padding-top: 70px;
-      padding-bottom: 70px;
+      padding-bottom: 140px;
     }
     h3.panel-heading {
       margin-top: 0;
@@ -313,6 +313,9 @@
       });
 
       $('body').scrollspy({ target: 'header nav'});
+      $(window).resize(function() {
+        $('body').scrollspy('refresh');
+      });
     });
 
   </script>

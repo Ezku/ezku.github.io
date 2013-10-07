@@ -41,24 +41,9 @@
         <h1>Eevert Saukkokoski,</h1>
         <h2>web software craftsman.</h2>
 
-        <div class="row lead">
-          <div class="col-md-6">
-            <dl>
-              <dt>You're looking for someone to wear many hats. You want...</dt>
-              <dd>a web developer who can craft quality software.</dd>
-              <dd>someone who can create digital services with users and business in mind.</dd>
-              <dd>a generalist with an eye for improvement.</li>
-            </dl>
-          </div>
-
-          <div class="col-md-6">
-            <dl>
-              <dt>You're looking for someone like me. I can help you with...</dt>
-              <dd>building reactive, scalable web applications with modern tools and practices.</dd>
-              <dd>applying service design thinking to creating solutions.</dd>
-              <dd>lean workflows, method coaching and finding ways to do things better.</dd>
-            </dl>
-          </div>
+        <div class="lead">
+          <p class="row col-lg-10 col-lg-offset-1"><strong>Are you looking for someone to wear many hats?</strong> You want a web developer who can craft quality software. Someone who can create digital services with users and business in mind. A generalist with an eye for improvement.</p>
+          <p class="row col-lg-10 col-lg-offset-1"><strong>You're looking for someone like me.</strong> I can help you build reactive, scalable web applications with modern tools and practices. I'm familiar with lean workflows and applying service design thinking to creating solutions. I'll support your performance with methodology insight and by finding ways to do things better.</p>
         </div>
 
         <p class="hidden-xs visible-sm">
@@ -270,9 +255,6 @@
     h1 {
       font-weight: 900;
     }
-    h2 {
-      margin-top: 0;
-    }
 
     section[id]:before {
       content:"";
@@ -291,11 +273,13 @@
       margin-left: 1em;
     }
 
-    #intro h1, #intro h2, #intro p, #contact .jumbotron {
+    .jumbotron h1, .jumbotron h2, .jumbotron p {
       text-align: center;
     }
-
-    #contact .btn {
+    .jumbotron .lead p {
+      text-align: left;
+    }
+    .jumbotron .btn {
       margin-top: 10px;
     }
 
@@ -306,6 +290,10 @@
     body {
       padding-top: 70px;
       padding-bottom: 140px;
+    }
+    .jumbotron h2 {
+      margin-top: 0;
+      margin-bottom: 30px;
     }
     h3.panel-heading {
       margin-top: 0;

@@ -488,6 +488,16 @@
     @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
     @import url(https://fonts.googleapis.com/css?family=Karla:400,700);
 
+    @media (min-width: 640px) {
+      /* For widths large enough to take it, apply a modular font scale */
+      /* Base is 14px, ratio is phi, h4 is at an intermediate size */
+      body { font-size: 14px; }
+      h4 { font-size: 18.326px; }
+      h3 { font-size: 22.652px; }
+      h2 { font-size: 36.651px; }
+      h1 { font-size: 59.301px; }
+      .jumbotron h1 { font-size: 95.949px; }
+    }
     body {
       font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
       font-weight: 400;
@@ -527,6 +537,11 @@
         'sk': -0.02em
       )
     }
+    section header p, blockquote p {
+      font-size: 18.326px;
+      letter-spacing: 0.02em;
+      font-weight: 300;
+    }
 
     section[id]:before {
       content:"";
@@ -553,11 +568,6 @@
     }
     .jumbotron p {
       margin-bottom: 20px;
-    }
-
-    section header p {
-      font-weight: 300;
-      font-size: 17.5px;
     }
 
     section ul {

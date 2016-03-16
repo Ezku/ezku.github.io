@@ -504,6 +504,13 @@
       h1 { font-size: 59.301px; }
       .jumbotron h1 { font-size: 95.949px; }
     }
+    @media (min-width: 992px) {
+      /* This is the bootstrap breakpoint where things get slotted in three columns */
+      /* Match line-height with h2 for better horizontal harmony */
+      h4 {
+        line-height: 2.2em;
+      }
+    }
     body {
       font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
       font-weight: 400;
@@ -523,10 +530,6 @@
       color: inherit;
       font-size: 0.775em;
       font-weight: 700;
-    }
-    /* Match line-height with h2 for better horizontal harmony */
-    h4 {
-      line-height: 2.2em;
     }
     .btn {
       font-family: "Karla", "Helvetica Neue", Arial, sans-serif;

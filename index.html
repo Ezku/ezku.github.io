@@ -506,9 +506,12 @@
     }
     @media (min-width: 992px) {
       /* This is the bootstrap breakpoint where things get slotted in three columns */
-      /* Match line-height with h2 for better horizontal harmony */
+      /* Match h3 and h4 header baseline to baseline of h2 on left */
       h4 {
-        line-height: 2.2em;
+        margin-top: 0.93em;
+      }
+      .row div h3 {
+        margin-top: 0.53em;
       }
     }
     body {
@@ -633,9 +636,6 @@
     }
     .container > section {
       margin-bottom: 60px;
-    }
-    section > h4 {
-      margin-top: 0;
     }
     h2 + h3 {
       margin-top: 0;

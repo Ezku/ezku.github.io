@@ -543,7 +543,7 @@
     <section id="contact">
       <div class="jumbotron">
         <header>
-          <img src="assets/ezku-1024.jpg">
+          <img data-src="assets/ezku-1024.jpg">
           <h2>So that's me. Let's talk about what we could do together.</h2>
         </header>
         <p class="hidden-xs">
@@ -777,6 +777,11 @@
       $('body').scrollspy({ target: 'header nav'});
       $(window).resize(function() {
         $('body').scrollspy('refresh');
+      });
+
+      $('img[data-src]').each(function(index, img) {
+        var $img = $(img);
+        $img.attr('src', $img.attr('data-src'));
       });
     });
 

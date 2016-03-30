@@ -790,6 +790,7 @@
           var scrollPosition = $(target).offset().top;
 
           $('html, body').animate({ scrollTop: scrollPosition });
+          history.pushState({ section: target }, null, target);
         });
 
         $('body').scrollspy({ target: 'header nav'});

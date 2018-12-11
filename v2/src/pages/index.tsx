@@ -707,7 +707,7 @@ export default function index() {
       <section id="contact">
         <div className="jumbotron">
           <header>
-            <img data-src="assets/ezku-1024.jpg" />
+            <img src={require('./index/ezku-1024.jpg')} />
             <h2>Let's talk about what we could do together.</h2>
           </header>
           <p>

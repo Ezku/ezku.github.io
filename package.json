@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
+    "normalize.css": "^8.0.1",
     "prerenderer-cli": "https://github.com/Ezku/prerenderer-cli#v0.0.2",
     "prettier": "^1.15.3",
     "react": "^16.6.3",

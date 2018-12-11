@@ -1,3 +1,4 @@
+import 'normalize.css';
 import '../../fonts.css';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/

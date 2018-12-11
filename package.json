@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "yarn parcel serve ./v2/index.html",
-    "build": "yarn run build:parcel && yarn run build:prerender",
+    "build": "yarn build:parcel && yarn build:prerender",
     "build:parcel": "yarn parcel build ./v2/index.html",
-    "build:prerender": "yarn run prerender --renderer=jsdom --source=dist --target=dist --renderAfterDocumentEvent=react-render-complete index.html"
+    "build:prerender": "yarn prerender --renderer=jsdom --source=dist --target=dist --renderAfterDocumentEvent=react-render-complete index.html"
   },
   "dependencies": {
     "prerenderer-cli": "https://github.com/Ezku/prerenderer-cli#v0.0.2",

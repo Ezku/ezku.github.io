@@ -1,9 +1,9 @@
-import '../fonts.css';
 import * as React from 'react';
+import Container from '../components/layout/Container';
 
 export default function index() {
   return (
-    <div className="container">
+    <Container>
       <section id="intro">
         <div className="jumbotron">
           <h1>Eevert Saukkokoski,</h1>
@@ -733,6 +733,6 @@ export default function index() {
           </p>
         </div>
       </section>
-    </div>
+    </Container>
   );
 }

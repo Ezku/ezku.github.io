@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Container from '../components/layout/Container';
+import Container from '../components/Container';
 
 export default function index() {
   return (

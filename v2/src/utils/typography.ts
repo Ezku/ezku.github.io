@@ -1,5 +1,5 @@
 import 'normalize.css';
-import '../../fonts.css';
+import './typography/neue-haas-unica.css';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/
 export const systemFontStack = [

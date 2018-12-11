@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
 
-import { fontStack } from '../typography/fonts';
+import { fontStack } from '../utils/typography';
 
 export default function Container(props: { children: ReactNode }) {
   return (

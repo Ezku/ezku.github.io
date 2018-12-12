@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Container from '../components/Container';
-import { Section, H1, H2, H3, H4, Small, P } from '../components/Typography';
+import { Section, H1, H2, H3, H4, Small, P, Hr } from '../components/Typography';
 
 export default function index() {
   return (
@@ -88,7 +88,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <H3 id="platform-developer-appgyver-2013-2016">
           <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
@@ -145,7 +145,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <H3 id="software-craftsman-futurice-2013">
           <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
@@ -184,7 +184,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <H3 id="software-architect-ideapalveluksi-2013">
           Ideapalveluksi.fi <Small>2013/4–5</Small>
@@ -228,7 +228,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <H3 id="software-developer-reaktor-2012">
           <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
@@ -267,7 +267,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <H3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
           <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
@@ -320,7 +320,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <Section className="row">
           <header className="col-md-4">
@@ -581,7 +581,7 @@ export default function index() {
           </div>
         </Section>
 
-        <hr />
+        <Hr />
 
         <Section className="row">
           <header className="col-md-4">
@@ -704,7 +704,7 @@ export default function index() {
         </Section>
       </Section>
 
-      <hr />
+      <Hr />
 
       <Section id="contact">
         <div className="jumbotron">

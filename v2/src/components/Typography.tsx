@@ -58,3 +58,10 @@ export const P = styled.p({
   marginBottom: alternativeMetrics.s,
   marginTop: 0
 });
+
+export const Hr = styled.hr({
+  height: 0,
+  border: 'none',
+  marginTop: metrics.s,
+  marginBottom: metrics.s
+});

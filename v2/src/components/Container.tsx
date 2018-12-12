@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { ReactNode } from 'react';
-
+import styled from '@emotion/styled';
 import { Section } from './Typography';
 
-export default function Container(props: { children: ReactNode }) {
-  return <Section>{props.children}</Section>;
-}
+export default styled(Section)({
+  width: '61.8%',
+  maxWidth: '72ch',
+  margin: '0 auto'
+});

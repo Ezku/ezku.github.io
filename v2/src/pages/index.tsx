@@ -1,13 +1,15 @@
 import * as React from 'react';
+
 import Container from '../components/Container';
+import { H1, H2, H3 } from '../components/Typography';
 
 export default function index() {
   return (
     <Container>
       <section id="intro">
         <div className="jumbotron">
-          <h1>Eevert Saukkokoski,</h1>
-          <h2>software craftsman.</h2>
+          <H1>Eevert Saukkokoski,</H1>
+          <H2>software craftsman.</H2>
 
           <div className="lead">
             <p className="row col-lg-10 col-lg-offset-1">
@@ -34,12 +36,12 @@ export default function index() {
 
       <section id="experience">
         <div className="page-header">
-          <h1>Experience</h1>
+          <H1>Experience</H1>
         </div>
 
-        <h2 id="full-stack-developer-venuu-2016-">
+        <H2 id="full-stack-developer-venuu-2016-">
           <a href="https://www.venuu.fi">Venuu</a> <small>2016–2018</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -88,9 +90,9 @@ export default function index() {
 
         <hr />
 
-        <h2 id="platform-developer-appgyver-2013-2016">
+        <H2 id="platform-developer-appgyver-2013-2016">
           <a href="http://www.appgyver.com">AppGyver</a> <small>2013–2016</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -145,9 +147,9 @@ export default function index() {
 
         <hr />
 
-        <h2 id="software-craftsman-futurice-2013">
+        <H2 id="software-craftsman-futurice-2013">
           <a href="http://www.futurice.com">Futurice</a> <small>2013/5–9</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -184,9 +186,9 @@ export default function index() {
 
         <hr />
 
-        <h2 id="software-architect-ideapalveluksi-2013">
+        <H2 id="software-architect-ideapalveluksi-2013">
           Ideapalveluksi.fi <small>2013/4–5</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -228,9 +230,9 @@ export default function index() {
 
         <hr />
 
-        <h2 id="software-developer-reaktor-2012">
+        <H2 id="software-developer-reaktor-2012">
           <a href="http://reaktor.fi">Reaktor</a> <small>2012/5–8</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -267,9 +269,9 @@ export default function index() {
 
         <hr />
 
-        <h2 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
+        <H2 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
           <a href="http://soprano.fi">Soprano</a> <small>2006–2012</small>
-        </h2>
+        </H2>
         <section className="row">
           <header className="col-md-4">
             <p>
@@ -322,9 +324,9 @@ export default function index() {
 
         <section className="row">
           <header className="col-md-4">
-            <h2>
+            <H2>
               Samples from <a href="http://github.com/Ezku">GitHub</a>
-            </h2>
+            </H2>
           </header>
           <div className="col-md-8">
             <section>
@@ -416,7 +418,7 @@ export default function index() {
 
       <section id="recommendations">
         <div className="page-header">
-          <h1>Recommendations</h1>
+          <H1>Recommendations</H1>
         </div>
         <div className="row">
           <div className="col-md-4">
@@ -500,13 +502,13 @@ export default function index() {
 
       <section id="education">
         <div className="page-header">
-          <h1>Education</h1>
+          <H1>Education</H1>
         </div>
 
         <section className="row">
           <header className="col-md-4">
-            <h2>Information Networks</h2>
-            <h3>Aalto University School of Science</h3>
+            <H2>Information Networks</H2>
+            <H3>Aalto University School of Science</H3>
           </header>
           <div className="col-md-8">
             <section>
@@ -583,7 +585,7 @@ export default function index() {
 
         <section className="row">
           <header className="col-md-4">
-            <h2>Extracurricular personas</h2>
+            <H2>Extracurricular personas</H2>
           </header>
           <div className="col-md-8">
             <section>
@@ -647,17 +649,17 @@ export default function index() {
 
       <section id="personal">
         <div className="page-header">
-          <h1>Personal</h1>
+          <H1>Personal</H1>
         </div>
 
         <section className="row">
           <header className="col-md-4">
-            <h2>How do we fit?</h2>
+            <H2>How do we fit?</H2>
           </header>
           <div className="col-md-8">
             <section className="row">
               <div className="col-md-6">
-                <h3>In my work, I value&hellip;</h3>
+                <H3>In my work, I value&hellip;</H3>
               </div>
               <ul className="col-md-6 tagcloud">
                 <li>Craftsmanship</li>
@@ -670,7 +672,7 @@ export default function index() {
 
             <section className="row">
               <div className="col-md-6">
-                <h3>I hope your organization values&hellip;</h3>
+                <H3>I hope your organization values&hellip;</H3>
               </div>
               <ul className="col-md-6 tagcloud">
                 <li>Transparency</li>
@@ -683,7 +685,7 @@ export default function index() {
 
             <section className="row">
               <div className="col-md-6">
-                <h3>I love&hellip;</h3>
+                <H3>I love&hellip;</H3>
               </div>
               <ul className="col-md-6 tagcloud">
                 <li>Functional Programming</li>
@@ -708,7 +710,7 @@ export default function index() {
         <div className="jumbotron">
           <header>
             <img src={require('./index/ezku-1024.jpg')} />
-            <h2>Let's talk about what we could do together.</h2>
+            <H2>Let's talk about what we could do together.</H2>
           </header>
           <p>
             <a

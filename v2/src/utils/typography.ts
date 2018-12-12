@@ -1,6 +1,7 @@
 import harmonic from 'harmonic';
 import 'normalize.css';
 import './typography/neue-haas-unica.css';
+import './typography/neue-haas-grotesk.css';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/
 export const systemFontStack = [

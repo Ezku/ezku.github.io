@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
     "harmonic": "https://github.com/Ezku/harmonic-js#v0.0.3",

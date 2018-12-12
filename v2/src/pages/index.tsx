@@ -1,12 +1,12 @@
 import * as React from 'react';
 
 import Container from '../components/Container';
-import { H1, H2, H3, H4, Small, P } from '../components/Typography';
+import { Section, H1, H2, H3, H4, Small, P } from '../components/Typography';
 
 export default function index() {
   return (
     <Container>
-      <section id="intro">
+      <Section id="intro">
         <div className="jumbotron">
           <H1>Eevert Saukkokoski,</H1>
           <H2>software craftsman.</H2>
@@ -32,9 +32,9 @@ export default function index() {
             </a>
           </P>
         </div>
-      </section>
+      </Section>
 
-      <section id="experience">
+      <Section id="experience">
         <div className="page-header">
           <H2>Experience</H2>
         </div>
@@ -42,7 +42,7 @@ export default function index() {
         <H3 id="full-stack-developer-venuu-2016-">
           <a href="https://www.venuu.fi">Venuu</a> <Small>2016–2018</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Full stack developer</strong> on a B2B2C marketplace platform for event
@@ -86,14 +86,14 @@ export default function index() {
               <li>Process Development</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
         <H3 id="platform-developer-appgyver-2013-2016">
           <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Platform developer</strong> for hybrid mobile application tooling and{' '}
@@ -143,14 +143,14 @@ export default function index() {
               <li>Reactive Functional Programming</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
         <H3 id="software-craftsman-futurice-2013">
           <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Software craftsman</strong> and IT consultant for medium-sized to large
@@ -182,14 +182,14 @@ export default function index() {
               <li>Responsive Web Design</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
         <H3 id="software-architect-ideapalveluksi-2013">
           Ideapalveluksi.fi <Small>2013/4–5</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Software architect</strong> in a small team crafting boutique software
@@ -226,14 +226,14 @@ export default function index() {
               <li>Responsive Web Design</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
         <H3 id="software-developer-reaktor-2012">
           <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Software developer</strong> and IT consultant for large domestic and
@@ -265,14 +265,14 @@ export default function index() {
               <li>Continuous Integration</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
         <H3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
           <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
         </H3>
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <P>
               <strong>Software architect</strong> and <strong>agile evangelist</strong> in a team of
@@ -318,18 +318,18 @@ export default function index() {
               <li>Open Source</li>
             </ul>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <H3>
               Samples from <a href="http://github.com/Ezku">GitHub</a>
             </H3>
           </header>
           <div className="col-md-8">
-            <section>
+            <Section>
               <H4>
                 <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
               </H4>
@@ -346,9 +346,9 @@ export default function index() {
                   <li>Property Based Testing</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 <a href="https://github.com/Ezku/nodeboard">Nodeboard</a> <Small>2011, 2014</Small>
               </H4>
@@ -367,9 +367,9 @@ export default function index() {
                   <li>Heroku</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
               </H4>
@@ -395,9 +395,9 @@ export default function index() {
                   <li>Platform Building</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 <a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>{' '}
                 <Small>2010–2012</Small>
@@ -411,12 +411,12 @@ export default function index() {
                   <li>Asynchronous Testing</li>
                 </ul>
               </div>
-            </section>
+            </Section>
           </div>
-        </section>
-      </section>
+        </Section>
+      </Section>
 
-      <section id="recommendations">
+      <Section id="recommendations">
         <div className="page-header">
           <H2>Recommendations</H2>
         </div>
@@ -498,20 +498,20 @@ export default function index() {
             </blockquote>
           </div>
         </div>
-      </section>
+      </Section>
 
-      <section id="education">
+      <Section id="education">
         <div className="page-header">
           <H2>Education</H2>
         </div>
 
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <H3>Information Networks</H3>
             <H4>Aalto University School of Science</H4>
           </header>
           <div className="col-md-8">
-            <section>
+            <Section>
               <H4>
                 Master's thesis <Small>2016–2017</Small>
               </H4>
@@ -527,9 +527,9 @@ export default function index() {
                   <li>Social Innovation</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 Master of Science studies <Small>2011–2013</Small>
               </H4>
@@ -545,9 +545,9 @@ export default function index() {
                   <li>Shaping Institutions</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 Bachelor's thesis <Small>2011</Small>
               </H4>
@@ -562,9 +562,9 @@ export default function index() {
                   <li>Agile</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>
                 Bachelor of Science studies <Small>2008–2011</Small>
               </H4>
@@ -577,18 +577,18 @@ export default function index() {
                   <li>User Centered Design</li>
                 </ul>
               </div>
-            </section>
+            </Section>
           </div>
-        </section>
+        </Section>
 
         <hr />
 
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <H3>Extracurricular personas</H3>
           </header>
           <div className="col-md-8">
-            <section>
+            <Section>
               <H4>Photographer</H4>
               <div className="row">
                 <div className="col-md-6">
@@ -604,9 +604,9 @@ export default function index() {
                   <li>Image Retouching</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>Playwright</H4>
               <div className="row">
                 <div className="col-md-6">
@@ -622,9 +622,9 @@ export default function index() {
                   <li>Creative Writing</li>
                 </ul>
               </div>
-            </section>
+            </Section>
 
-            <section>
+            <Section>
               <H4>Toastmaster and songwriter</H4>
               <div className="row">
                 <div className="col-md-6">
@@ -642,22 +642,22 @@ export default function index() {
                   <li>Creative Writing</li>
                 </ul>
               </div>
-            </section>
+            </Section>
           </div>
-        </section>
-      </section>
+        </Section>
+      </Section>
 
-      <section id="personal">
+      <Section id="personal">
         <div className="page-header">
           <H2>Personal</H2>
         </div>
 
-        <section className="row">
+        <Section className="row">
           <header className="col-md-4">
             <H3>How do we fit?</H3>
           </header>
           <div className="col-md-8">
-            <section className="row">
+            <Section className="row">
               <div className="col-md-6">
                 <H4>In my work, I value&hellip;</H4>
               </div>
@@ -668,9 +668,9 @@ export default function index() {
                 <li>Nonviolence</li>
                 <li>Empathy</li>
               </ul>
-            </section>
+            </Section>
 
-            <section className="row">
+            <Section className="row">
               <div className="col-md-6">
                 <H4>I hope your organization values&hellip;</H4>
               </div>
@@ -681,9 +681,9 @@ export default function index() {
                 <li>Playfulness</li>
                 <li>Open Source</li>
               </ul>
-            </section>
+            </Section>
 
-            <section className="row">
+            <Section className="row">
               <div className="col-md-6">
                 <H4>I love&hellip;</H4>
               </div>
@@ -699,14 +699,14 @@ export default function index() {
                   Hugs <span className="glyphicon glyphicon-heart" />
                 </li>
               </ul>
-            </section>
+            </Section>
           </div>
-        </section>
-      </section>
+        </Section>
+      </Section>
 
       <hr />
 
-      <section id="contact">
+      <Section id="contact">
         <div className="jumbotron">
           <header>
             <img src={require('./index/ezku-1024.jpg')} />
@@ -734,7 +734,7 @@ export default function index() {
             on LinkedIn
           </P>
         </div>
-      </section>
+      </Section>
     </Container>
   );
 }

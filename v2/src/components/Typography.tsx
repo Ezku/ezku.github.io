@@ -5,7 +5,9 @@ import { bodyFontStack, headerFontStack, metrics, alternativeMetrics } from '../
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),
   fontSize: metrics.s,
-  lineHeight: metrics.m
+  lineHeight: metrics.m,
+  marginBottom: metrics.l,
+  marginTop: 0
 });
 
 export const H1 = styled.h1({

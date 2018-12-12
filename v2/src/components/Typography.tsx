@@ -28,3 +28,10 @@ export const H3 = styled.h3({
   fontSize: metrics.l,
   lineHeight: metrics.xl
 });
+
+export const H4 = styled.h4({
+  fontFamily: headerFontStack.join(', '),
+  fontWeight: 600,
+  fontSize: metrics.m,
+  lineHeight: metrics.l
+});

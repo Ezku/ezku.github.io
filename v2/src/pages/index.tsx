@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Container from '../components/Container';
+import { Container } from '../components/Layout';
 import { Section, H1, H2, H3, H4, Small, P, Hr } from '../components/Typography';
 
 export default function index() {

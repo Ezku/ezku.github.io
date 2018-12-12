@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Container from '../components/Container';
-import { H1, H2, H3, H4 } from '../components/Typography';
+import { H1, H2, H3, H4, Small } from '../components/Typography';
 
 export default function index() {
   return (
@@ -40,7 +40,7 @@ export default function index() {
         </div>
 
         <H3 id="full-stack-developer-venuu-2016-">
-          <a href="https://www.venuu.fi">Venuu</a> <small>2016–2018</small>
+          <a href="https://www.venuu.fi">Venuu</a> <Small>2016–2018</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -91,7 +91,7 @@ export default function index() {
         <hr />
 
         <H3 id="platform-developer-appgyver-2013-2016">
-          <a href="http://www.appgyver.com">AppGyver</a> <small>2013–2016</small>
+          <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -148,7 +148,7 @@ export default function index() {
         <hr />
 
         <H3 id="software-craftsman-futurice-2013">
-          <a href="http://www.futurice.com">Futurice</a> <small>2013/5–9</small>
+          <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -187,7 +187,7 @@ export default function index() {
         <hr />
 
         <H3 id="software-architect-ideapalveluksi-2013">
-          Ideapalveluksi.fi <small>2013/4–5</small>
+          Ideapalveluksi.fi <Small>2013/4–5</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -231,7 +231,7 @@ export default function index() {
         <hr />
 
         <H3 id="software-developer-reaktor-2012">
-          <a href="http://reaktor.fi">Reaktor</a> <small>2012/5–8</small>
+          <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -270,7 +270,7 @@ export default function index() {
         <hr />
 
         <H3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
-          <a href="http://soprano.fi">Soprano</a> <small>2006–2012</small>
+          <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
         </H3>
         <section className="row">
           <header className="col-md-4">
@@ -331,7 +331,7 @@ export default function index() {
           <div className="col-md-8">
             <section>
               <H4>
-                <a href="https://github.com/Ezku/agson">Agson</a> <small>2014–2015</small>
+                <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
               </H4>
               <div className="row">
                 <ul className="col-md-6">
@@ -350,7 +350,7 @@ export default function index() {
 
             <section>
               <H4>
-                <a href="https://github.com/Ezku/nodeboard">Nodeboard</a> <small>2011, 2014</small>
+                <a href="https://github.com/Ezku/nodeboard">Nodeboard</a> <Small>2011, 2014</Small>
               </H4>
               <div className="row">
                 <ul className="col-md-6">
@@ -371,7 +371,7 @@ export default function index() {
 
             <section>
               <H4>
-                <a href="https://xi-project.github.io">Xi Project</a> <small>2011–2012</small>
+                <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
               </H4>
               <div className="row">
                 <ul className="col-md-6">
@@ -400,7 +400,7 @@ export default function index() {
             <section>
               <H4>
                 <a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>{' '}
-                <small>2010–2012</small>
+                <Small>2010–2012</Small>
               </H4>
               <div className="row">
                 <div className="col-md-6">
@@ -513,7 +513,7 @@ export default function index() {
           <div className="col-md-8">
             <section>
               <H4>
-                Master's thesis <small>2016–2017</small>
+                Master's thesis <Small>2016–2017</Small>
               </H4>
               <div className="row">
                 <div className="col-md-6">
@@ -531,7 +531,7 @@ export default function index() {
 
             <section>
               <H4>
-                Master of Science studies <small>2011–2013</small>
+                Master of Science studies <Small>2011–2013</Small>
               </H4>
               <div className="row">
                 <div className="col-md-6">
@@ -549,7 +549,7 @@ export default function index() {
 
             <section>
               <H4>
-                Bachelor's thesis <small>2011</small>
+                Bachelor's thesis <Small>2011</Small>
               </H4>
               <div className="row">
                 <div className="col-md-6">
@@ -566,7 +566,7 @@ export default function index() {
 
             <section>
               <H4>
-                Bachelor of Science studies <small>2008–2011</small>
+                Bachelor of Science studies <Small>2008–2011</Small>
               </H4>
               <div className="row">
                 <div className="col-md-6">

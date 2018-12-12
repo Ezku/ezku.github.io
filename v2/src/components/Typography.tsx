@@ -35,3 +35,8 @@ export const H4 = styled.h4({
   fontSize: metrics.m,
   lineHeight: metrics.l
 });
+
+export const Small = styled.small({
+  fontSize: '78.6%',
+  lineHeight: 'inherit'
+});

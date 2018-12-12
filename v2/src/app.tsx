@@ -2,6 +2,12 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import IndexPage from './pages/index';
 
-ReactDOM.render(<IndexPage />, document.getElementById('content'), () =>
-  document.dispatchEvent(new Event('react-render-complete'))
-);
+const rootElement = document.getElementById('content');
+const alreadyRendered = rootElement.hasChildNodes();
+if (alreadyRendered) {
+  ReactDOM.hydrate(<IndexPage />, rootElement);
+} else {
+  ReactDOM.render(<IndexPage />, rootElement, () =>
+    document.dispatchEvent(new Event('react-render-complete'))
+  );
+}

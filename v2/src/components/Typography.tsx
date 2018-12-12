@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-import { bodyFontStack, headerFontStack, metrics } from '../utils/typography';
+import { bodyFontStack, headerFontStack, metrics, alternativeMetrics } from '../utils/typography';
 
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),
@@ -47,4 +47,12 @@ export const H4 = styled.h4({
 export const Small = styled.small({
   fontSize: '78.6%',
   lineHeight: 'inherit'
+});
+
+export const P = styled.p({
+  fontWeight: 400,
+  fontSize: alternativeMetrics.m,
+  lineHeight: alternativeMetrics.l,
+  marginBottom: alternativeMetrics.s,
+  marginTop: 0
 });

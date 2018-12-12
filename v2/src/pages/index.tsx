@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Container from '../components/Container';
-import { H1, H2, H3, H4, Small } from '../components/Typography';
+import { H1, H2, H3, H4, Small, P } from '../components/Typography';
 
 export default function index() {
   return (
@@ -12,25 +12,25 @@ export default function index() {
           <H2>software craftsman.</H2>
 
           <div className="lead">
-            <p className="row col-lg-10 col-lg-offset-1">
+            <P className="row col-lg-10 col-lg-offset-1">
               <strong>Are you looking for someone to wear many hats?</strong> You want a developer
               who can craft quality software. Someone who can create digital services with users and
               business in mind. A generalist with deep technical skills and an eye for improvement.
-            </p>
-            <p className="row col-lg-10 col-lg-offset-1">
+            </P>
+            <P className="row col-lg-10 col-lg-offset-1">
               <strong>You're looking for someone like me.</strong> I can help you build reactive,
               scalable applications with modern tools and practices. I'm familiar with lean
               workflows and applying service design thinking to creating solutions. I'll support
               your performance with methodology insight and by finding ways to do things better.
-            </p>
+            </P>
           </div>
 
-          <p className="hidden-xs visible-sm">
+          <P className="hidden-xs visible-sm">
             <a className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
               Yes, that's exactly who we need!{' '}
               <span className="glyphicon glyphicon-chevron-right" />
             </a>
-          </p>
+          </P>
         </div>
       </section>
 
@@ -44,10 +44,10 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Full stack developer</strong> on a B2B2C marketplace platform for event
               organization
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -95,10 +95,10 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Platform developer</strong> for hybrid mobile application tooling and{' '}
               <strong>architect</strong> for a Javascript library ecosystem
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -152,10 +152,10 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Software craftsman</strong> and IT consultant for medium-sized to large
               multinational client companies
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -191,9 +191,9 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Software architect</strong> in a small team crafting boutique software
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -235,10 +235,10 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Software developer</strong> and IT consultant for large domestic and
               multinational client companies
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -274,14 +274,14 @@ export default function index() {
         </H3>
         <section className="row">
           <header className="col-md-4">
-            <p>
+            <P>
               <strong>Software architect</strong> and <strong>agile evangelist</strong> in a team of
               a dozen developers
-            </p>
-            <p>
+            </P>
+            <P>
               <strong>Software developer</strong> and IT consultant for clients ranging from small
               US-based startups to large domestic enterprises
-            </p>
+            </P>
           </header>
           <div className="col-md-4">
             <ul>
@@ -404,7 +404,7 @@ export default function index() {
               </H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>An asynchronous dependency injection container for Node.js.</p>
+                  <P>An asynchronous dependency injection container for Node.js.</P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>CommonJS Promises</li>
@@ -423,23 +423,23 @@ export default function index() {
         <div className="row">
           <div className="col-md-4">
             <blockquote>
-              <p>
+              <P>
                 &ldquo;He’s bright, hard-working and has a both pragmatic and theoretic take on his
                 responsibilities &hellip; a vivid and enthusiastic personality &hellip; super
                 skilled developer &hellip;{' '}
                 <strong>an excellent facilitator and communicator</strong> &rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="https://www.linkedin.com/in/tomi-h%C3%A4nninen-92a15364/">Tomi Hänninen</a>
                 CEO, Venuu
               </cite>
             </blockquote>
             <blockquote>
-              <p>
+              <P>
                 &ldquo;Hardworking, buzzword-compliant and well focused{' '}
                 <strong>professional with a good sense of humour</strong>. Specially good at leading
                 projects and helping junior developers to grow.&rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="https://www.linkedin.com/in/jouini">Nizar Jouini</a>
                 CEO, Ideapalveluksi.fi
@@ -450,22 +450,22 @@ export default function index() {
           </div>
           <div className="col-md-4">
             <blockquote>
-              <p>
+              <P>
                 &ldquo;An extremely talented software developer &hellip;{' '}
                 <strong>not just a dull techie</strong>, but social, willing to help others,
                 observes and improves on how things get done&rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="https://www.linkedin.com/in/mattipaksula">Matti Paksula</a>
                 CTO, AppGyver
               </cite>
             </blockquote>
             <blockquote>
-              <p>
+              <P>
                 &ldquo;Solid technical skills &hellip; expertise in software development
                 methodologies and facilitation. &hellip; <strong>A strong can-do attitude</strong>{' '}
                 &hellip; well-liked by customers.&rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="http://www.linkedin.com/profile/view?id=3814375">Paavo Punkari</a>
                 Business Director, Futurice
@@ -474,23 +474,23 @@ export default function index() {
           </div>
           <div className="col-md-4">
             <blockquote>
-              <p>
+              <P>
                 &ldquo;Ingenious problem solving skills and{' '}
                 <strong>wide knowledge of different technologies</strong> &hellip; very passionate
                 and enthusiastic about the work he does and strives constantly to do things the
                 right way.&rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="http://www.linkedin.com/profile/view?id=129157140">Jetro Suni</a>
                 Senior Software Specialist, Futurice
               </cite>
             </blockquote>
             <blockquote>
-              <p>
+              <P>
                 &ldquo;Sharp, has a great attitude, and is always looking for serious well-thought
                 ways to improve and perform better. <strong>Level-headed thinker</strong> &hellip;
                 Dedicated ambition and a serious strive towards professionalism.&rdquo;
-              </p>
+              </P>
               <cite>
                 <a href="http://www.linkedin.com/profile/view?id=48343">Taneli Tikka</a>
                 CEO, Soprano Brain Alliance
@@ -517,10 +517,10 @@ export default function index() {
               </H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     What exactly is the use of dailies: A practice-based perspective on continuous
                     improvement in software development
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Continuous Improvement</li>
@@ -535,10 +535,10 @@ export default function index() {
               </H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     Majored in Business Networks, focusing on how knowledge intensive organizations
                     work.
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Process Development</li>
@@ -553,9 +553,9 @@ export default function index() {
               </H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     Scaling agile software development by applying software architecture practices
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Software Practices</li>
@@ -570,7 +570,7 @@ export default function index() {
               </H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>Majored in Knowledge Intensive Business.</p>
+                  <P>Majored in Knowledge Intensive Business.</P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Knowledge Work</li>
@@ -592,12 +592,12 @@ export default function index() {
               <H4>Photographer</H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     Since 2012 I do event photography as a hobby. Close-up portraits and informal
                     situations are what I'd consider my forte, but I've been known to reach for the
                     camera whenever it's needed – be it birthdays, baptisms, or business
                     photography.
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Events</li>
@@ -610,12 +610,12 @@ export default function index() {
               <H4>Playwright</H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     Co-wrote the script for{' '}
                     <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015. Teekkarispeksi
                     is a large-scale student theatre production with approximately 200 volunteer
                     participants each year.
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Theatre</li>
@@ -628,14 +628,14 @@ export default function index() {
               <H4>Toastmaster and songwriter</H4>
               <div className="row">
                 <div className="col-md-6">
-                  <p>
+                  <P>
                     Served as toastmaster for the Information Networks' student guild,{' '}
                     <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to serve
                     as master of ceremony and first singer in academic dinner parties with dozens to
                     over a hundred guests. Since that time I've come to be known for numerous songs,
                     some of which are part of the canonical Aalto University student union songbook
                     since 2017.
-                  </p>
+                  </P>
                 </div>
                 <ul className="col-md-6 tagcloud">
                   <li>Performing in Public</li>
@@ -712,7 +712,7 @@ export default function index() {
             <img src={require('./index/ezku-1024.jpg')} />
             <H2>Let's talk about what we could do together.</H2>
           </header>
-          <p>
+          <P>
             <a
               className="btn btn-lg btn-success"
               href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
@@ -721,18 +721,18 @@ export default function index() {
               Shoot me a message
               <span className="glyphicon glyphicon-send" />
             </a>
-          </p>
-          <p>
+          </P>
+          <P>
             Follow <a href="http://twitter.com/Ezku">@Ezku</a> on Twitter
-          </p>
-          <p>
+          </P>
+          <P>
             Check out <a href="http://github.com/Ezku">Ezku</a> on GitHub
-          </p>
-          <p>
+          </P>
+          <P>
             Connect with{' '}
             <a href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">Eevert Saukkokoski</a>{' '}
             on LinkedIn
-          </p>
+          </P>
         </div>
       </section>
     </Container>

@@ -20,6 +20,7 @@ export const bodyFontStack = ['neue-haas-unica', ...systemFontStack];
 export const headerFontStack = ['neue-haas-grotesk-display', ...systemFontStack];
 
 export const metrics = {
+  xs: `${harmonic(-2)}px`,
   s: `${harmonic(0)}px`,
   m: `${harmonic(2)}px`,
   l: `${harmonic(4)}px`,

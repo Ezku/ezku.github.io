@@ -14,4 +14,5 @@ export const systemFontStack = [
   '"Segoe UI Emoji"',
   '"Segoe UI Symbol"'
 ];
-export const fontStack = ['neue-haas-unica', ...systemFontStack];
+export const bodyFontStack = ['neue-haas-unica', ...systemFontStack];
+export const headerFontStack = ['neue-haas-grotesk-display', ...systemFontStack];

@@ -89,10 +89,14 @@ export const Small = styled.small({
 
 export const P = styled.p({
   fontWeight: 400,
-  fontSize: alternativeMetrics.m,
-  lineHeight: alternativeMetrics.l,
+  marginTop: 0,
   marginBottom: alternativeMetrics.s,
-  marginTop: 0
+  fontSize: alternativeMetrics.s,
+  lineHeight: alternativeMetrics.m,
+  [breakpoints[1]]: {
+    fontSize: metrics.m,
+    lineHeight: metrics.l
+  }
 });
 
 export const Hr = styled.hr({

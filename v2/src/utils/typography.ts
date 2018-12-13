@@ -29,7 +29,8 @@ export const metrics = {
 };
 
 export const alternativeMetrics = {
-  s: `${harmonic(-1)}px`,
-  m: `${harmonic(1)}px`,
-  l: `${harmonic(3)}px`
+  xs: `${harmonic(-1)}px`,
+  s: `${harmonic(1)}px`,
+  m: `${harmonic(3)}px`,
+  l: `${harmonic(5)}px`
 };

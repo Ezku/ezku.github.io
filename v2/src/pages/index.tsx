@@ -95,7 +95,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Subsection>
               {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
@@ -154,7 +154,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Subsection>
               {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
@@ -199,7 +199,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Subsection>
               {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
@@ -243,7 +243,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Subsection>
               {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
@@ -288,7 +288,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Subsection>
               {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
@@ -341,7 +341,7 @@ export default function index() {
               )}
             </Subsection>
 
-            <Hr />
+            <Divider />
 
             <Section className="row">
               <header className="col-md-4">

@@ -8,7 +8,16 @@ export const Section = styled.section({
   marginTop: 0,
   fontSize: minorScale.s,
   lineHeight: minorScale.m,
-  marginBottom: minorScale.l
+  marginBottom: minorScale.m,
+  [breakpoints[0]]: {
+    marginBottom: minorScale.l
+  },
+  [breakpoints[1]]: {
+    marginBottom: minorScale.xl
+  },
+  [breakpoints[2]]: {
+    marginBottom: minorScale.xxl
+  }
 });
 
 export const H1 = styled.h1({

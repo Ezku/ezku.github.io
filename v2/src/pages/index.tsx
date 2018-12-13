@@ -1,37 +1,45 @@
 import * as React from 'react';
 
 import { Container } from '../components/Layout';
-import { Section, H1, H2, H3, H4, Small, P, Hr } from '../components/Typography';
+import { Section, H2, H3, H4, Small, P, Hr } from '../components/Typography';
+import Jumbotron from '../components/Jumbotron';
 
 export default function index() {
   return (
     <Container>
       <Section id="intro">
-        <div className="jumbotron">
-          <H1>Eevert Saukkokoski,</H1>
-          <H2>software craftsman.</H2>
+        <Jumbotron>
+          {({ Title, Subtitle, Lead }) => (
+            <div>
+              <Title>Eevert Saukkokoski,</Title>
+              <Subtitle>software craftsman.</Subtitle>
 
-          <div className="lead">
-            <P className="row col-lg-10 col-lg-offset-1">
-              <strong>Are you looking for someone to wear many hats?</strong> You want a developer
-              who can craft quality software. Someone who can create digital services with users and
-              business in mind. A generalist with deep technical skills and an eye for improvement.
-            </P>
-            <P className="row col-lg-10 col-lg-offset-1">
-              <strong>You're looking for someone like me.</strong> I can help you build reactive,
-              scalable applications with modern tools and practices. I'm familiar with lean
-              workflows and applying service design thinking to creating solutions. I'll support
-              your performance with methodology insight and by finding ways to do things better.
-            </P>
-          </div>
+              <Lead>
+                <strong>Are you looking for someone to wear many hats?</strong> You want a developer
+                who can craft quality software. Someone who can create digital services with users
+                and business in mind. A generalist with deep technical skills and an eye for
+                improvement.
+              </Lead>
+              <Lead>
+                <strong>You're looking for someone like me.</strong> I can help you build reactive,
+                scalable applications with modern tools and practices. I'm familiar with lean
+                workflows and applying service design thinking to creating solutions. I'll support
+                your performance with methodology insight and by finding ways to do things better.
+              </Lead>
 
-          <P className="hidden-xs visible-sm">
-            <a className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
-              Yes, that's exactly who we need!{' '}
-              <span className="glyphicon glyphicon-chevron-right" />
-            </a>
-          </P>
-        </div>
+              <Lead>
+                <a
+                  className="btn btn-lg btn-primary"
+                  href="#contact"
+                  title="Scroll down to the beef"
+                >
+                  Yes, that's exactly who we need!{' '}
+                  <span className="glyphicon glyphicon-chevron-right" />
+                </a>
+              </Lead>
+            </div>
+          )}
+        </Jumbotron>
       </Section>
 
       <Section id="experience">

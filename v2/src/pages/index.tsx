@@ -13,6 +13,7 @@ export default function index() {
         {({ Header, Title, Subtitle, Lead }) => (
           <div>
             <Header>
+              <Subtitle>Hi, I'm</Subtitle>
               <Title>Eevert Saukkokoski,</Title>
               <Subtitle>software craftsman.</Subtitle>
             </Header>

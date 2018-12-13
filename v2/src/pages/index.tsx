@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Container } from '../components/Layout';
-import { Section, H2, H3, H4, Small, P, Hr, Abbr } from '../components/Typography';
+import { Section, H2, H3, H4, Small, P, Abbr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';
@@ -444,295 +444,306 @@ export default function index() {
         )}
       </MainSection>
 
-      <Section id="recommendations">
-        <div className="page-header">
-          <H2>Recommendations</H2>
-        </div>
-        <div className="row">
-          <div className="col-md-4">
-            <blockquote>
-              <P>
-                &ldquo;He’s bright, hard-working and has a both pragmatic and theoretic take on his
-                responsibilities &hellip; a vivid and enthusiastic personality &hellip; super
-                skilled developer &hellip;{' '}
-                <strong>an excellent facilitator and communicator</strong> &rdquo;
-              </P>
-              <cite>
-                <a href="https://www.linkedin.com/in/tomi-h%C3%A4nninen-92a15364/">Tomi Hänninen</a>
-                CEO, Venuu
-              </cite>
-            </blockquote>
-            <blockquote>
-              <P>
-                &ldquo;Hardworking, buzzword-compliant and well focused{' '}
-                <strong>professional with a good sense of humour</strong>. Specially good at leading
-                projects and helping junior developers to grow.&rdquo;
-              </P>
-              <cite>
-                <a href="https://www.linkedin.com/in/jouini">Nizar Jouini</a>
-                CEO, Ideapalveluksi.fi
-                <br />
-                Principal Consultant, Reaktor
-              </cite>
-            </blockquote>
+      <MainSection>
+        {({ Title, Divider }) => (
+          <div>
+            <Title>Recommendations</Title>
+            <div className="row">
+              <div className="col-md-4">
+                <blockquote>
+                  <P>
+                    &ldquo;He’s bright, hard-working and has a both pragmatic and theoretic take on
+                    his responsibilities &hellip; a vivid and enthusiastic personality &hellip;
+                    super skilled developer &hellip;{' '}
+                    <strong>an excellent facilitator and communicator</strong> &rdquo;
+                  </P>
+                  <cite>
+                    <a href="https://www.linkedin.com/in/tomi-h%C3%A4nninen-92a15364/">
+                      Tomi Hänninen
+                    </a>
+                    CEO, Venuu
+                  </cite>
+                </blockquote>
+                <blockquote>
+                  <P>
+                    &ldquo;Hardworking, buzzword-compliant and well focused{' '}
+                    <strong>professional with a good sense of humour</strong>. Specially good at
+                    leading projects and helping junior developers to grow.&rdquo;
+                  </P>
+                  <cite>
+                    <a href="https://www.linkedin.com/in/jouini">Nizar Jouini</a>
+                    CEO, Ideapalveluksi.fi
+                    <br />
+                    Principal Consultant, Reaktor
+                  </cite>
+                </blockquote>
+              </div>
+              <div className="col-md-4">
+                <blockquote>
+                  <P>
+                    &ldquo;An extremely talented software developer &hellip;{' '}
+                    <strong>not just a dull techie</strong>, but social, willing to help others,
+                    observes and improves on how things get done&rdquo;
+                  </P>
+                  <cite>
+                    <a href="https://www.linkedin.com/in/mattipaksula">Matti Paksula</a>
+                    CTO, AppGyver
+                  </cite>
+                </blockquote>
+                <blockquote>
+                  <P>
+                    &ldquo;Solid technical skills &hellip; expertise in software development
+                    methodologies and facilitation. &hellip;{' '}
+                    <strong>A strong can-do attitude</strong> &hellip; well-liked by
+                    customers.&rdquo;
+                  </P>
+                  <cite>
+                    <a href="http://www.linkedin.com/profile/view?id=3814375">Paavo Punkari</a>
+                    Business Director, Futurice
+                  </cite>
+                </blockquote>
+              </div>
+              <div className="col-md-4">
+                <blockquote>
+                  <P>
+                    &ldquo;Ingenious problem solving skills and{' '}
+                    <strong>wide knowledge of different technologies</strong> &hellip; very
+                    passionate and enthusiastic about the work he does and strives constantly to do
+                    things the right way.&rdquo;
+                  </P>
+                  <cite>
+                    <a href="http://www.linkedin.com/profile/view?id=129157140">Jetro Suni</a>
+                    Senior Software Specialist, Futurice
+                  </cite>
+                </blockquote>
+                <blockquote>
+                  <P>
+                    &ldquo;Sharp, has a great attitude, and is always looking for serious
+                    well-thought ways to improve and perform better.{' '}
+                    <strong>Level-headed thinker</strong> &hellip; Dedicated ambition and a serious
+                    strive towards professionalism.&rdquo;
+                  </P>
+                  <cite>
+                    <a href="http://www.linkedin.com/profile/view?id=48343">Taneli Tikka</a>
+                    CEO, Soprano Brain Alliance
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <Divider />
           </div>
-          <div className="col-md-4">
-            <blockquote>
-              <P>
-                &ldquo;An extremely talented software developer &hellip;{' '}
-                <strong>not just a dull techie</strong>, but social, willing to help others,
-                observes and improves on how things get done&rdquo;
-              </P>
-              <cite>
-                <a href="https://www.linkedin.com/in/mattipaksula">Matti Paksula</a>
-                CTO, AppGyver
-              </cite>
-            </blockquote>
-            <blockquote>
-              <P>
-                &ldquo;Solid technical skills &hellip; expertise in software development
-                methodologies and facilitation. &hellip; <strong>A strong can-do attitude</strong>{' '}
-                &hellip; well-liked by customers.&rdquo;
-              </P>
-              <cite>
-                <a href="http://www.linkedin.com/profile/view?id=3814375">Paavo Punkari</a>
-                Business Director, Futurice
-              </cite>
-            </blockquote>
-          </div>
-          <div className="col-md-4">
-            <blockquote>
-              <P>
-                &ldquo;Ingenious problem solving skills and{' '}
-                <strong>wide knowledge of different technologies</strong> &hellip; very passionate
-                and enthusiastic about the work he does and strives constantly to do things the
-                right way.&rdquo;
-              </P>
-              <cite>
-                <a href="http://www.linkedin.com/profile/view?id=129157140">Jetro Suni</a>
-                Senior Software Specialist, Futurice
-              </cite>
-            </blockquote>
-            <blockquote>
-              <P>
-                &ldquo;Sharp, has a great attitude, and is always looking for serious well-thought
-                ways to improve and perform better. <strong>Level-headed thinker</strong> &hellip;
-                Dedicated ambition and a serious strive towards professionalism.&rdquo;
-              </P>
-              <cite>
-                <a href="http://www.linkedin.com/profile/view?id=48343">Taneli Tikka</a>
-                CEO, Soprano Brain Alliance
-              </cite>
-            </blockquote>
-          </div>
-        </div>
-      </Section>
+        )}
+      </MainSection>
 
-      <Section id="education">
-        <div className="page-header">
-          <H2>Education</H2>
-        </div>
-
-        <Section className="row">
-          <header className="col-md-4">
-            <H3>Information Networks</H3>
-            <H4>Aalto University School of Science</H4>
-          </header>
-          <div className="col-md-8">
-            <Section>
-              <H4>
-                Master's thesis <Small>2016–2017</Small>
-              </H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    What exactly is the use of dailies: A practice-based perspective on continuous
-                    improvement in software development
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Continuous Improvement</li>
-                  <li>Social Innovation</li>
-                </ul>
-              </div>
-            </Section>
-
-            <Section>
-              <H4>
-                Master of Science studies <Small>2011–2013</Small>
-              </H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    Majored in Business Networks, focusing on how knowledge intensive organizations
-                    work.
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Process Development</li>
-                  <li>Shaping Institutions</li>
-                </ul>
-              </div>
-            </Section>
-
-            <Section>
-              <H4>
-                Bachelor's thesis <Small>2011</Small>
-              </H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    Scaling agile software development by applying software architecture practices
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Software Practices</li>
-                  <li>Agile</li>
-                </ul>
-              </div>
-            </Section>
-
-            <Section>
-              <H4>
-                Bachelor of Science studies <Small>2008–2011</Small>
-              </H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>Majored in Knowledge Intensive Business.</P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Knowledge Work</li>
-                  <li>User Centered Design</li>
-                </ul>
-              </div>
-            </Section>
-          </div>
-        </Section>
-
-        <Hr />
-
-        <Section className="row">
-          <header className="col-md-4">
-            <H3>Extracurricular personas</H3>
-          </header>
-          <div className="col-md-8">
-            <Section>
-              <H4>Photographer</H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    Since 2012 I do event photography as a hobby. Close-up portraits and informal
-                    situations are what I'd consider my forte, but I've been known to reach for the
-                    camera whenever it's needed – be it birthdays, baptisms, or business
-                    photography.
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Events</li>
-                  <li>Image Retouching</li>
-                </ul>
-              </div>
-            </Section>
-
-            <Section>
-              <H4>Playwright</H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    Co-wrote the script for{' '}
-                    <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015. Teekkarispeksi
-                    is a large-scale student theatre production with approximately 200 volunteer
-                    participants each year.
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Theatre</li>
-                  <li>Creative Writing</li>
-                </ul>
-              </div>
-            </Section>
-
-            <Section>
-              <H4>Toastmaster and songwriter</H4>
-              <div className="row">
-                <div className="col-md-6">
-                  <P>
-                    Served as toastmaster for the Information Networks' student guild,{' '}
-                    <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to serve
-                    as master of ceremony and first singer in academic dinner parties with dozens to
-                    over a hundred guests. Since that time I've come to be known for numerous songs,
-                    some of which are part of the canonical Aalto University student union songbook
-                    since 2017.
-                  </P>
-                </div>
-                <ul className="col-md-6 tagcloud">
-                  <li>Performing in Public</li>
-                  <li>Creative Writing</li>
-                </ul>
-              </div>
-            </Section>
-          </div>
-        </Section>
-      </Section>
-
-      <Section id="personal">
-        <div className="page-header">
-          <H2>Personal</H2>
-        </div>
-
-        <Section className="row">
-          <header className="col-md-4">
-            <H3>How do we fit?</H3>
-          </header>
-          <div className="col-md-8">
-            <Section className="row">
-              <div className="col-md-6">
-                <H4>In my work, I value&hellip;</H4>
-              </div>
-              <ul className="col-md-6 tagcloud">
-                <li>Craftsmanship</li>
-                <li>Continuous Learning</li>
-                <li>Growing Together</li>
-                <li>Nonviolence</li>
-                <li>Empathy</li>
-              </ul>
-            </Section>
+      <MainSection>
+        {({ Title, Divider }) => (
+          <div>
+            <Title>Education</Title>
 
             <Section className="row">
-              <div className="col-md-6">
-                <H4>I hope your organization values&hellip;</H4>
+              <header className="col-md-4">
+                <H3>Information Networks</H3>
+                <H4>Aalto University School of Science</H4>
+              </header>
+              <div className="col-md-8">
+                <Section>
+                  <H4>
+                    Master's thesis <Small>2016–2017</Small>
+                  </H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        What exactly is the use of dailies: A practice-based perspective on
+                        continuous improvement in software development
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Continuous Improvement</li>
+                      <li>Social Innovation</li>
+                    </ul>
+                  </div>
+                </Section>
+
+                <Section>
+                  <H4>
+                    Master of Science studies <Small>2011–2013</Small>
+                  </H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        Majored in Business Networks, focusing on how knowledge intensive
+                        organizations work.
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Process Development</li>
+                      <li>Shaping Institutions</li>
+                    </ul>
+                  </div>
+                </Section>
+
+                <Section>
+                  <H4>
+                    Bachelor's thesis <Small>2011</Small>
+                  </H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        Scaling agile software development by applying software architecture
+                        practices
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Software Practices</li>
+                      <li>Agile</li>
+                    </ul>
+                  </div>
+                </Section>
+
+                <Section>
+                  <H4>
+                    Bachelor of Science studies <Small>2008–2011</Small>
+                  </H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>Majored in Knowledge Intensive Business.</P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Knowledge Work</li>
+                      <li>User Centered Design</li>
+                    </ul>
+                  </div>
+                </Section>
               </div>
-              <ul className="col-md-6 tagcloud">
-                <li>Transparency</li>
-                <li>Continuous Improvement</li>
-                <li>Self-Organization</li>
-                <li>Playfulness</li>
-                <li>Open Source</li>
-              </ul>
             </Section>
 
+            <Divider />
             <Section className="row">
-              <div className="col-md-6">
-                <H4>I love&hellip;</H4>
+              <header className="col-md-4">
+                <H3>Extracurricular personas</H3>
+              </header>
+              <div className="col-md-8">
+                <Section>
+                  <H4>Photographer</H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        Since 2012 I do event photography as a hobby. Close-up portraits and
+                        informal situations are what I'd consider my forte, but I've been known to
+                        reach for the camera whenever it's needed – be it birthdays, baptisms, or
+                        business photography.
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Events</li>
+                      <li>Image Retouching</li>
+                    </ul>
+                  </div>
+                </Section>
+
+                <Section>
+                  <H4>Playwright</H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        Co-wrote the script for{' '}
+                        <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015.
+                        Teekkarispeksi is a large-scale student theatre production with
+                        approximately 200 volunteer participants each year.
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Theatre</li>
+                      <li>Creative Writing</li>
+                    </ul>
+                  </div>
+                </Section>
+
+                <Section>
+                  <H4>Toastmaster and songwriter</H4>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <P>
+                        Served as toastmaster for the Information Networks' student guild,{' '}
+                        <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to
+                        serve as master of ceremony and first singer in academic dinner parties with
+                        dozens to over a hundred guests. Since that time I've come to be known for
+                        numerous songs, some of which are part of the canonical Aalto University
+                        student union songbook since 2017.
+                      </P>
+                    </div>
+                    <ul className="col-md-6 tagcloud">
+                      <li>Performing in Public</li>
+                      <li>Creative Writing</li>
+                    </ul>
+                  </div>
+                </Section>
               </div>
-              <ul className="col-md-6 tagcloud">
-                <li>Functional Programming</li>
-                <li>Problem Solving</li>
-                <li>Working on Ideas</li>
-                <li>Feedback</li>
-                <li>Singing</li>
-                <li>Science Fiction</li>
-                <li>Photography</li>
-                <li>
-                  Hugs <span className="glyphicon glyphicon-heart" />
-                </li>
-              </ul>
             </Section>
           </div>
-        </Section>
-      </Section>
+        )}
+      </MainSection>
 
-      <Hr />
+      <MainSection>
+        {({ Title, Divider }) => (
+          <div>
+            <Title>Personal</Title>
+
+            <Section className="row">
+              <header className="col-md-4">
+                <H3>How do we fit?</H3>
+              </header>
+              <div className="col-md-8">
+                <Section className="row">
+                  <div className="col-md-6">
+                    <H4>In my work, I value&hellip;</H4>
+                  </div>
+                  <ul className="col-md-6 tagcloud">
+                    <li>Craftsmanship</li>
+                    <li>Continuous Learning</li>
+                    <li>Growing Together</li>
+                    <li>Nonviolence</li>
+                    <li>Empathy</li>
+                  </ul>
+                </Section>
+
+                <Section className="row">
+                  <div className="col-md-6">
+                    <H4>I hope your organization values&hellip;</H4>
+                  </div>
+                  <ul className="col-md-6 tagcloud">
+                    <li>Transparency</li>
+                    <li>Continuous Improvement</li>
+                    <li>Self-Organization</li>
+                    <li>Playfulness</li>
+                    <li>Open Source</li>
+                  </ul>
+                </Section>
+
+                <Section className="row">
+                  <div className="col-md-6">
+                    <H4>I love&hellip;</H4>
+                  </div>
+                  <ul className="col-md-6 tagcloud">
+                    <li>Functional Programming</li>
+                    <li>Problem Solving</li>
+                    <li>Working on Ideas</li>
+                    <li>Feedback</li>
+                    <li>Singing</li>
+                    <li>Science Fiction</li>
+                    <li>Photography</li>
+                    <li>
+                      Hugs <span className="glyphicon glyphicon-heart" />
+                    </li>
+                  </ul>
+                </Section>
+              </div>
+            </Section>
+
+            <Divider />
+          </div>
+        )}
+      </MainSection>
 
       <Section id="contact">
         <div className="jumbotron">

@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Container } from '../components/Layout';
 import { Section, H2, H3, H4, Small, P, Hr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
+import Subsection from '../components/Subsection';
 
 export default function index() {
   return (
@@ -47,54 +48,54 @@ export default function index() {
           <H2>Experience</H2>
         </div>
 
-        <H3 id="full-stack-developer-venuu-2016-">
-          <a href="https://www.venuu.fi">Venuu</a> <Small>2016–2018</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Full stack developer</strong> on a B2B2C marketplace platform for event
-              organization
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>
-                Chief architect on an in-house software development team, with specific efforts
-                towards Javascript development support and containerization
-              </li>
-              <li>
-                Facilitator and process coach for the development team, its stakeholders and the
-                company at large
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              {/* Tech stack */}
-              <li className="language">ES6+</li>
-              <li>Node.js</li>
-              <li>Flowtype</li>
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  <a href="https://www.venuu.fi">Venuu</a> <Small>2016–2018</Small>
+                </Title>
+                <Lead>
+                  <strong>Full stack developer</strong> on a <Abbr>B2B2C</Abbr> marketplace platform
+                  for event organization
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Chief architect on an in-house software development team, with specific efforts
+                  towards Javascript development support and containerization
+                </DescriptionLine>
+                <DescriptionLine>
+                  Facilitator and process coach for the development team, its stakeholders and the
+                  company at large
+                </DescriptionLine>
+              </Description>
+              <Tags>
+                {/* Tech stack */}
+                <Tag className="language">ES6+</Tag>
+                <Tag>Node.js</Tag>
+                <Tag>Flowtype</Tag>
 
-              <li className="language">Ruby</li>
-              <li>Ruby on Rails</li>
+                <Tag className="language">Ruby</Tag>
+                <Tag>Ruby on Rails</Tag>
 
-              <li>React</li>
-              <li>Redux</li>
+                <Tag>React</Tag>
+                <Tag>Redux</Tag>
 
-              <li>npm</li>
-              <li>CircleCI</li>
-              <li>AWS</li>
-              <li>Docker</li>
+                <Tag>npm</Tag>
+                <Tag>CircleCI</Tag>
+                <Tag>AWS</Tag>
+                <Tag>Docker</Tag>
 
-              {/* Buzzwords */}
-              <li>Continuous Delivery</li>
-              <li>Kanban</li>
-              <li>Facilitation</li>
-              <li>Process Development</li>
-            </ul>
-          </div>
-        </Section>
+                {/* Buzzwords */}
+                <Tag>Continuous Delivery</Tag>
+                <Tag>Kanban</Tag>
+                <Tag>Facilitation</Tag>
+                <Tag>Process Development</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
 
         <Hr />
 

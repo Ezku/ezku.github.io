@@ -9,40 +9,33 @@ import Subsection from '../components/Subsection';
 export default function index() {
   return (
     <Container>
-      <Section id="intro">
-        <Jumbotron>
-          {({ Title, Subtitle, Lead }) => (
-            <div>
-              <Title>Eevert Saukkokoski,</Title>
-              <Subtitle>software craftsman.</Subtitle>
+      <Jumbotron>
+        {({ Title, Subtitle, Lead }) => (
+          <div>
+            <Title>Eevert Saukkokoski,</Title>
+            <Subtitle>software craftsman.</Subtitle>
 
-              <Lead>
-                <strong>Are you looking for someone to wear many hats?</strong> You want a developer
-                who can craft quality software. Someone who can create digital services with users
-                and business in mind. A generalist with deep technical skills and an eye for
-                improvement.
-              </Lead>
-              <Lead>
-                <strong>You're looking for someone like me.</strong> I can help you build reactive,
-                scalable applications with modern tools and practices. I'm familiar with lean
-                workflows and applying service design thinking to creating solutions. I'll support
-                your performance with methodology insight and by finding ways to do things better.
-              </Lead>
+            <Lead>
+              <strong>Are you looking for someone to wear many hats?</strong> You want a developer
+              who can craft quality software. Someone who can create digital services with users and
+              business in mind. A generalist with deep technical skills and an eye for improvement.
+            </Lead>
+            <Lead>
+              <strong>You're looking for someone like me.</strong> I can help you build reactive,
+              scalable applications with modern tools and practices. I'm familiar with lean
+              workflows and applying service design thinking to creating solutions. I'll support
+              your performance with methodology insight and by finding ways to do things better.
+            </Lead>
 
-              <Lead>
-                <a
-                  className="btn btn-lg btn-primary"
-                  href="#contact"
-                  title="Scroll down to the beef"
-                >
-                  Yes, that's exactly who we need!{' '}
-                  <span className="glyphicon glyphicon-chevron-right" />
-                </a>
-              </Lead>
-            </div>
-          )}
-        </Jumbotron>
-      </Section>
+            <Lead>
+              <a className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
+                Yes, that's exactly who we need!{' '}
+                <span className="glyphicon glyphicon-chevron-right" />
+              </a>
+            </Lead>
+          </div>
+        )}
+      </Jumbotron>
 
       <MainSection>
         {({ Title, Divider }) => (

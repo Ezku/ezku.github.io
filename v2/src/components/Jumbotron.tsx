@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { H1, H2, P } from './Typography';
+import { Section, H1, H2, P } from './Typography';
 
 type Components = {
   Title: React.FunctionComponent;
@@ -12,12 +12,12 @@ type Props = {
 };
 export default function Jumbotron(props: Props) {
   return (
-    <div className="jumbotron">
+    <Section>
       {props.children({
         Title: H1,
         Subtitle: H2,
         Lead: P
       })}
-    </div>
+    </Section>
   );
 }

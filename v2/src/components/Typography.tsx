@@ -43,21 +43,7 @@ export const H1 = styled.h1({
 export const H2 = styled.h2({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 700,
-  margin: 0,
-  fontSize: majorScale.s,
-  lineHeight: majorScale.s,
-  [breakpoints[0]]: {
-    fontSize: minorScale.m,
-    lineHeight: minorScale.m
-  },
-  [breakpoints[1]]: {
-    fontSize: minorScale.l,
-    lineHeight: minorScale.l
-  },
-  [breakpoints[2]]: {
-    fontSize: majorScale.l,
-    lineHeight: majorScale.l
-  }
+  margin: 0
 });
 
 export const H3 = styled.h3({

@@ -14,48 +14,40 @@ export const Section = styled.section({
 export const H1 = styled.h1({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 700,
-  marginTop: 0,
+  margin: 0,
   fontSize: majorScale.m,
   lineHeight: majorScale.m,
-  marginBottom: majorScale.xs,
   [breakpoints[0]]: {
     fontSize: minorScale.l,
-    lineHeight: minorScale.l,
-    marginBottom: minorScale.s
+    lineHeight: minorScale.l
   },
   [breakpoints[1]]: {
     fontSize: minorScale.xl,
-    lineHeight: minorScale.xl,
-    marginBottom: minorScale.m
+    lineHeight: minorScale.xl
   },
   [breakpoints[2]]: {
     fontSize: majorScale.xl,
-    lineHeight: majorScale.xl,
-    marginBottom: majorScale.m
+    lineHeight: majorScale.xl
   }
 });
 
 export const H2 = styled.h2({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 700,
-  marginTop: 0,
+  margin: 0,
   fontSize: majorScale.s,
   lineHeight: majorScale.s,
-  marginBottom: majorScale.m,
   [breakpoints[0]]: {
     fontSize: minorScale.m,
-    lineHeight: minorScale.m,
-    marginBottom: minorScale.l
+    lineHeight: minorScale.m
   },
   [breakpoints[1]]: {
     fontSize: minorScale.l,
-    lineHeight: minorScale.l,
-    marginBottom: minorScale.xl
+    lineHeight: minorScale.l
   },
   [breakpoints[2]]: {
     fontSize: majorScale.l,
-    lineHeight: majorScale.l,
-    marginBottom: majorScale.xl
+    lineHeight: majorScale.l
   }
 });
 

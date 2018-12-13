@@ -105,3 +105,7 @@ export const Hr = styled.hr({
   marginTop: metrics.s,
   marginBottom: metrics.s
 });
+
+export const Abbr = styled.abbr({
+  fontVariant: 'all-small-caps'
+});

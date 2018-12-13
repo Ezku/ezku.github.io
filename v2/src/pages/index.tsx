@@ -99,235 +99,247 @@ export default function index() {
 
         <Hr />
 
-        <H3 id="platform-developer-appgyver-2013-2016">
-          <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Platform developer</strong> for hybrid mobile application tooling and{' '}
-              <strong>architect</strong> for a Javascript library ecosystem
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>
-                Led the development for and architected{' '}
-                <a href="http://www.appgyver.io/supersonic">Supersonic</a>, a library for building
-                HTML5 hybrid applications on the AppGyver platform.
-              </li>
-              <li>
-                Authored <a href="http://www.appgyver.io/supersonic/data">Supersonic Data</a>, a
-                data access layer for AppGyver Cloud.
-              </li>
-              <li>
-                Co-developed architecture and individual modules for{' '}
-                <a href="http://composer2.appgyver.com/">AppGyver Composer</a>, a visual tool for
-                building business applications.
-              </li>
-              <li>Regularly facilitated development team dailies.</li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              {/* Tech stack */}
-              <li className="language">CoffeeScript</li>
-              <li>Node.js</li>
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
+                </Title>
+                <Lead>
+                  <strong>Platform developer</strong> for hybrid mobile application tooling and{' '}
+                  <strong>architect</strong> for a Javascript library ecosystem
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Led the development for and architected{' '}
+                  <a href="http://www.appgyver.io/supersonic">Supersonic</a>, a library for building
+                  HTML5 hybrid applications on the AppGyver platform.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Authored <a href="http://www.appgyver.io/supersonic/data">Supersonic Data</a>, a
+                  data access layer for AppGyver Cloud.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Co-developed architecture and individual modules for{' '}
+                  <a href="http://composer2.appgyver.com/">AppGyver Composer</a>, a visual tool for
+                  building business applications.
+                </DescriptionLine>
+                <DescriptionLine>Regularly facilitated development team dailies.</DescriptionLine>
+              </Description>
+              <Tags>
+                {/* Tech stack */}
+                <Tag className="language">CoffeeScript</Tag>
+                <Tag>Node.js</Tag>
 
-              <li className="language">Ruby</li>
-              <li>Ruby on Rails</li>
+                <Tag className="language">Ruby</Tag>
+                <Tag>Ruby on Rails</Tag>
 
-              <li>AngularJS</li>
-              <li>Bacon.js</li>
+                <Tag>AngularJS</Tag>
+                <Tag>Bacon.js</Tag>
 
-              <li>Grunt</li>
-              <li>npm</li>
-              <li>TravisCI</li>
-              <li>Heroku</li>
+                <Tag>Grunt</Tag>
+                <Tag>npm</Tag>
+                <Tag>TravisCI</Tag>
+                <Tag>Heroku</Tag>
 
-              {/* Buzzwords */}
-              <li>Open Source</li>
-              <li>PaaS</li>
-              <li>Kanban</li>
-              <li>Reactive Functional Programming</li>
-            </ul>
-          </div>
-        </Section>
-
-        <Hr />
-
-        <H3 id="software-craftsman-futurice-2013">
-          <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Software craftsman</strong> and IT consultant for medium-sized to large
-              multinational client companies
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>Acted as modern web technology specialist in projects.</li>
-              <li>Engaged in client-facing software development process facilitation.</li>
-              <li>Drafted and led the creation of proposals for clients.</li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              {/* Tech stack */}
-              <li className="language">Javascript</li>
-              <li>Node.js</li>
-
-              <li>Grunt</li>
-              <li>AngularJS</li>
-              <li>Selenium</li>
-              <li>Bootstrap</li>
-              <li>Less</li>
-
-              {/* Buzzwords */}
-              <li>Scrum</li>
-              <li>Lean Startup</li>
-              <li>Responsive Web Design</li>
-            </ul>
-          </div>
-        </Section>
+                {/* Buzzwords */}
+                <Tag>Open Source</Tag>
+                <Tag>PaaS</Tag>
+                <Tag>Kanban</Tag>
+                <Tag>Reactive Functional Programming</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
 
         <Hr />
 
-        <H3 id="software-architect-ideapalveluksi-2013">
-          Ideapalveluksi.fi <Small>2013/4–5</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Software architect</strong> in a small team crafting boutique software
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>
-                Automated frontend testing of a business intelligence application for a client in
-                engineering and manufacturing.
-              </li>
-              <li>
-                Lead the service design for a new responsive brand frontpage and was responsible for
-                its implementation.
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              {/* Tech stack */}
-              <li className="language">Javascript</li>
-              <li>AngularJS</li>
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
+                </Title>
+                <Lead>
+                  <strong>Software craftsman</strong> and IT consultant for medium-sized to large
+                  multinational client companies
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Acted as modern web technology specialist in projects.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Engaged in client-facing software development process facilitation.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Drafted and led the creation of proposals for clients.
+                </DescriptionLine>
+              </Description>
+              <Tags>
+                {/* Tech stack */}
+                <Tag className="language">Javascript</Tag>
+                <Tag>Node.js</Tag>
 
-              <li className="language">Ruby</li>
-              <li>Sinatra</li>
+                <Tag>Grunt</Tag>
+                <Tag>AngularJS</Tag>
+                <Tag>Selenium</Tag>
+                <Tag>Bootstrap</Tag>
+                <Tag>Less</Tag>
 
-              <li>Karma</li>
-              <li>Sass</li>
-
-              <li>Heroku</li>
-
-              {/* Buzzwords */}
-              <li>Service Design</li>
-              <li>Responsive Web Design</li>
-            </ul>
-          </div>
-        </Section>
-
-        <Hr />
-
-        <H3 id="software-developer-reaktor-2012">
-          <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Software developer</strong> and IT consultant for large domestic and
-              multinational client companies
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>Worked in client projects with a kanban-inspired agile workflow.</li>
-              <li>Crafted single page applications and responsive pages.</li>
-              <li>Made decisions on architecture and technology stack levels in project work.</li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              {/* Tech stack */}
-              <li className="language">Scala</li>
-              <li className="language">CoffeeScript</li>
-
-              <li>Rx.js</li>
-              <li>Selenium</li>
-
-              <li>Heroku</li>
-              <li>Vagrant</li>
-
-              {/* Buzzwords */}
-              <li>Functional Programming</li>
-              <li>Kanban</li>
-              <li>Continuous Integration</li>
-            </ul>
-          </div>
-        </Section>
+                {/* Buzzwords */}
+                <Tag>Scrum</Tag>
+                <Tag>Lean Startup</Tag>
+                <Tag>Responsive Web Design</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
 
         <Hr />
 
-        <H3 id="software-architect-software-developer-soprano-brain-alliance-2006-2012">
-          <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
-        </H3>
-        <Section className="row">
-          <header className="col-md-4">
-            <P>
-              <strong>Software architect</strong> and <strong>agile evangelist</strong> in a team of
-              a dozen developers
-            </P>
-            <P>
-              <strong>Software developer</strong> and IT consultant for clients ranging from small
-              US-based startups to large domestic enterprises
-            </P>
-          </header>
-          <div className="col-md-4">
-            <ul>
-              <li>
-                Organized TDD workshops and presentations on other tech subjects to disseminate
-                information.
-              </li>
-              <li>
-                Spearheaded a corporate-endorsed open source code sharing effort to reduce repeated
-                effort and improve company profile internally.
-              </li>
-              <li>
-                Was responsible for an in-house application boilerplate used in a multitude of
-                different projects.
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="tagcloud">
-              <li className="language">PHP</li>
-              <li>Zend Framework</li>
-              <li>Doctrine ORM</li>
-              <li>PHPUnit</li>
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  Ideapalveluksi.fi <Small>2013/4–5</Small>
+                </Title>
+                <Lead>
+                  <strong>Software architect</strong> in a small team crafting boutique software
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Automated frontend testing of a business intelligence application for a client in
+                  engineering and manufacturing.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Lead the service design for a new responsive brand frontpage and was responsible
+                  for its implementation.
+                </DescriptionLine>
+              </Description>
+              <Tags>
+                {/* Tech stack */}
+                <Tag className="language">Javascript</Tag>
+                <Tag>AngularJS</Tag>
 
-              <li className="language">Javascript</li>
-              <li>jQuery</li>
+                <Tag className="language">Ruby</Tag>
+                <Tag>Sinatra</Tag>
 
-              <li>MySQL</li>
-              <li>Apache</li>
+                <Tag>Karma</Tag>
+                <Tag>Sass</Tag>
 
-              <li>TDD</li>
-              <li>XP</li>
-              <li>Agile</li>
-              <li>Open Source</li>
-            </ul>
-          </div>
-        </Section>
+                <Tag>Heroku</Tag>
+
+                {/* Buzzwords */}
+                <Tag>Service Design</Tag>
+                <Tag>Responsive Web Design</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
+
+        <Hr />
+
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
+                </Title>
+                <Lead>
+                  <strong>Software developer</strong> and IT consultant for large domestic and
+                  multinational client companies
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Worked in client projects with a kanban-inspired agile workflow.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Crafted single page applications and responsive pages.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Made decisions on architecture and technology stack levels in project work.
+                </DescriptionLine>
+              </Description>
+              <Tags>
+                {/* Tech stack */}
+                <Tag className="language">Scala</Tag>
+                <Tag className="language">CoffeeScript</Tag>
+
+                <Tag>Rx.js</Tag>
+                <Tag>Selenium</Tag>
+
+                <Tag>Heroku</Tag>
+                <Tag>Vagrant</Tag>
+
+                {/* Buzzwords */}
+                <Tag>Functional Programming</Tag>
+                <Tag>Kanban</Tag>
+                <Tag>Continuous Integration</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
+
+        <Hr />
+
+        <Subsection>
+          {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+            <div>
+              <Header>
+                <Title>
+                  <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
+                </Title>
+                <Lead>
+                  <strong>Software architect</strong> and <strong>agile evangelist</strong> in a
+                  team of a dozen developers
+                </Lead>
+                <Lead>
+                  <strong>Software developer</strong> and IT consultant for clients ranging from
+                  small US-based startups to large domestic enterprises
+                </Lead>
+              </Header>
+              <Description>
+                <DescriptionLine>
+                  Organized TDD workshops and presentations on other tech subjects to disseminate
+                  information.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Spearheaded a corporate-endorsed open source code sharing effort to reduce
+                  repeated effort and improve company profile internally.
+                </DescriptionLine>
+                <DescriptionLine>
+                  Was responsible for an in-house application boilerplate used in a multitude of
+                  different projects.
+                </DescriptionLine>
+              </Description>
+              <Tags>
+                <Tag className="language">PHP</Tag>
+                <Tag>Zend Framework</Tag>
+                <Tag>Doctrine ORM</Tag>
+                <Tag>PHPUnit</Tag>
+
+                <Tag className="language">Javascript</Tag>
+                <Tag>jQuery</Tag>
+
+                <Tag>MySQL</Tag>
+                <Tag>Apache</Tag>
+
+                <Tag>TDD</Tag>
+                <Tag>XP</Tag>
+                <Tag>Agile</Tag>
+                <Tag>Open Source</Tag>
+              </Tags>
+            </div>
+          )}
+        </Subsection>
 
         <Hr />
 

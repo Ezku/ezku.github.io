@@ -1,40 +1,76 @@
 import styled from '@emotion/styled';
 
 import { bodyFontStack, headerFontStack, metrics, alternativeMetrics } from '../utils/typography';
+import { breakpoints } from '../utils/layout';
 
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),
+  marginTop: 0,
   fontSize: metrics.s,
   lineHeight: metrics.m,
-  marginBottom: metrics.l,
-  marginTop: 0
+  marginBottom: metrics.l
 });
 
 export const H1 = styled.h1({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 700,
-  fontSize: metrics.xxl,
-  lineHeight: metrics.xxl,
-  marginBottom: metrics.l,
-  marginTop: 0
+  marginTop: 0,
+  fontSize: alternativeMetrics.m,
+  lineHeight: alternativeMetrics.m,
+  marginBottom: alternativeMetrics.xs,
+  [breakpoints[0]]: {
+    fontSize: metrics.l,
+    lineHeight: metrics.l,
+    marginBottom: metrics.s
+  },
+  [breakpoints[1]]: {
+    fontSize: metrics.xl,
+    lineHeight: metrics.xl,
+    marginBottom: metrics.m
+  },
+  [breakpoints[2]]: {
+    fontSize: metrics.xxl,
+    lineHeight: metrics.xxl,
+    marginBottom: metrics.l
+  }
 });
 
 export const H2 = styled.h2({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 700,
-  fontSize: metrics.xl,
-  lineHeight: metrics.xl,
-  marginBottom: metrics.m,
-  marginTop: 0
+  marginTop: 0,
+  fontSize: alternativeMetrics.s,
+  lineHeight: alternativeMetrics.s,
+  marginBottom: alternativeMetrics.m,
+  [breakpoints[0]]: {
+    fontSize: metrics.m,
+    lineHeight: metrics.m,
+    marginBottom: metrics.l
+  },
+  [breakpoints[1]]: {
+    fontSize: metrics.l,
+    lineHeight: metrics.l,
+    marginBottom: metrics.xl
+  },
+  [breakpoints[2]]: {
+    fontSize: metrics.xl,
+    lineHeight: metrics.xl,
+    marginBottom: metrics.xxl
+  }
 });
 
 export const H3 = styled.h3({
   fontFamily: headerFontStack.join(', '),
   fontWeight: 600,
-  fontSize: metrics.l,
-  lineHeight: metrics.xl,
+  marginTop: 0,
+  fontSize: metrics.m,
+  lineHeight: metrics.l,
   marginBottom: metrics.s,
-  marginTop: 0
+  [breakpoints[0]]: {
+    fontSize: metrics.l,
+    lineHeight: metrics.xl,
+    marginBottom: metrics.s
+  }
 });
 
 export const H4 = styled.h4({

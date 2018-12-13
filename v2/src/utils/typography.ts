@@ -32,5 +32,6 @@ export const alternativeMetrics = {
   xs: `${harmonic(-1)}px`,
   s: `${harmonic(1)}px`,
   m: `${harmonic(3)}px`,
-  l: `${harmonic(5)}px`
+  l: `${harmonic(5)}px`,
+  xl: `${harmonic(7)}px`
 };

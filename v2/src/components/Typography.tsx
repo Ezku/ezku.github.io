@@ -29,9 +29,9 @@ export const H1 = styled.h1({
     marginBottom: metrics.m
   },
   [breakpoints[2]]: {
-    fontSize: metrics.xxl,
-    lineHeight: metrics.xxl,
-    marginBottom: metrics.l
+    fontSize: alternativeMetrics.xl,
+    lineHeight: alternativeMetrics.xl,
+    marginBottom: alternativeMetrics.m
   }
 });
 
@@ -53,9 +53,9 @@ export const H2 = styled.h2({
     marginBottom: metrics.xl
   },
   [breakpoints[2]]: {
-    fontSize: metrics.xl,
-    lineHeight: metrics.xl,
-    marginBottom: metrics.xxl
+    fontSize: alternativeMetrics.l,
+    lineHeight: alternativeMetrics.l,
+    marginBottom: alternativeMetrics.xl
   }
 });
 

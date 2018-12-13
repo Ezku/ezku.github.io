@@ -10,10 +10,12 @@ export default function index() {
   return (
     <Container>
       <Jumbotron>
-        {({ Title, Subtitle, Lead }) => (
+        {({ Header, Title, Subtitle, Lead }) => (
           <div>
-            <Title>Eevert Saukkokoski,</Title>
-            <Subtitle>software craftsman.</Subtitle>
+            <Header>
+              <Title>Eevert Saukkokoski,</Title>
+              <Subtitle>software craftsman.</Subtitle>
+            </Header>
 
             <Lead>
               <strong>Are you looking for someone to wear many hats?</strong> You want a developer

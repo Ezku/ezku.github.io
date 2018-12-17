@@ -783,39 +783,44 @@ export default function index() {
         )}
       </MainSection>
 
-      <Section id="contact">
-        <div className="jumbotron">
-          <Profile>
-            {({ Image, Tagline }) => (
-              <div>
-                <Image src={require('./index/ezku-1024.jpg')} />
-                <Tagline>Let's talk about what we could do together.</Tagline>
-              </div>
-            )}
-          </Profile>
-          <P>
-            <a
-              className="btn btn-lg btn-success"
-              href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
-              title="Shoot me a message"
-            >
-              Shoot me a message
-              <span className="glyphicon glyphicon-send" />
-            </a>
-          </P>
-          <P>
-            Follow <a href="http://twitter.com/Ezku">@Ezku</a> on Twitter
-          </P>
-          <P>
-            Check out <a href="http://github.com/Ezku">Ezku</a> on GitHub
-          </P>
-          <P>
-            Connect with{' '}
-            <a href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">Eevert Saukkokoski</a>{' '}
-            on LinkedIn
-          </P>
-        </div>
-      </Section>
+      <Jumbotron>
+        {({ Header, Title, Subtitle, Lead }) => (
+          <div>
+            <Header>
+              <Title>So, that's me.</Title>
+              <Subtitle>Let's talk about what we could do together.</Subtitle>
+            </Header>
+            <Profile>
+              {({ Image, Tagline }) => (
+                <Tagline>
+                  <a
+                    className="btn btn-lg btn-success"
+                    href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
+                    title="Shoot me a message"
+                  >
+                    <Image src={require('./index/ezku-1024.jpg')} />
+                    Shoot me a message
+                    <span className="glyphicon glyphicon-send" />
+                  </a>
+                </Tagline>
+              )}
+            </Profile>
+            <Lead>
+              Follow <a href="http://twitter.com/Ezku">@Ezku</a> on Twitter
+            </Lead>
+            <Lead>
+              Check out <a href="http://github.com/Ezku">Ezku</a> on GitHub
+            </Lead>
+            <Lead>
+              Connect with{' '}
+              <a href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">
+                Eevert Saukkokoski
+              </a>{' '}
+              on LinkedIn
+            </Lead>
+          </div>
+        )}
+      </Jumbotron>
     </Container>
   );
 }

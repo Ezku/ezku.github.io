@@ -15,9 +15,10 @@ export default function Profile(props: Props) {
     <header>
       {props.children({
         Image: styled.img({
-          width: '100%',
-          minWidth: '256px',
-          maxWidth: '512px',
+          display: 'block',
+          width: '50%',
+          minWidth: '128px',
+          maxWidth: '256px',
           borderRadius: '50%'
         }),
         Tagline: styled.h2({})

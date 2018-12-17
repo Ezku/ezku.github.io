@@ -7,6 +7,6 @@ export const Container = styled(Section)({
   minWidth: '320px',
   maxWidth: '72ch',
   margin: `0 auto`,
-  padding: minorScale.m,
+  padding: minorScale.s,
   width: '61.8%'
 });

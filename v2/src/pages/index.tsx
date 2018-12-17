@@ -634,70 +634,83 @@ export default function index() {
                 </div>
               )}
             </EducationalAchievement>
+          </div>
+        )}
+      </MainSection>
+
+      <MainSection>
+        {({ Title, Divider }) => (
+          <div>
+            <Title>Extracurricular</Title>
 
             <Divider />
-            <Section className="row">
-              <header className="col-md-4">
-                <H3>Extracurricular personas</H3>
-              </header>
-              <div className="col-md-8">
-                <Section>
-                  <H4>Photographer</H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        Since 2012 I do event photography as a hobby. Close-up portraits and
-                        informal situations are what I'd consider my forte, but I've been known to
-                        reach for the camera whenever it's needed – be it birthdays, baptisms, or
-                        business photography.
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Events</li>
-                      <li>Image Retouching</li>
-                    </ul>
-                  </div>
-                </Section>
 
-                <Section>
-                  <H4>Playwright</H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        Co-wrote the script for{' '}
-                        <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015.
-                        Teekkarispeksi is a large-scale student theatre production with
-                        approximately 200 volunteer participants each year.
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Theatre</li>
-                      <li>Creative Writing</li>
-                    </ul>
-                  </div>
-                </Section>
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>Photography</Title>
+                    <Lead>
+                      Since 2012 I do event photography as a hobby. Close-up portraits and informal
+                      situations are what I'd consider my forte, but I've been known to reach for
+                      the camera whenever it's needed – be it birthdays, baptisms, or business
+                      photography.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Events</Tag>
+                    <Tag>Image Processing</Tag>
+                    <Tag>Retouching</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
 
-                <Section>
-                  <H4>Toastmaster and songwriter</H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        Served as toastmaster for the Information Networks' student guild,{' '}
-                        <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to
-                        serve as master of ceremony and first singer in academic dinner parties with
-                        dozens to over a hundred guests. Since that time I've come to be known for
-                        numerous songs, some of which are part of the canonical Aalto University
-                        student union songbook since 2017.
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Performing in Public</li>
-                      <li>Creative Writing</li>
-                    </ul>
-                  </div>
-                </Section>
-              </div>
-            </Section>
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>Playwriting</Title>
+                    <Lead>
+                      Co-wrote the script for{' '}
+                      <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015. Teekkarispeksi
+                      is a large-scale student theatre production with approximately 200 volunteer
+                      participants each year.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Volunteering</Tag>
+                    <Tag>Creative Writing</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
+
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>Songwriting</Title>
+                    <Lead>
+                      Served as toastmaster for the Information Networks' student guild,{' '}
+                      <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to
+                      serve as master of ceremony and first singer in academic dinner parties with
+                      dozens to over a hundred guests. Since that time I've come to be known for
+                      writing numerous songs, some of which are part of the canonical Aalto
+                      University student union songbook since 2017.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Performing in Public</Tag>
+                    <Tag>Creative Writing</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
           </div>
         )}
       </MainSection>

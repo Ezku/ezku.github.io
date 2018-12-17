@@ -1,10 +1,11 @@
 import * as React from 'react';
 
 import { Container } from '../components/Layout';
-import { Section, H2, H3, H4, Small, P, Abbr } from '../components/Typography';
+import { Section, H3, H4, Small, P, Abbr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';
+import Profile from '../components/Profile';
 
 export default function index() {
   return (
@@ -747,10 +748,14 @@ export default function index() {
 
       <Section id="contact">
         <div className="jumbotron">
-          <header>
-            <img src={require('./index/ezku-1024.jpg')} />
-            <H2>Let's talk about what we could do together.</H2>
-          </header>
+          <Profile>
+            {({ Image, Tagline }) => (
+              <div>
+                <Image src={require('./index/ezku-1024.jpg')} />
+                <Tagline>Let's talk about what we could do together.</Tagline>
+              </div>
+            )}
+          </Profile>
           <P>
             <a
               className="btn btn-lg btn-success"

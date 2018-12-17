@@ -411,9 +411,9 @@ export default function index() {
                       <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
                     </Title>
                     <Lead>
-                      An open-source code sharing initiative in collaboration with other developers.
-                      I contributed in both code and efforts to build up the initiative together
-                      with lead developers.
+                      An open-source initiative in collaboration with lead developers at my
+                      then-employer, aimed at reducing costs across projects. I contributed in both
+                      code and efforts to build up capability to contribute among other developers.
                     </Lead>
                   </Header>
                   <Tags>

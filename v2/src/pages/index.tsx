@@ -6,6 +6,7 @@ import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';
 import Profile from '../components/Profile';
+import Recommendation from '../components/Recommendation';
 
 export default function index() {
   return (
@@ -451,21 +452,31 @@ export default function index() {
         {({ Title, Divider }) => (
           <div>
             <Title>Recommendations</Title>
-            <div className="row">
-              <div className="col-md-4">
-                <blockquote>
-                  <P>
+
+            <Recommendation>
+              {({ Quote, Emphasis, Author, Link }) => (
+                <div>
+                  <Quote>
                     &ldquo;He’s bright, hard-working and has a both pragmatic and theoretic take on
                     his responsibilities &hellip; a vivid and enthusiastic personality &hellip;
                     super skilled developer &hellip;{' '}
-                    <strong>an excellent facilitator and communicator</strong> &rdquo;
-                  </P>
-                  <cite>
-                    <a href="https://www.linkedin.com/in/tomi-h%C3%A4nninen-92a15364/">
+                    <Emphasis>an excellent facilitator and communicator</Emphasis> &rdquo;
+                  </Quote>
+                  <Author>
+                    <Link href="https://www.linkedin.com/in/tomi-h%C3%A4nninen-92a15364/">
                       Tomi Hänninen
-                    </a>
+                    </Link>
                     CEO, Venuu
-                  </cite>
+                  </Author>
+                </div>
+              )}
+            </Recommendation>
+
+            <div className="row">
+              <div className="col-md-4">
+                <blockquote>
+                  <P />
+                  <cite />
                 </blockquote>
                 <blockquote>
                   <P>

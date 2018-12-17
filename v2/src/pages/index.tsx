@@ -651,10 +651,8 @@ export default function index() {
                   <Header>
                     <Title>Photography</Title>
                     <Lead>
-                      Since 2012 I do event photography as a hobby. Close-up portraits and informal
-                      situations are what I'd consider my forte, but I've been known to reach for
-                      the camera whenever it's needed – be it birthdays, baptisms, or business
-                      photography.
+                      Since 2012 I do event photography as a hobby. My interest is in portraits, so
+                      I often end up doing corporate mugshots as well.
                     </Lead>
                   </Header>
                   <Tags>

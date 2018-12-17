@@ -453,6 +453,8 @@ export default function index() {
           <div>
             <Title>Recommendations</Title>
 
+            <Divider />
+
             <Recommendation>
               {({ Quote, Emphasis, Author, Link }) => (
                 <div>

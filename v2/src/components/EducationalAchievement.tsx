@@ -46,19 +46,12 @@ const Container = styled.div({
 });
 
 const Description = styled(P)({
-  display: 'inline',
-  fontStyle: 'italic',
-  fontWeight: 300,
-  color: 'rgba(0,0,0,0.786)',
+  opacity: 0.786,
   fontSize: minorScale.s,
   lineHeight: minorScale.m,
-  [breakpoints[0]]: {
+  [breakpoints[1]]: {
     fontSize: majorScale.s,
     lineHeight: majorScale.m
-  },
-  [breakpoints[1]]: {
-    fontSize: minorScale.m,
-    lineHeight: minorScale.l
   }
 });
 
@@ -68,8 +61,8 @@ const Emphasis = styled.strong({
   color: 'rgba(0,0,0,1)'
 });
 
-const Provenance = styled.cite({
-  display: 'inline',
+const Provenance = styled(P)({
+  display: 'block',
   fontWeight: 500,
   fontSize: minorScale.s,
   lineHeight: minorScale.m,

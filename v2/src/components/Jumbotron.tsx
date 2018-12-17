@@ -15,6 +15,19 @@ type Props = {
   children: (components: Components) => React.ReactNode;
 };
 
+const Container = styled(Section)({
+  marginBottom: majorScale.l,
+  [breakpoints[0]]: {
+    marginBottom: majorScale.l
+  },
+  [breakpoints[1]]: {
+    marginBottom: minorScale.xl
+  },
+  [breakpoints[2]]: {
+    marginBottom: minorScale.xxl
+  }
+});
+
 const Subtitle = styled(H2)({
   fontSize: majorScale.s,
   lineHeight: majorScale.s,
@@ -34,13 +47,13 @@ const Subtitle = styled(H2)({
 
 export default function Jumbotron(props: Props) {
   return (
-    <Section>
+    <Container>
       {props.children({
         Header: Section,
         Title: H1,
         Subtitle,
         Lead: P
       })}
-    </Section>
+    </Container>
   );
 }

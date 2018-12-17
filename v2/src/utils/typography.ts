@@ -2,6 +2,7 @@ import harmonic from 'harmonic';
 import 'normalize.css';
 import './typography/neue-haas-unica.css';
 import './typography/neue-haas-grotesk.css';
+import './typography/ibm-plex-mono.css';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/
 export const systemFontStack = [
@@ -18,6 +19,7 @@ export const systemFontStack = [
 ];
 export const bodyFontStack = ['neue-haas-unica', ...systemFontStack];
 export const headerFontStack = ['neue-haas-grotesk-display', ...systemFontStack];
+export const monospaceFontStack = ['ibm-plex-mono', 'monospace'];
 
 export const minorScale = {
   xs: `${harmonic(-2)}px`,

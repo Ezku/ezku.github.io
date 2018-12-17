@@ -341,106 +341,119 @@ export default function index() {
                 </div>
               )}
             </Subsection>
+          </div>
+        )}
+      </MainSection>
+
+      <MainSection>
+        {({ Title, Divider }) => (
+          <div>
+            <Title>
+              Samples from <a href="http://github.com/Ezku">GitHub</a>
+            </Title>
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
+                    </Title>
+                    <Lead>
+                      A functional lens-based library for querying and modifying JSON graphs.
+                    </Lead>
+                    <Lead>
+                      Solved the problem of manipulating complex incoming data to fit an evolving
+                      schema in a part of AppGyver Composer.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Functional Programming</Tag>
+                    <Tag>Property Based Testing</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
 
             <Divider />
 
-            <Section className="row">
-              <header className="col-md-4">
-                <H3>
-                  Samples from <a href="http://github.com/Ezku">GitHub</a>
-                </H3>
-              </header>
-              <div className="col-md-8">
-                <Section>
-                  <H4>
-                    <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
-                  </H4>
-                  <div className="row">
-                    <ul className="col-md-6">
-                      <li>
-                        A functional lens-based library for querying and modifying JSON graphs.
-                      </li>
-                      <li>
-                        Solved the problem of manipulating complex incoming data to fit an evolving
-                        schema in a part of AppGyver Composer.
-                      </li>
-                    </ul>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Functional Programming</li>
-                      <li>Property Based Testing</li>
-                    </ul>
-                  </div>
-                </Section>
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <a href="https://github.com/Ezku/nodeboard">Nodeboard</a>{' '}
+                      <Small>2011, 2014</Small>
+                    </Title>
+                    <Lead>
+                      Imageboard software that you can set up on Heroku with the press of a button.
+                    </Lead>
+                    <Lead>
+                      Originally built as{' '}
+                      <a href="https://github.com/Ezku/nodeboard#legacy">coursework</a>.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Node.js</Tag>
+                    <Tag>Heroku</Tag>
+                    <Tag>NoSQL</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
 
-                <Section>
-                  <H4>
-                    <a href="https://github.com/Ezku/nodeboard">Nodeboard</a>{' '}
-                    <Small>2011, 2014</Small>
-                  </H4>
-                  <div className="row">
-                    <ul className="col-md-6">
-                      <li>
-                        Imageboard software that you can set up on Heroku with the press of a
-                        button.
-                      </li>
-                      <li>
-                        Originally built as{' '}
-                        <a href="https://github.com/Ezku/nodeboard#legacy">coursework</a>.
-                      </li>
-                    </ul>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Node.js</li>
-                      <li>Heroku</li>
-                    </ul>
-                  </div>
-                </Section>
+            <Divider />
 
-                <Section>
-                  <H4>
-                    <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
-                  </H4>
-                  <div className="row">
-                    <ul className="col-md-6">
-                      <li>
-                        An open-source code sharing initiative in collaboration with other
-                        developers.
-                      </li>
-                      <li>
-                        My contributions included{' '}
-                        <a href="https://github.com/xi-project/xi-collections">Xi-Collections</a>,
-                        functional collections for PHP, and{' '}
-                        <a href="https://github.com/xi-project/zf-boilerplate">ZF-Boilerplate</a>,
-                        an opinionated package of conventions and libraries for Zend Framework 1
-                        development.
-                      </li>
-                    </ul>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Open Source</li>
-                      <li>Functional Programming</li>
-                      <li>Technical Writing</li>
-                      <li>Software Architecture</li>
-                      <li>Platform Building</li>
-                    </ul>
-                  </div>
-                </Section>
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
+                    </Title>
+                    <Lead>
+                      An open-source code sharing initiative in collaboration with other developers.
+                    </Lead>
+                    <Lead>
+                      My contributions included{' '}
+                      <a href="https://github.com/xi-project/xi-collections">Xi-Collections</a>,
+                      functional collections for PHP, and{' '}
+                      <a href="https://github.com/xi-project/zf-boilerplate">ZF-Boilerplate</a>, an
+                      opinionated package of conventions and libraries for Zend Framework 1
+                      development.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Open Source</Tag>
+                    <Tag>Functional Programming</Tag>
+                    <Tag>Technical Writing</Tag>
+                    <Tag>Software Architecture</Tag>
+                    <Tag>Platform Building</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
 
-                <Section>
-                  <H4>
-                    <a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>{' '}
-                    <Small>2010–2012</Small>
-                  </H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>An asynchronous dependency injection container for Node.js.</P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>CommonJS Promises</li>
-                      <li>Asynchronous Testing</li>
-                    </ul>
-                  </div>
-                </Section>
-              </div>
-            </Section>
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>{' '}
+                      <Small>2010–2012</Small>
+                    </Title>
+                    <Lead>An asynchronous dependency injection container for Node.js</Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>CommonJS Promises</Tag>
+                    <Tag>Asynchronous Testing</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
           </div>
         )}
       </MainSection>

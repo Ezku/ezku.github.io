@@ -120,5 +120,11 @@ export const Tag = styled.li({
     display: 'inline-block',
     content: '"#"',
     opacity: 0.618
+  },
+  fontSize: minorScale.s,
+  lineHeight: minorScale.s,
+  [breakpoints[1]]: {
+    fontSize: majorScale.s,
+    lineHeight: majorScale.s
   }
 });

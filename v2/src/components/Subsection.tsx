@@ -36,6 +36,16 @@ const Title = styled(H3)({
   }
 });
 
+const DescriptionLine = styled(P)({
+  opacity: 0.786,
+  fontSize: minorScale.s,
+  lineHeight: minorScale.m,
+  [breakpoints[1]]: {
+    fontSize: majorScale.s,
+    lineHeight: majorScale.m
+  }
+});
+
 export default function Subsection(props: Props) {
   return (
     <Section>
@@ -46,7 +56,7 @@ export default function Subsection(props: Props) {
         Description: styled.div({
           marginBottom: minorScale.s
         }),
-        DescriptionLine: P,
+        DescriptionLine,
         Tags: TagList,
         Tag: Tag
       })}

@@ -29,9 +29,13 @@ const Quote = styled(P)({
   color: 'rgba(0,0,0,0.786)',
   fontSize: minorScale.s,
   lineHeight: minorScale.m,
-  [breakpoints[1]]: {
+  [breakpoints[0]]: {
     fontSize: majorScale.s,
     lineHeight: majorScale.m
+  },
+  [breakpoints[1]]: {
+    fontSize: minorScale.m,
+    lineHeight: minorScale.l
   }
 });
 
@@ -44,8 +48,18 @@ const Emphasis = styled.strong({
 const Author = styled.cite({
   display: 'block',
   fontStyle: 'normal',
-  fontWeight: 500,
-  textAlign: 'right'
+  fontWeight: 700,
+  textAlign: 'right',
+  fontSize: minorScale.s,
+  lineHeight: minorScale.m,
+  [breakpoints[0]]: {
+    fontSize: majorScale.s,
+    lineHeight: majorScale.m
+  },
+  [breakpoints[1]]: {
+    fontSize: minorScale.m,
+    lineHeight: minorScale.l
+  }
 });
 
 const Link = styled.a({

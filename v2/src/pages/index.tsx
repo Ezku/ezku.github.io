@@ -596,64 +596,69 @@ export default function index() {
               )}
             </EducationalAchievement>
 
-            <Section className="row">
-              <header className="col-md-4">
-                <H3>Information Networks</H3>
-                <H4>Aalto University School of Science</H4>
-              </header>
-              <div className="col-md-8">
-                <Section>
-                  <H4>
+            <EducationalAchievement>
+              {({ Title, Description, Provenance, Tags, Tag }) => (
+                <div>
+                  <Title>
                     Master of Science studies <Small>2011–2013</Small>
-                  </H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        Majored in Business Networks, focusing on how knowledge intensive
-                        organizations work.
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Process Development</li>
-                      <li>Shaping Institutions</li>
-                    </ul>
-                  </div>
-                </Section>
+                  </Title>
+                  <Description>
+                    Majored in Business Networks, focusing on how knowledge intensive organizations
+                    work. Graduated with honours in 2017.
+                    <Provenance>
+                      Information Networks, Aalto University School of Science
+                    </Provenance>
+                  </Description>
+                  <Tags>
+                    <Tag>Process Development</Tag>
+                    <Tag>Shaping Institutions</Tag>
+                  </Tags>
+                </div>
+              )}
+            </EducationalAchievement>
 
-                <Section>
-                  <H4>
-                    Bachelor's thesis <Small>2011</Small>
-                  </H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        Scaling agile software development by applying software architecture
-                        practices
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Software Practices</li>
-                      <li>Agile</li>
-                    </ul>
-                  </div>
-                </Section>
+            <EducationalAchievement>
+              {({ Title, Link, Description, Provenance, Tags, Tag }) => (
+                <div>
+                  <Title>
+                    <Link href="https://aaltodoc.aalto.fi/handle/123456789/8722">
+                      Bachelor's thesis
+                    </Link>{' '}
+                    <Small>2011</Small>
+                  </Title>
+                  <Description>
+                    Scaling agile software development by applying software architecture practices
+                    <Provenance>
+                      Information Networks, Aalto University School of Science
+                    </Provenance>
+                  </Description>
+                  <Tags>
+                    <Tag>Software Practices</Tag>
+                    <Tag>Agile</Tag>
+                  </Tags>
+                </div>
+              )}
+            </EducationalAchievement>
 
-                <Section>
-                  <H4>
+            <EducationalAchievement>
+              {({ Title, Link, Description, Provenance, Tags, Tag }) => (
+                <div>
+                  <Title>
                     Bachelor of Science studies <Small>2008–2011</Small>
-                  </H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>Majored in Knowledge Intensive Business.</P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Knowledge Work</li>
-                      <li>User Centered Design</li>
-                    </ul>
-                  </div>
-                </Section>
-              </div>
-            </Section>
+                  </Title>
+                  <Description>
+                    Majored in Knowledge Intensive Business.
+                    <Provenance>
+                      Information Networks, Aalto University School of Science
+                    </Provenance>
+                  </Description>
+                  <Tags>
+                    <Tag>Knowledge Work</Tag>
+                    <Tag>User Centered Design</Tag>
+                  </Tags>
+                </div>
+              )}
+            </EducationalAchievement>
 
             <Divider />
             <Section className="row">

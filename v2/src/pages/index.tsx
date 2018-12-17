@@ -718,58 +718,67 @@ export default function index() {
           <div>
             <Title>Personal</Title>
 
-            <Section className="row">
-              <header className="col-md-4">
-                <H3>How do we fit?</H3>
-              </header>
-              <div className="col-md-8">
-                <Section className="row">
-                  <div className="col-md-6">
-                    <H4>In my work, I value&hellip;</H4>
-                  </div>
-                  <ul className="col-md-6 tagcloud">
-                    <li>Craftsmanship</li>
-                    <li>Continuous Learning</li>
-                    <li>Growing Together</li>
-                    <li>Nonviolence</li>
-                    <li>Empathy</li>
-                  </ul>
-                </Section>
+            <Divider />
 
-                <Section className="row">
-                  <div className="col-md-6">
-                    <H4>I hope your organization values&hellip;</H4>
-                  </div>
-                  <ul className="col-md-6 tagcloud">
-                    <li>Transparency</li>
-                    <li>Continuous Improvement</li>
-                    <li>Self-Organization</li>
-                    <li>Playfulness</li>
-                    <li>Open Source</li>
-                  </ul>
-                </Section>
-
-                <Section className="row">
-                  <div className="col-md-6">
-                    <H4>I love&hellip;</H4>
-                  </div>
-                  <ul className="col-md-6 tagcloud">
-                    <li>Functional Programming</li>
-                    <li>Problem Solving</li>
-                    <li>Working on Ideas</li>
-                    <li>Feedback</li>
-                    <li>Singing</li>
-                    <li>Science Fiction</li>
-                    <li>Photography</li>
-                    <li>
-                      Hugs <span className="glyphicon glyphicon-heart" />
-                    </li>
-                  </ul>
-                </Section>
-              </div>
-            </Section>
+            <Subsection>
+              {({ Header, Title, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>In my work, I value&hellip;</Title>
+                  </Header>
+                  <Tags>
+                    <Tag>Craftsmanship</Tag>
+                    <Tag>Continuous Learning</Tag>
+                    <Tag>Growing Together</Tag>
+                    <Tag>Nonviolence</Tag>
+                    <Tag>Empathy</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
 
             <Divider />
+
+            <Subsection>
+              {({ Header, Title, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>I hope your organization values&hellip;</Title>
+                  </Header>
+                  <Tags>
+                    <Tag>Transparency</Tag>
+                    <Tag>Continuous Improvement</Tag>
+                    <Tag>Self-Organization</Tag>
+                    <Tag>Playfulness</Tag>
+                    <Tag>Open Source</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
+
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>I love&hellip;</Title>
+                  </Header>
+                  <Tags>
+                    <Tag>Functional Programming</Tag>
+                    <Tag>Problem Solving</Tag>
+                    <Tag>Working on Ideas</Tag>
+                    <Tag>Feedback</Tag>
+                    <Tag>Singing</Tag>
+                    <Tag>Science Fiction</Tag>
+                    <Tag>Photography</Tag>
+                    <Tag>
+                      Hugs <span className="glyphicon glyphicon-heart" />
+                    </Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
           </div>
         )}
       </MainSection>

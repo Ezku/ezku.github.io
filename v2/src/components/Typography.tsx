@@ -1,6 +1,12 @@
 import styled from '@emotion/styled';
 
-import { bodyFontStack, headerFontStack, minorScale, majorScale } from '../utils/typography';
+import {
+  bodyFontStack,
+  headerFontStack,
+  monospaceFontStack,
+  minorScale,
+  majorScale
+} from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 
 export const Section = styled.section({
@@ -95,4 +101,24 @@ export const Hr = styled.hr({
 
 export const Abbr = styled.abbr({
   fontVariant: 'all-small-caps'
+});
+
+export const TagList = styled.ul({
+  listStyle: 'none',
+  margin: `0 -0.618rem ${minorScale.l} -0.618rem`,
+  padding: 0,
+  display: 'block'
+});
+
+export const Tag = styled.li({
+  display: 'inline-block',
+  margin: '0.618rem 0.618rem',
+  fontFamily: monospaceFontStack.join(', '),
+  fontStyle: 'italic',
+  fontWeight: 500,
+  ':before': {
+    display: 'inline-block',
+    content: '"#"',
+    opacity: 0.618
+  }
 });

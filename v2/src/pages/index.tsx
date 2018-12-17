@@ -361,11 +361,9 @@ export default function index() {
                       <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
                     </Title>
                     <Lead>
-                      A functional lens-based library for querying and modifying JSON graphs.
-                    </Lead>
-                    <Lead>
-                      Solved the problem of manipulating complex incoming data to fit an evolving
-                      schema in a part of AppGyver Composer.
+                      A library inspired by functional lenses for querying and modifying JSON
+                      graphs. Solved a problem having to do with manipulating complex incoming data
+                      to fit an evolving schema in a part of AppGyver Composer.
                     </Lead>
                   </Header>
                   <Tags>
@@ -388,10 +386,9 @@ export default function index() {
                     </Title>
                     <Lead>
                       Imageboard software that you can set up on Heroku with the press of a button.
-                    </Lead>
-                    <Lead>
                       Originally built as{' '}
-                      <a href="https://github.com/Ezku/nodeboard#legacy">coursework</a>.
+                      <a href="https://github.com/Ezku/nodeboard#legacy">coursework</a> to
+                      investigate "universal" JS in the early days of Node.js.
                     </Lead>
                   </Header>
                   <Tags>
@@ -414,21 +411,13 @@ export default function index() {
                     </Title>
                     <Lead>
                       An open-source code sharing initiative in collaboration with other developers.
-                    </Lead>
-                    <Lead>
-                      My contributions included{' '}
-                      <a href="https://github.com/xi-project/xi-collections">Xi-Collections</a>,
-                      functional collections for PHP, and{' '}
-                      <a href="https://github.com/xi-project/zf-boilerplate">ZF-Boilerplate</a>, an
-                      opinionated package of conventions and libraries for Zend Framework 1
-                      development.
+                      I contributed in both code and efforts to build up the initiative together
+                      with lead developers.
                     </Lead>
                   </Header>
                   <Tags>
                     <Tag>Open Source</Tag>
-                    <Tag>Functional Programming</Tag>
                     <Tag>Technical Writing</Tag>
-                    <Tag>Software Architecture</Tag>
                     <Tag>Platform Building</Tag>
                   </Tags>
                 </div>

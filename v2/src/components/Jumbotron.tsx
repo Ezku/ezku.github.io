@@ -29,6 +29,7 @@ const Container = styled(Section)({
 });
 
 const Subtitle = styled(H2)({
+  opacity: 0.786,
   fontSize: majorScale.s,
   lineHeight: majorScale.s,
   [breakpoints[0]]: {

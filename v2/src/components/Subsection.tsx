@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
 import { Section, H3, P, TagList, Tag } from './Typography';
-import { minorScale } from '../utils/typography';
+import { minorScale, majorScale } from '../utils/typography';
+import { breakpoints } from '../utils/layout';
 
 type Components = {
   Header: React.FunctionComponent<any>;
@@ -15,12 +16,32 @@ type Components = {
 type Props = {
   children: (components: Components) => React.ReactNode;
 };
+
+const Title = styled(H3)({
+  opacity: 0.786,
+  fontWeight: 700,
+  fontSize: majorScale.s,
+  lineHeight: majorScale.s,
+  [breakpoints[0]]: {
+    fontSize: minorScale.m,
+    lineHeight: minorScale.m
+  },
+  [breakpoints[1]]: {
+    fontSize: minorScale.l,
+    lineHeight: minorScale.l
+  },
+  [breakpoints[2]]: {
+    fontSize: majorScale.l,
+    lineHeight: majorScale.l
+  }
+});
+
 export default function Subsection(props: Props) {
   return (
     <Section>
       {props.children({
         Header: styled.header({}),
-        Title: H3,
+        Title: Title,
         Lead: P,
         Description: styled.div({
           marginBottom: minorScale.s

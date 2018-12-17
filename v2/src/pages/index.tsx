@@ -7,6 +7,7 @@ import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';
 import Profile from '../components/Profile';
 import Recommendation from '../components/Recommendation';
+import EducationalAchievement from '../components/EducationalAchievement';
 
 export default function index() {
   return (
@@ -569,6 +570,31 @@ export default function index() {
         {({ Title, Divider }) => (
           <div>
             <Title>Education</Title>
+            <Divider />
+
+            <EducationalAchievement>
+              {({ Title, Description, Provenance, Link, Tags, Tag }) => (
+                <div>
+                  <Title>
+                    <Link href="https://aaltodoc.aalto.fi/handle/123456789/23956">
+                      Master's thesis
+                    </Link>{' '}
+                    <Small>2016–2017</Small>
+                  </Title>
+                  <Description>
+                    What exactly is the use of dailies: A practice-based perspective on continuous
+                    improvement in software development.{' '}
+                    <Provenance>
+                      Information Networks, Aalto University School of Science
+                    </Provenance>
+                  </Description>
+                  <Tags>
+                    <Tag>Continuous Improvement</Tag>
+                    <Tag>Social Innovation</Tag>
+                  </Tags>
+                </div>
+              )}
+            </EducationalAchievement>
 
             <Section className="row">
               <header className="col-md-4">
@@ -576,24 +602,6 @@ export default function index() {
                 <H4>Aalto University School of Science</H4>
               </header>
               <div className="col-md-8">
-                <Section>
-                  <H4>
-                    Master's thesis <Small>2016–2017</Small>
-                  </H4>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <P>
-                        What exactly is the use of dailies: A practice-based perspective on
-                        continuous improvement in software development
-                      </P>
-                    </div>
-                    <ul className="col-md-6 tagcloud">
-                      <li>Continuous Improvement</li>
-                      <li>Social Innovation</li>
-                    </ul>
-                  </div>
-                </Section>
-
                 <Section>
                   <H4>
                     Master of Science studies <Small>2011–2013</Small>

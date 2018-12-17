@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Container } from '../components/Layout';
-import { Section, H3, H4, Small, P, Abbr } from '../components/Typography';
+import { Small, Abbr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';

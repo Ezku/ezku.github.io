@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { Section, P } from './Typography';
+import { P } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 

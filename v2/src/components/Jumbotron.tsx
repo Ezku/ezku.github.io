@@ -10,6 +10,7 @@ type Components = {
   Title: React.FunctionComponent;
   Subtitle: React.FunctionComponent;
   Lead: React.FunctionComponent;
+  Aside: React.FunctionComponent;
 };
 
 type Props = {
@@ -54,7 +55,19 @@ export default function Jumbotron(props: Props) {
         Header: Section,
         Title: H1,
         Subtitle,
-        Lead: P
+        Lead: P,
+        Aside: styled(H2.withComponent('aside'))({
+          fontSize: majorScale.s,
+          lineHeight: majorScale.s,
+          [breakpoints[0]]: {
+            fontSize: minorScale.m,
+            lineHeight: minorScale.m
+          },
+          [breakpoints[1]]: {
+            fontSize: minorScale.l,
+            lineHeight: minorScale.l
+          }
+        })
       })}
     </Container>
   );

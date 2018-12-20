@@ -14,7 +14,7 @@ export default function index() {
     <Container>
       <PageStyles />
       <Jumbotron>
-        {({ Header, Title, Subtitle, Lead }) => (
+        {({ Header, Title, Subtitle, Lead, Aside }) => (
           <div>
             <Header>
               <Subtitle>Hi, I'm</Subtitle>
@@ -33,13 +33,12 @@ export default function index() {
               workflows and applying service design thinking to creating solutions. I'll support
               your performance with methodology insight and by finding ways to do things better.
             </Lead>
-
-            <Lead>
-              <A className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
-                Yes, that's exactly who we need!{' '}
-                <span className="glyphicon glyphicon-chevron-right" />
+            <Aside>
+              Sounds like exactly what you need?{' '}
+              <A className="btn btn-lg btn-primary" href="#contact">
+                Skip the intros, cut to the chase &raquo;&raquo;
               </A>
-            </Lead>
+            </Aside>
           </div>
         )}
       </Jumbotron>
@@ -818,7 +817,7 @@ export default function index() {
 
       <Profile>
         {({ Header, Image, Title, Subtitle, Lead }) => (
-          <div>
+          <div id="contact">
             <Header>
               <Image src={require('./index/ezku-1024.jpg')} />
               <Title>So, that's me.</Title>

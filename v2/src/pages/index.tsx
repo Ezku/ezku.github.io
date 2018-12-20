@@ -361,18 +361,44 @@ export default function index() {
                 <div>
                   <Header>
                     <Title>
-                      <Link href="https://github.com/Ezku/agson">Agson</Link>{' '}
-                      <Small>2014–2015</Small>
+                      <Link href="https://github.com/Ezku/prerenderer-cli">prerenderer-cli</Link>{' '}
+                      <Small>2018</Small>
                     </Title>
                     <Lead>
-                      A library inspired by functional lenses for querying and modifying JSON
-                      graphs. Solved a problem having to do with manipulating complex incoming data
-                      to fit an evolving schema in a part of AppGyver Composer.
+                      A command line tool for prerendering static sites without Server-Side
+                      Rendering
                     </Lead>
                   </Header>
                   <Tags>
-                    <Tag>Functional Programming</Tag>
-                    <Tag>Property Based Testing</Tag>
+                    <Tag>Developer Experience</Tag>
+                    <Tag>Static Deployments</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
+
+            <Divider />
+
+            <Subsection>
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <Link href="https://github.com/Ezku/supersonic">Supersonic</Link>{' '}
+                      <Small>2014-2016</Small>
+                    </Title>
+                    <Lead>
+                      Supersonic is a JS library built for developer-friendly access to features in
+                      the{' '}
+                      <A href="http://www.appgyver.io/supersonic">
+                        AppGyver Supersonic developer platform
+                      </A>
+                      . These include cloud data and native device APIs.
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Developer Experience</Tag>
+                    <Tag>Hybrid Mobile Development</Tag>
                   </Tags>
                 </div>
               )}

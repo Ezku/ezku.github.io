@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Section, H1, H2, P } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
+import * as colors from '../utils/colors';
 
 type Components = {
   Header: React.FunctionComponent;
@@ -29,7 +30,7 @@ const Container = styled(Section)({
 });
 
 const Subtitle = styled(H2)({
-  opacity: 0.786,
+  color: colors.blacks[1],
   fontSize: majorScale.s,
   lineHeight: majorScale.s,
   [breakpoints[0]]: {

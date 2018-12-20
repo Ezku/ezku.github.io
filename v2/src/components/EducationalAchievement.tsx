@@ -3,6 +3,7 @@ import * as React from 'react';
 import { H3, P, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
+import * as colors from '../utils/colors';
 
 type Components = {
   Title: React.FunctionComponent<any>;
@@ -18,7 +19,7 @@ type Props = {
 };
 
 const Title = styled(H3)({
-  opacity: 0.786,
+  color: colors.blacks[1],
   fontWeight: 700,
   fontSize: minorScale.m,
   lineHeight: minorScale.m,
@@ -46,7 +47,7 @@ const Container = styled.div({
 });
 
 const Description = styled(P)({
-  opacity: 0.786,
+  color: colors.blacks[1],
   fontSize: minorScale.s,
   lineHeight: minorScale.m,
   [breakpoints[1]]: {

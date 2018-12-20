@@ -14,25 +14,35 @@ export default function index() {
     <Container>
       <PageStyles />
       <Jumbotron>
-        {({ Header, Title, Subtitle, Lead, Aside }) => (
+        {({ Header, Title, Subtitle, Lead, Aside, Tags, Tag }) => (
           <div>
             <Header>
               <Subtitle>Hi, I'm</Subtitle>
               <Title>Eevert Saukkokoski,</Title>
-              <Subtitle>software craftsman.</Subtitle>
+              <Subtitle>Full Stack Developer, Facilitator and Methodology Coach</Subtitle>
             </Header>
 
             <Lead>
-              <strong>Are you looking for someone to wear many hats?</strong> You want a developer
-              who can craft quality software. Someone who can create digital services with users and
-              business in mind. A generalist with deep technical skills and an eye for improvement.
+              I build things for the web. I'm known for being able to craft digital services with
+              users and business in mind. I love learning about new things, solving problems and
+              helping find ways to do things better. They tell me I'm buzzword-compliant, too. Here
+              are a few, pick yours:
             </Lead>
-            <Lead>
-              <strong>You're looking for someone like me.</strong> I can help you build reactive,
-              scalable applications with modern tools and practices. I'm familiar with lean
-              workflows and applying service design thinking to creating solutions. I'll support
-              your performance with methodology insight and by finding ways to do things better.
-            </Lead>
+            <Tags>
+              <Tag>lean</Tag>
+              <Tag>kanban</Tag>
+              <Tag>servicedesign</Tag>
+              <Tag>xp</Tag>
+              <Tag>ci</Tag>
+              <Tag>cd</Tag>
+              <Tag>fp</Tag>
+              <Tag>oss</Tag>
+              <Tag>nodejs</Tag>
+              <Tag>react</Tag>
+              <Tag>docker</Tag>
+              <Tag>devops</Tag>
+              <Tag>fullstack</Tag>
+            </Tags>
             <Aside>
               Sounds like exactly what you need?{' '}
               <A className="btn btn-lg btn-primary" href="#contact">

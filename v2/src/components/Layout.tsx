@@ -4,12 +4,13 @@ import styled from '@emotion/styled';
 
 import { Section } from './Typography';
 import { minorScale } from '../utils/typography';
+import * as colors from '../utils/colors';
 
 export const PageStyles = () => (
   <Global
     styles={{
       '#content': {
-        background: 'rgba(0,5,10,0.01)'
+        background: colors.whites[0]
       }
     }}
   />

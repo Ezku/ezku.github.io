@@ -3,6 +3,7 @@ import * as React from 'react';
 import { P } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
+import * as colors from '../utils/colors';
 
 type Components = {
   Quote: React.FunctionComponent<any>;
@@ -26,7 +27,7 @@ const Container = styled.blockquote({
 const Quote = styled(P)({
   fontStyle: 'italic',
   fontWeight: 300,
-  color: 'rgba(0,0,0,0.786)',
+  color: colors.blacks[1],
   fontSize: minorScale.s,
   lineHeight: minorScale.m,
   [breakpoints[0]]: {
@@ -42,7 +43,7 @@ const Quote = styled(P)({
 const Emphasis = styled.strong({
   fontStyle: 'italic',
   fontWeight: 500,
-  color: 'rgba(0,0,0,1)'
+  color: colors.blacks[0]
 });
 
 const Author = styled.cite({

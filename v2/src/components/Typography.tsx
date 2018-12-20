@@ -88,6 +88,7 @@ export const P = styled.p({
   fontSize: majorScale.s,
   lineHeight: majorScale.m,
   [breakpoints[1]]: {
+    marginBottom: minorScale.m,
     fontSize: minorScale.m,
     lineHeight: minorScale.l
   }

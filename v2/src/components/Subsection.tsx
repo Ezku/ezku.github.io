@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { Section, H3, P, TagList, Tag } from './Typography';
+import { Section, H3, P, A, TagList, Tag } from './Typography';
 import { minorScale, majorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
@@ -8,6 +8,7 @@ import * as colors from '../utils/colors';
 type Components = {
   Header: React.FunctionComponent<any>;
   Title: React.FunctionComponent<any>;
+  Link: React.FunctionComponent<any>;
   Lead: React.FunctionComponent<any>;
   Description: React.FunctionComponent<any>;
   DescriptionLine: React.FunctionComponent<any>;
@@ -53,6 +54,9 @@ export default function Subsection(props: Props) {
       {props.children({
         Header: styled.header({}),
         Title: Title,
+        Link: styled(A)({
+          color: colors.blues[1]
+        }),
         Lead: P,
         Description: styled.div({
           marginBottom: minorScale.s

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { P } from './Typography';
+import { P, A } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
@@ -63,7 +63,7 @@ const Author = styled.cite({
   }
 });
 
-const Link = styled.a({
+const Link = styled(A)({
   display: 'block'
 });
 

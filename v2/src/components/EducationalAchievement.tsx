@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { H3, P, TagList, Tag } from './Typography';
+import { H3, P, A, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
@@ -77,7 +77,9 @@ const Provenance = styled(P)({
   }
 });
 
-const Link = styled.a({});
+const Link = styled(A)({
+  color: colors.blues[1]
+});
 
 export default function EducationalAchievement(props: Props) {
   return (

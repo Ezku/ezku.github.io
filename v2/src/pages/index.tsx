@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Container, PageStyles } from '../components/Layout';
-import { Small, Abbr } from '../components/Typography';
+import { A, Small, Abbr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
 import Subsection from '../components/Subsection';
@@ -35,10 +35,10 @@ export default function index() {
             </Lead>
 
             <Lead>
-              <a className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
+              <A className="btn btn-lg btn-primary" href="#contact" title="Scroll down to the beef">
                 Yes, that's exactly who we need!{' '}
                 <span className="glyphicon glyphicon-chevron-right" />
-              </a>
+              </A>
             </Lead>
           </div>
         )}
@@ -51,11 +51,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="https://www.venuu.fi">Venuu</a> <Small>2016–2018</Small>
+                      <Link href="https://www.venuu.fi">Venuu</Link> <Small>2016–2018</Small>
                     </Title>
                     <Lead>
                       <strong>Full stack developer</strong> on a <Abbr>B2B2C</Abbr> marketplace
@@ -102,11 +102,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="http://www.appgyver.com">AppGyver</a> <Small>2013–2016</Small>
+                      <Link href="http://www.appgyver.com">AppGyver</Link> <Small>2013–2016</Small>
                     </Title>
                     <Lead>
                       <strong>Platform developer</strong> for hybrid mobile application tooling and{' '}
@@ -116,16 +116,16 @@ export default function index() {
                   <Description>
                     <DescriptionLine>
                       Led the development for and architected{' '}
-                      <a href="http://www.appgyver.io/supersonic">Supersonic</a>, a library for
+                      <A href="http://www.appgyver.io/supersonic">Supersonic</A>, a library for
                       building HTML5 hybrid applications on the AppGyver platform.
                     </DescriptionLine>
                     <DescriptionLine>
-                      Authored <a href="http://www.appgyver.io/supersonic/data">Supersonic Data</a>,
+                      Authored <A href="http://www.appgyver.io/supersonic/data">Supersonic Data</A>,
                       a data access layer for AppGyver Cloud.
                     </DescriptionLine>
                     <DescriptionLine>
                       Co-developed architecture and individual modules for{' '}
-                      <a href="http://composer2.appgyver.com/">AppGyver Composer</a>, a visual tool
+                      <A href="http://composer2.appgyver.com/">AppGyver Composer</A>, a visual tool
                       for building business applications.
                     </DescriptionLine>
                     <DescriptionLine>
@@ -161,11 +161,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="http://www.futurice.com">Futurice</a> <Small>2013/5–9</Small>
+                      <Link href="http://www.futurice.com">Futurice</Link> <Small>2013/5–9</Small>
                     </Title>
                     <Lead>
                       <strong>Software craftsman</strong> and IT consultant for medium-sized to
@@ -250,11 +250,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="http://reaktor.fi">Reaktor</a> <Small>2012/5–8</Small>
+                      <Link href="http://reaktor.fi">Reaktor</Link> <Small>2012/5–8</Small>
                     </Title>
                     <Lead>
                       <strong>Software developer</strong> and IT consultant for large domestic and
@@ -295,11 +295,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Description, DescriptionLine, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="http://soprano.fi">Soprano</a> <Small>2006–2012</Small>
+                      <Link href="http://soprano.fi">Soprano</Link> <Small>2006–2012</Small>
                     </Title>
                     <Lead>
                       <strong>Software architect</strong> and <strong>agile evangelist</strong> in a
@@ -352,16 +352,17 @@ export default function index() {
         {({ Title, Divider }) => (
           <div>
             <Title>
-              Samples from <a href="http://github.com/Ezku">GitHub</a>
+              Samples from <A href="http://github.com/Ezku">GitHub</A>
             </Title>
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="https://github.com/Ezku/agson">Agson</a> <Small>2014–2015</Small>
+                      <Link href="https://github.com/Ezku/agson">Agson</Link>{' '}
+                      <Small>2014–2015</Small>
                     </Title>
                     <Lead>
                       A library inspired by functional lenses for querying and modifying JSON
@@ -380,17 +381,17 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="https://github.com/Ezku/nodeboard">Nodeboard</a>{' '}
+                      <Link href="https://github.com/Ezku/nodeboard">Nodeboard</Link>{' '}
                       <Small>2011, 2014</Small>
                     </Title>
                     <Lead>
                       Imageboard software that you can set up on Heroku with the press of a button.
                       Originally built as{' '}
-                      <a href="https://github.com/Ezku/nodeboard#legacy">coursework</a> to
+                      <A href="https://github.com/Ezku/nodeboard#legacy">coursework</A> to
                       investigate "universal" JS in the early days of Node.js.
                     </Lead>
                   </Header>
@@ -406,11 +407,12 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="https://xi-project.github.io">Xi Project</a> <Small>2011–2012</Small>
+                      <Link href="https://xi-project.github.io">Xi Project</Link>{' '}
+                      <Small>2011–2012</Small>
                     </Title>
                     <Lead>
                       An open-source initiative in collaboration with lead developers at my
@@ -430,11 +432,11 @@ export default function index() {
             <Divider />
 
             <Subsection>
-              {({ Header, Title, Lead, Tags, Tag }) => (
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
                 <div>
                   <Header>
                     <Title>
-                      <a href="https://github.com/Ezku/coffee-injector">Coffee-Injector</a>{' '}
+                      <Link href="https://github.com/Ezku/coffee-injector">Coffee-Injector</Link>{' '}
                       <Small>2010–2012</Small>
                     </Title>
                     <Lead>An asynchronous dependency injection container for Node.js</Lead>
@@ -674,7 +676,7 @@ export default function index() {
                     <Title>Playwriting</Title>
                     <Lead>
                       Co-wrote the script for{' '}
-                      <a href="http://www.teekkarispeksi.fi">Teekkarispeksi</a> 2015. Teekkarispeksi
+                      <A href="http://www.teekkarispeksi.fi">Teekkarispeksi</A> 2015. Teekkarispeksi
                       is a large-scale student theatre production with approximately 200 volunteer
                       participants each year.
                     </Lead>
@@ -696,7 +698,7 @@ export default function index() {
                     <Title>Songwriting</Title>
                     <Lead>
                       Served as toastmaster for the Information Networks' student guild,{' '}
-                      <a href="http://www.athene.fi">Athene</a>, in 2011-2013. My duties were to
+                      <A href="http://www.athene.fi">Athene</A>, in 2011-2013. My duties were to
                       serve as master of ceremony and first singer in academic dinner parties with
                       dozens to over a hundred guests. Since that time I've come to be known for
                       writing numerous songs, some of which are part of the canonical Aalto
@@ -794,7 +796,7 @@ export default function index() {
             <Profile>
               {({ Image, Tagline }) => (
                 <Tagline>
-                  <a
+                  <A
                     className="btn btn-lg btn-success"
                     href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
                     title="Shoot me a message"
@@ -802,21 +804,21 @@ export default function index() {
                     <Image src={require('./index/ezku-1024.jpg')} />
                     Shoot me a message
                     <span className="glyphicon glyphicon-send" />
-                  </a>
+                  </A>
                 </Tagline>
               )}
             </Profile>
             <Lead>
-              Follow <a href="http://twitter.com/Ezku">@Ezku</a> on Twitter
+              Follow <A href="http://twitter.com/Ezku">@Ezku</A> on Twitter
             </Lead>
             <Lead>
-              Check out <a href="http://github.com/Ezku">Ezku</a> on GitHub
+              Check out <A href="http://github.com/Ezku">Ezku</A> on GitHub
             </Lead>
             <Lead>
               Connect with{' '}
-              <a href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">
+              <A href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">
                 Eevert Saukkokoski
-              </a>{' '}
+              </A>{' '}
               on LinkedIn
             </Lead>
           </div>

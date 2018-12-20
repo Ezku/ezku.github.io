@@ -8,6 +8,7 @@ import {
   majorScale
 } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
+import * as colors from '../utils/colors';
 
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),
@@ -89,6 +90,16 @@ export const P = styled.p({
   [breakpoints[1]]: {
     fontSize: minorScale.m,
     lineHeight: minorScale.l
+  }
+});
+
+export const A = styled.a({
+  color: colors.blues[0],
+  ':hover': {
+    color: colors.blues[0]
+  },
+  ':visited': {
+    color: colors.blues[0]
   }
 });
 

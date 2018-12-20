@@ -121,8 +121,8 @@ export const Tag = styled.li({
     content: '"#"',
     opacity: 0.618
   },
-  letterSpacing: '-0.0625em',
-  wordSpacing: '-0.4375em',
+  letterSpacing: '-0.031255em',
+  wordSpacing: '-0.21875em',
   fontSize: minorScale.s,
   lineHeight: minorScale.s,
   [breakpoints[1]]: {

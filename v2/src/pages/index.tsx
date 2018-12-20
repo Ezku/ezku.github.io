@@ -786,44 +786,30 @@ export default function index() {
         )}
       </MainSection>
 
-      <Jumbotron>
-        {({ Header, Title, Subtitle, Lead }) => (
+      <Profile>
+        {({ Header, Image, Title, Subtitle, Lead }) => (
           <div>
             <Header>
+              <Image src={require('./index/ezku-1024.jpg')} />
               <Title>So, that's me.</Title>
-              <Subtitle>Let's talk about what we could do together.</Subtitle>
+              <Subtitle>
+                <A
+                  className="btn btn-lg btn-success"
+                  href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
+                  title="Shoot me a message"
+                >
+                  What could we do together?
+                </A>
+              </Subtitle>
             </Header>
-            <Profile>
-              {({ Image, Tagline }) => (
-                <Tagline>
-                  <A
-                    className="btn btn-lg btn-success"
-                    href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
-                    title="Shoot me a message"
-                  >
-                    <Image src={require('./index/ezku-1024.jpg')} />
-                    Shoot me a message
-                    <span className="glyphicon glyphicon-send" />
-                  </A>
-                </Tagline>
-              )}
-            </Profile>
             <Lead>
-              Follow <A href="http://twitter.com/Ezku">@Ezku</A> on Twitter
-            </Lead>
-            <Lead>
-              Check out <A href="http://github.com/Ezku">Ezku</A> on GitHub
-            </Lead>
-            <Lead>
-              Connect with{' '}
-              <A href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">
-                Eevert Saukkokoski
-              </A>{' '}
-              on LinkedIn
+              <A href="http://twitter.com/Ezku">Twitter</A> /{' '}
+              <A href="http://github.com/Ezku">Github</A> /{' '}
+              <A href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">LinkedIn</A>
             </Lead>
           </div>
         )}
-      </Jumbotron>
+      </Profile>
     </Container>
   );
 }

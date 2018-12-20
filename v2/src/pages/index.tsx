@@ -457,26 +457,6 @@ export default function index() {
                 </div>
               )}
             </Subsection>
-
-            <Divider />
-
-            <Subsection>
-              {({ Header, Title, Link, Lead, Tags, Tag }) => (
-                <div>
-                  <Header>
-                    <Title>
-                      <Link href="https://github.com/Ezku/coffee-injector">Coffee-Injector</Link>{' '}
-                      <Small>2010–2012</Small>
-                    </Title>
-                    <Lead>An asynchronous dependency injection container for Node.js</Lead>
-                  </Header>
-                  <Tags>
-                    <Tag>CommonJS Promises</Tag>
-                    <Tag>Asynchronous Testing</Tag>
-                  </Tags>
-                </div>
-              )}
-            </Subsection>
           </div>
         )}
       </MainSection>

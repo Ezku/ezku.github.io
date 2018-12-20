@@ -418,7 +418,11 @@ export default function index() {
                       Imageboard software that you can set up on Heroku with the press of a button.
                       Originally built as{' '}
                       <A href="https://github.com/Ezku/nodeboard#legacy">coursework</A> to
-                      investigate "universal" JS in the early days of Node.js.
+                      investigate{' '}
+                      <A href="https://medium.com/@ghengeveld/isomorphism-vs-universal-javascript-4b47fb481beb">
+                        "isomorphic"
+                      </A>{' '}
+                      JS in the early days of Node.js.
                     </Lead>
                   </Header>
                   <Tags>

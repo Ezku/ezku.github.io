@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { Section, H1, H2, P, TagList, Tag } from './Typography';
+import { Header, Section, H1, H2, P, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
@@ -54,7 +54,7 @@ export default function Jumbotron(props: Props) {
   return (
     <Container>
       {props.children({
-        Header: Section,
+        Header,
         Title: H1,
         Subtitle,
         Lead: P,

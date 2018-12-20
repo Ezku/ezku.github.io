@@ -10,6 +10,23 @@ import {
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
 
+export const Header = styled.header({
+  fontFamily: headerFontStack.join(', '),
+  marginTop: 0,
+  fontSize: minorScale.s,
+  lineHeight: minorScale.m,
+  marginBottom: minorScale.s,
+  [breakpoints[0]]: {
+    marginBottom: minorScale.m
+  },
+  [breakpoints[1]]: {
+    marginBottom: minorScale.l
+  },
+  [breakpoints[2]]: {
+    marginBottom: minorScale.xl
+  }
+});
+
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),
   marginTop: 0,

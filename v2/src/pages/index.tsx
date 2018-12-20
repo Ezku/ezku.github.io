@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Container } from '../components/Layout';
+import { Container, PageStyles } from '../components/Layout';
 import { Small, Abbr } from '../components/Typography';
 import Jumbotron from '../components/Jumbotron';
 import MainSection from '../components/MainSection';
@@ -12,6 +12,7 @@ import EducationalAchievement from '../components/EducationalAchievement';
 export default function index() {
   return (
     <Container>
+      <PageStyles />
       <Jumbotron>
         {({ Header, Title, Subtitle, Lead }) => (
           <div>

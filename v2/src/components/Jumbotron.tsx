@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Header, Section, H1, H2, P, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
-import * as colors from '../utils/colors';
 import makeStyled from '../utils/makeStyled';
 
 type Components = {
@@ -33,7 +32,7 @@ const Container = styled(Section)({
   }
 });
 
-const Subtitle = makeStyled(({ fontSizeScale, harmonic, spacing }) =>
+const Subtitle = makeStyled(({ fontSizeScale, harmonic, spacing, colors }) =>
   styled(H2)(
     {
       color: colors.blacks[1]

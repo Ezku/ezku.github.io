@@ -7,6 +7,7 @@ import {
   monospaceFontStack
 } from './typography';
 import { harmonic } from './units';
+import * as colors from './colors';
 
 // Fake an opaque type by tagging with a phantom tag type
 type Tagged<T, Tag> = T & { _: Tag };
@@ -20,6 +21,7 @@ type PropsForStyled = {
   spacing: typeof spacing;
   fontSizeScale: typeof fontSizeScale;
   harmonic: typeof harmonic;
+  colors: typeof colors;
 };
 
 const headerFont = headerFontStack.join(', ') as FontFamily;
@@ -34,6 +36,7 @@ const makeStyled = <A>(f: (props: PropsForStyled) => A): A =>
     monospaceFont,
     spacing,
     fontSizeScale,
-    harmonic
+    harmonic,
+    colors
   });
 export default makeStyled;

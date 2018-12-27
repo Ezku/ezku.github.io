@@ -4,7 +4,7 @@ import { Header, Section, H1, H2, P, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
-import { makeStyled } from '../utils/typography';
+import makeStyled from '../utils/makeStyled';
 
 type Components = {
   Header: React.FunctionComponent;

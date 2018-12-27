@@ -5,11 +5,11 @@ import {
   headerFontStack,
   monospaceFontStack,
   minorScale,
-  majorScale,
-  makeStyled
+  majorScale
 } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
+import makeStyled from '../utils/makeStyled';
 
 export const Header = styled.header({
   fontFamily: headerFontStack.join(', '),

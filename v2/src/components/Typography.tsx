@@ -5,7 +5,8 @@ import {
   headerFontStack,
   monospaceFontStack,
   minorScale,
-  majorScale
+  majorScale,
+  makeStyled
 } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
@@ -44,25 +45,16 @@ export const Section = styled.section({
   }
 });
 
-export const H1 = styled.h1({
-  fontFamily: headerFontStack.join(', '),
-  fontWeight: 700,
-  margin: 0,
-  fontSize: majorScale.m,
-  lineHeight: majorScale.m,
-  [breakpoints[0]]: {
-    fontSize: minorScale.l,
-    lineHeight: minorScale.l
-  },
-  [breakpoints[1]]: {
-    fontSize: minorScale.xl,
-    lineHeight: minorScale.xl
-  },
-  [breakpoints[2]]: {
-    fontSize: majorScale.xl,
-    lineHeight: majorScale.xl
-  }
-});
+export const H1 = makeStyled(({ headerFont, fontSizeScale, harmonic, spacing }) =>
+  styled.h1(
+    {
+      fontFamily: headerFont,
+      fontWeight: 700,
+      margin: 0
+    },
+    fontSizeScale(harmonic(3), spacing.single)
+  )
+);
 
 export const H2 = styled.h2({
   fontFamily: headerFontStack.join(', '),

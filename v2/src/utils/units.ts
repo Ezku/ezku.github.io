@@ -1,28 +1,27 @@
-import harmonic from 'harmonic';
+import h from 'harmonic';
 
-type MakeUnit<A> = (value: number) => Unit<A>;
-type Unit<A> = {
+export type Unit<A> = {
   value: number;
   toString: () => string;
   map: (f: (value: number) => number) => Unit<A>;
-  flatMap: <B>(f: (value: number) => Unit<B>) => Unit<B>;
 };
+type MakeUnit<A> = (value: number) => Unit<A>;
 
 export const pixels: MakeUnit<'px'> = (value: number) => ({
   value,
   toString: () => `${value}px`,
-  map: f => pixels(f(value)),
-  flatMap: f => f(value)
+  map: f => pixels(f(value))
 });
 
-export const scale = {
-  [-2]: pixels(harmonic(-2)),
-  [-1]: pixels(harmonic(-1)),
-  [0]: pixels(harmonic(0)),
-  [1]: pixels(harmonic(1)),
-  [2]: pixels(harmonic(2)),
-  [3]: pixels(harmonic(3)),
-  [4]: pixels(harmonic(4)),
-  [5]: pixels(harmonic(5)),
-  [6]: pixels(harmonic(6))
+export type Harmonic = {
+  value: number;
+  toString: () => string;
+  map: (f: (value: number) => number) => Harmonic;
+  toPixels: () => Unit<'px'>;
 };
+export const harmonic = (value: number) => ({
+  value,
+  toString: () => `${h(value)}px`,
+  map: (f: (v: number) => number) => harmonic(f(value)),
+  toPixels: () => pixels(h(value))
+});

@@ -13,22 +13,24 @@ import * as colors from './colors';
 type Tagged<T, Tag> = T & { _: Tag };
 export type FontFamily = Tagged<string, 'FontFamily'>;
 
-type PropsForStyled = {
-  styled: typeof styled;
+type DesignAtoms = {
   headerFont: FontFamily;
   bodyFont: FontFamily;
   monospaceFont: FontFamily;
+  colors: typeof colors;
+};
+type DesignHelpers = {
+  styled: typeof styled;
   spacing: typeof spacing;
   fontSizeScale: typeof fontSizeScale;
   harmonic: typeof harmonic;
-  colors: typeof colors;
-};
+}
 
 const headerFont = headerFontStack.join(', ') as FontFamily;
 const bodyFont = bodyFontStack.join(', ') as FontFamily;
 const monospaceFont = monospaceFontStack.join(', ') as FontFamily;
 
-const makeStyled = <A>(f: (props: PropsForStyled) => A): A =>
+const makeStyled = <A>(f: (atomsAndHelpers: DesignAtoms & DesignHelpers) => A): A =>
   f({
     styled,
     headerFont,

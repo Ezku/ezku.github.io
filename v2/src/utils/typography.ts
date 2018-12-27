@@ -1,3 +1,4 @@
+import h from 'harmonic';
 import styled from '@emotion/styled';
 import 'normalize.css';
 import './typography/neue-haas-unica.css';
@@ -59,20 +60,20 @@ export const fontSizeScale = (metric: Harmonic, s: Spacing = spacing.onehalf) =>
 });
 
 export const minorScale = {
-  xs: `${harmonic(-2)}px`,
-  s: `${harmonic(0)}px`,
-  m: `${harmonic(2)}px`,
-  l: `${harmonic(4)}px`,
-  xl: `${harmonic(6)}px`,
-  xxl: `${harmonic(8)}px`
+  xs: `${h(-2)}px`,
+  s: `${h(0)}px`,
+  m: `${h(2)}px`,
+  l: `${h(4)}px`,
+  xl: `${h(6)}px`,
+  xxl: `${h(8)}px`
 };
 
 export const majorScale = {
-  xs: `${harmonic(-1)}px`,
-  s: `${harmonic(1)}px`,
-  m: `${harmonic(3)}px`,
-  l: `${harmonic(5)}px`,
-  xl: `${harmonic(7)}px`
+  xs: `${h(-1)}px`,
+  s: `${h(1)}px`,
+  m: `${h(3)}px`,
+  l: `${h(5)}px`,
+  xl: `${h(7)}px`
 };
 
 // Fake an opaque type by tagging with a phantom tag type

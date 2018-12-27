@@ -38,7 +38,7 @@ const Subtitle = makeStyled(({ fontSizeScale, harmonic, spacing }) =>
     {
       color: colors.blacks[1]
     },
-    fontSizeScale(harmonic(1), spacing.single)
+    fontSizeScale(harmonic(1), spacing.onehalf)
   )
 );
 

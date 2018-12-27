@@ -4,6 +4,7 @@ import { Header, Section, H1, H2, P, TagList, Tag } from './Typography';
 import { majorScale, minorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
+import { makeStyled } from '../utils/typography';
 
 type Components = {
   Header: React.FunctionComponent;
@@ -32,23 +33,14 @@ const Container = styled(Section)({
   }
 });
 
-const Subtitle = styled(H2)({
-  color: colors.blacks[1],
-  fontSize: majorScale.s,
-  lineHeight: majorScale.s,
-  [breakpoints[0]]: {
-    fontSize: minorScale.m,
-    lineHeight: minorScale.m
-  },
-  [breakpoints[1]]: {
-    fontSize: minorScale.l,
-    lineHeight: minorScale.l
-  },
-  [breakpoints[2]]: {
-    fontSize: majorScale.l,
-    lineHeight: majorScale.l
-  }
-});
+const Subtitle = makeStyled(({ fontSizeScale, harmonic, spacing }) =>
+  styled(H2)(
+    {
+      color: colors.blacks[1]
+    },
+    fontSizeScale(harmonic(1), spacing.single)
+  )
+);
 
 export default function Jumbotron(props: Props) {
   return (

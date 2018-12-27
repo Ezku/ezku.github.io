@@ -1,8 +1,11 @@
-import harmonic from 'harmonic';
+import styled from '@emotion/styled';
 import 'normalize.css';
 import './typography/neue-haas-unica.css';
 import './typography/neue-haas-grotesk.css';
 import './typography/ibm-plex-mono.css';
+
+import { Harmonic, harmonic } from './units';
+import { breakpoints } from './layout';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/
 export const systemFontStack = [
@@ -20,6 +23,40 @@ export const systemFontStack = [
 export const bodyFontStack = ['neue-haas-unica', ...systemFontStack];
 export const headerFontStack = ['neue-haas-grotesk-display', ...systemFontStack];
 export const monospaceFontStack = ['ibm-plex-mono', 'monospace'];
+
+type Spacing = (
+  metric: Harmonic
+) => {
+  fontSize: string;
+  lineHeight: string;
+};
+export const spacing = {
+  single: (metric: Harmonic) => ({
+    fontSize: metric.toString(),
+    lineHeight: metric.toString()
+  }),
+  onehalf: (metric: Harmonic) => ({
+    fontSize: metric.toString(),
+    lineHeight: metric.map(v => v + 1).toString()
+  }),
+  double: (metric: Harmonic) => ({
+    fontSize: metric.toString(),
+    lineHeight: metric.map(v => v + 2).toString()
+  })
+};
+
+export const fontSizeScale = (metric: Harmonic, s: Spacing = spacing.onehalf) => ({
+  ...s(metric),
+  [breakpoints[0]]: {
+    ...s(metric.map(v => v + 1))
+  },
+  [breakpoints[1]]: {
+    ...s(metric.map(v => v + 2))
+  },
+  [breakpoints[2]]: {
+    ...s(metric.map(v => v + 3))
+  }
+});
 
 export const minorScale = {
   xs: `${harmonic(-2)}px`,

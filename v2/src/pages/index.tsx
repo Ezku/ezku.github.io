@@ -8,6 +8,7 @@ import Subsection from '../components/Subsection';
 import Profile from '../components/Profile';
 import Recommendation from '../components/Recommendation';
 import EducationalAchievement from '../components/EducationalAchievement';
+import FontAwesomeIcon, { chevronDoubleRight } from '../components/FontAwesomeIcon';
 
 export default function index() {
   return (
@@ -46,7 +47,7 @@ export default function index() {
             <Aside>
               Sounds like exactly what you need?{' '}
               <A className="btn btn-lg btn-primary" href="#contact">
-                Skip the intros, cut to the chase &raquo;&raquo;
+                Skip the intros, cut to the chase <FontAwesomeIcon icon={chevronDoubleRight} />
               </A>
             </Aside>
           </div>

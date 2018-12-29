@@ -104,6 +104,7 @@ export const P = styled.p({
 });
 
 export const A = styled.a({
+  textDecoration: 'none',
   color: colors.blues[0],
   ':hover': {
     color: colors.blues[0]

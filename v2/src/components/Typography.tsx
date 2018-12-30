@@ -11,22 +11,17 @@ import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
 import makeStyled from '../utils/makeStyled';
 
-export const Header = styled.header({
-  fontFamily: headerFontStack.join(', '),
-  marginTop: 0,
-  fontSize: minorScale.s,
-  lineHeight: minorScale.m,
-  marginBottom: minorScale.s,
-  [breakpoints[0]]: {
-    marginBottom: minorScale.m
-  },
-  [breakpoints[1]]: {
-    marginBottom: minorScale.l
-  },
-  [breakpoints[2]]: {
-    marginBottom: minorScale.xl
-  }
-});
+export const Header = makeStyled(({ styled, headerFont, harmonic, bottomMarginScale }) =>
+  styled.header(
+    {
+      fontFamily: headerFont,
+      marginTop: 0,
+      fontSize: minorScale.s,
+      lineHeight: minorScale.m
+    },
+    bottomMarginScale(harmonic(0))
+  )
+);
 
 export const Section = styled.section({
   fontFamily: bodyFontStack.join(', '),

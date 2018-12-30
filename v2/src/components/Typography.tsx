@@ -52,19 +52,18 @@ export const H2 = styled.h2({
   margin: 0
 });
 
-export const H3 = styled.h3({
-  fontFamily: headerFontStack.join(', '),
-  fontWeight: 600,
-  marginTop: 0,
-  fontSize: minorScale.m,
-  lineHeight: minorScale.l,
-  marginBottom: minorScale.s,
-  [breakpoints[0]]: {
-    fontSize: minorScale.l,
-    lineHeight: minorScale.xl,
-    marginBottom: minorScale.s
-  }
-});
+export const H3 = makeStyled(
+  ({ headerFont, fontSizeScale, bottomMarginScale, harmonic, spacing }) =>
+    styled.h3(
+      {
+        fontFamily: headerFont,
+        fontWeight: 600,
+        margin: 0
+      },
+      fontSizeScale(harmonic(2), spacing.onehalf),
+      bottomMarginScale(harmonic(-4))
+    )
+);
 
 export const H4 = styled.h4({
   fontFamily: headerFontStack.join(', '),

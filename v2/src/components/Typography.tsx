@@ -23,22 +23,17 @@ export const Header = makeStyled(({ styled, headerFont, harmonic, bottomMarginSc
   )
 );
 
-export const Section = styled.section({
-  fontFamily: bodyFontStack.join(', '),
-  marginTop: 0,
-  fontSize: minorScale.s,
-  lineHeight: minorScale.m,
-  marginBottom: minorScale.m,
-  [breakpoints[0]]: {
-    marginBottom: minorScale.l
-  },
-  [breakpoints[1]]: {
-    marginBottom: minorScale.xl
-  },
-  [breakpoints[2]]: {
-    marginBottom: minorScale.xxl
-  }
-});
+export const Section = makeStyled(({ styled, bodyFont, harmonic, bottomMarginScale }) =>
+  styled.section(
+    {
+      fontFamily: bodyFont,
+      marginTop: 0,
+      fontSize: minorScale.s,
+      lineHeight: minorScale.m
+    },
+    bottomMarginScale(harmonic(1), 2)
+  )
+);
 
 export const H1 = makeStyled(({ headerFont, fontSizeScale, harmonic, spacing }) =>
   styled.h1(

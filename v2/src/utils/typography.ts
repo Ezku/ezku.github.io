@@ -58,6 +58,19 @@ export const fontSizeScale = (metric: Harmonic, s: Spacing = spacing.onehalf) =>
   }
 });
 
+export const bottomMarginScale = (metric: Harmonic, increment: number = 1) => ({
+  marginBottom: metric.toString(),
+  [breakpoints[0]]: {
+    marginBottom: metric.map(v => v + increment * 1).toString()
+  },
+  [breakpoints[1]]: {
+    marginBottom: metric.map(v => v + increment * 2).toString()
+  },
+  [breakpoints[2]]: {
+    marginBottom: metric.map(v => v + increment * 3).toString()
+  }
+});
+
 export const minorScale = {
   xs: `${h(-2)}px`,
   s: `${h(0)}px`,

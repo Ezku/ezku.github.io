@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import {
   spacing,
   fontSizeScale,
+  bottomMarginScale,
   headerFontStack,
   bodyFontStack,
   monospaceFontStack
@@ -23,8 +24,9 @@ type DesignHelpers = {
   styled: typeof styled;
   spacing: typeof spacing;
   fontSizeScale: typeof fontSizeScale;
+  bottomMarginScale: typeof bottomMarginScale;
   harmonic: typeof harmonic;
-}
+};
 
 const headerFont = headerFontStack.join(', ') as FontFamily;
 const bodyFont = bodyFontStack.join(', ') as FontFamily;
@@ -38,6 +40,7 @@ const makeStyled = <A>(f: (atomsAndHelpers: DesignAtoms & DesignHelpers) => A): 
     monospaceFont,
     spacing,
     fontSizeScale,
+    bottomMarginScale,
     harmonic,
     colors
   });

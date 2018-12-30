@@ -65,15 +65,6 @@ export const H3 = makeStyled(
     )
 );
 
-export const H4 = styled.h4({
-  fontFamily: headerFontStack.join(', '),
-  fontWeight: 600,
-  fontSize: minorScale.m,
-  lineHeight: minorScale.l,
-  marginBottom: minorScale.xs,
-  marginTop: 0
-});
-
 export const Small = styled.small({
   fontSize: '78.6%',
   lineHeight: 'inherit'

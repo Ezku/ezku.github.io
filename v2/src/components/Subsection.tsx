@@ -4,6 +4,7 @@ import { Section, H3, P, A, TagList, Tag } from './Typography';
 import { minorScale, majorScale } from '../utils/typography';
 import { breakpoints } from '../utils/layout';
 import * as colors from '../utils/colors';
+import makeStyled from '../utils/makeStyled';
 
 type Components = {
   Header: React.FunctionComponent<any>;
@@ -38,14 +39,12 @@ const Title = styled(H3)({
   }
 });
 
+const Lead = makeStyled(({ fontSizeScale, harmonic, spacing }) =>
+  styled(P)(fontSizeScale(harmonic(0), spacing.double))
+);
+
 const DescriptionLine = styled(P)({
-  color: colors.blacks[1],
-  fontSize: minorScale.s,
-  lineHeight: minorScale.m,
-  [breakpoints[1]]: {
-    fontSize: majorScale.s,
-    lineHeight: majorScale.m
-  }
+  color: colors.blacks[1]
 });
 
 export default function Subsection(props: Props) {
@@ -57,7 +56,7 @@ export default function Subsection(props: Props) {
         Link: styled(A)({
           color: colors.blues[1]
         }),
-        Lead: P,
+        Lead,
         Description: styled.div({
           marginBottom: minorScale.s
         }),

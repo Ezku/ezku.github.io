@@ -26,9 +26,9 @@ export default function index() {
             <Lead>
               I build things for the web. I'm known for being able to craft digital services with
               users and business in mind. I love learning about new things, solving problems and
-              helping find ways to do things better. They tell me I'm buzzword-compliant, too. Here
-              are a few, pick yours:
+              helping find ways to do things better.
             </Lead>
+            <Lead>They tell me I'm buzzword-compliant, too. Here are a few, pick yours:</Lead>
             <Tags>
               <Tag>lean</Tag>
               <Tag>kanban</Tag>

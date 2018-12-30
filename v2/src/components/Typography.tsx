@@ -70,18 +70,16 @@ export const Small = styled.small({
   lineHeight: 'inherit'
 });
 
-export const P = styled.p({
-  fontWeight: 400,
-  marginTop: 0,
-  marginBottom: majorScale.s,
-  fontSize: majorScale.s,
-  lineHeight: majorScale.m,
-  [breakpoints[1]]: {
-    marginBottom: minorScale.m,
-    fontSize: minorScale.m,
-    lineHeight: minorScale.l
-  }
-});
+export const P = makeStyled(({ fontSizeScale, bottomMarginScale, harmonic, spacing }) =>
+  styled.p(
+    {
+      fontWeight: 400,
+      marginTop: 0
+    },
+    fontSizeScale(harmonic(-1), spacing.double),
+    bottomMarginScale(harmonic(0))
+  )
+);
 
 export const A = styled.a({
   textDecoration: 'none',

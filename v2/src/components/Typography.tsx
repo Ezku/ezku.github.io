@@ -110,23 +110,23 @@ export const TagList = styled.ul({
   display: 'block'
 });
 
-export const Tag = styled.li({
-  display: 'inline-block',
-  margin: '0.618rem 0.618rem',
-  fontFamily: monospaceFontStack.join(', '),
-  fontStyle: 'italic',
-  fontWeight: 500,
-  ':before': {
-    display: 'inline-block',
-    content: '"#"',
-    opacity: 0.618
-  },
-  letterSpacing: '-0.031255em',
-  wordSpacing: '-0.21875em',
-  fontSize: minorScale.s,
-  lineHeight: minorScale.s,
-  [breakpoints[1]]: {
-    fontSize: majorScale.s,
-    lineHeight: majorScale.s
-  }
-});
+export const Tag = makeStyled(({ monospaceFont, fontSizeScale, harmonic, spacing }) =>
+  styled.li(
+    {
+      display: 'inline-block',
+      margin: '0.618em 0.618em',
+      fontFamily: monospaceFont,
+      fontStyle: 'italic',
+      fontWeight: 500,
+      ':before': {
+        display: 'inline-block',
+        content: '"#"',
+        opacity: 0.618
+      },
+      letterSpacing: '-0.031255em',
+      wordSpacing: '-0.21875em',
+      marginTop: 0
+    },
+    fontSizeScale(harmonic(-1), spacing.double)
+  )
+);

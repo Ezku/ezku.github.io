@@ -1,4 +1,3 @@
-import h from 'harmonic';
 import 'normalize.css';
 import './typography/neue-haas-unica.css';
 import './typography/neue-haas-grotesk.css';
@@ -6,6 +5,7 @@ import './typography/ibm-plex-mono.css';
 
 import { Harmonic } from './units';
 import { breakpoints } from './layout';
+import scale from './typography/scale';
 
 // See: https://css-tricks.com/snippets/css/system-font-stack/
 export const systemFontStack = [
@@ -72,18 +72,18 @@ export const bottomMarginScale = (metric: Harmonic, increment: number = 1) => ({
 });
 
 export const minorScale = {
-  xs: `${h(-2)}px`,
-  s: `${h(0)}px`,
-  m: `${h(2)}px`,
-  l: `${h(4)}px`,
-  xl: `${h(6)}px`,
-  xxl: `${h(8)}px`
+  xs: `${scale(-2)}px`,
+  s: `${scale(0)}px`,
+  m: `${scale(2)}px`,
+  l: `${scale(4)}px`,
+  xl: `${scale(6)}px`,
+  xxl: `${scale(8)}px`
 };
 
 export const majorScale = {
-  xs: `${h(-1)}px`,
-  s: `${h(1)}px`,
-  m: `${h(3)}px`,
-  l: `${h(5)}px`,
-  xl: `${h(7)}px`
+  xs: `${scale(-1)}px`,
+  s: `${scale(1)}px`,
+  m: `${scale(3)}px`,
+  l: `${scale(5)}px`,
+  xl: `${scale(7)}px`
 };

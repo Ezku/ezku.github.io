@@ -1,4 +1,4 @@
-import h from 'harmonic';
+import scale from './typography/scale';
 
 export type Unit<A> = {
   value: number;
@@ -21,7 +21,7 @@ export type Harmonic = {
 };
 export const harmonic = (value: number) => ({
   value,
-  toString: () => `${h(value)}px`,
+  toString: () => `${scale(value)}px`,
   map: (f: (v: number) => number) => harmonic(f(value)),
-  toPixels: () => pixels(h(value))
+  toPixels: () => pixels(scale(value))
 });

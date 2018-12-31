@@ -59,7 +59,7 @@ const Description = styled(P)({
 const Emphasis = styled.strong({
   fontStyle: 'italic',
   fontWeight: 500,
-  color: 'rgba(0,0,0,1)'
+  color: colors.blacks[0]
 });
 
 const Provenance = styled(P)({

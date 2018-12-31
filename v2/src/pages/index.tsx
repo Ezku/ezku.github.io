@@ -109,27 +109,16 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    {/* Tech stack */}
                     <Tag>ES6+</Tag>
                     <Tag>Node.js</Tag>
                     <Tag>Flowtype</Tag>
-
-                    <Tag>Ruby</Tag>
                     <Tag>Ruby on Rails</Tag>
-
                     <Tag>React</Tag>
-                    <Tag>Redux</Tag>
-
-                    <Tag>npm</Tag>
                     <Tag>CircleCI</Tag>
                     <Tag>AWS</Tag>
                     <Tag>Docker</Tag>
-
-                    {/* Buzzwords */}
                     <Tag>Continuous Delivery</Tag>
                     <Tag>Kanban</Tag>
-                    <Tag>Facilitation</Tag>
-                    <Tag>Process Development</Tag>
                   </Tags>
                 </div>
               )}
@@ -169,26 +158,16 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    {/* Tech stack */}
-                    <Tag>CoffeeScript</Tag>
                     <Tag>Node.js</Tag>
-
-                    <Tag>Ruby</Tag>
+                    <Tag>CoffeeScript</Tag>
                     <Tag>Ruby on Rails</Tag>
-
                     <Tag>AngularJS</Tag>
-                    <Tag>Bacon.js</Tag>
-
-                    <Tag>Grunt</Tag>
                     <Tag>npm</Tag>
                     <Tag>TravisCI</Tag>
                     <Tag>Heroku</Tag>
-
-                    {/* Buzzwords */}
                     <Tag>Open Source</Tag>
-                    <Tag>PaaS</Tag>
                     <Tag>Kanban</Tag>
-                    <Tag>Reactive Functional Programming</Tag>
+                    <Tag>FRP</Tag>
                   </Tags>
                 </div>
               )}
@@ -220,20 +199,11 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    {/* Tech stack */}
-                    <Tag>Javascript</Tag>
                     <Tag>Node.js</Tag>
-
-                    <Tag>Grunt</Tag>
                     <Tag>AngularJS</Tag>
                     <Tag>Selenium</Tag>
-                    <Tag>Bootstrap</Tag>
-                    <Tag>Less</Tag>
-
-                    {/* Buzzwords */}
                     <Tag>Scrum</Tag>
                     <Tag>Lean Startup</Tag>
-                    <Tag>Responsive Web Design</Tag>
                   </Tags>
                 </div>
               )}
@@ -263,21 +233,13 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    {/* Tech stack */}
                     <Tag>Javascript</Tag>
                     <Tag>AngularJS</Tag>
-
                     <Tag>Ruby</Tag>
-                    <Tag>Sinatra</Tag>
-
                     <Tag>Karma</Tag>
                     <Tag>Sass</Tag>
-
                     <Tag>Heroku</Tag>
-
-                    {/* Buzzwords */}
                     <Tag>Service Design</Tag>
-                    <Tag>Responsive Web Design</Tag>
                   </Tags>
                 </div>
               )}
@@ -309,17 +271,10 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    {/* Tech stack */}
                     <Tag>Scala</Tag>
                     <Tag>CoffeeScript</Tag>
-
-                    <Tag>Rx.js</Tag>
                     <Tag>Selenium</Tag>
-
                     <Tag>Heroku</Tag>
-                    <Tag>Vagrant</Tag>
-
-                    {/* Buzzwords */}
                     <Tag>Functional Programming</Tag>
                     <Tag>Kanban</Tag>
                     <Tag>Continuous Integration</Tag>
@@ -365,15 +320,8 @@ export default function index() {
                     <Tag>Zend Framework</Tag>
                     <Tag>Doctrine ORM</Tag>
                     <Tag>PHPUnit</Tag>
-
                     <Tag>Javascript</Tag>
-                    <Tag>jQuery</Tag>
-
-                    <Tag>MySQL</Tag>
-                    <Tag>Apache</Tag>
-
                     <Tag>TDD</Tag>
-                    <Tag>XP</Tag>
                     <Tag>Agile</Tag>
                     <Tag>Open Source</Tag>
                   </Tags>

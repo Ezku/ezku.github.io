@@ -9,7 +9,7 @@ import * as colors from '../utils/colors';
 export const PageStyles = () => (
   <Global
     styles={{
-      '#content': {
+      html: {
         background: colors.whites[0]
       }
     }}

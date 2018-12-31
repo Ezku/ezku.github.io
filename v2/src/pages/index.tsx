@@ -741,12 +741,11 @@ export default function index() {
                   <Header>
                     <Title>Songwriting</Title>
                     <Lead>
-                      Served as toastmaster for the Information Networks' student guild,{' '}
-                      <A href="http://www.athene.fi">Athene</A>, in 2011-2013. My duties were to
-                      serve as master of ceremony and first singer in academic dinner parties with
-                      dozens to over a hundred guests. Since that time I've come to be known for
-                      writing numerous songs, some of which are part of the canonical Aalto
-                      University student union songbook since 2017.
+                      Since serving as toastmaster / master of ceremony for the Information
+                      Networks' student guild, <A href="http://www.athene.fi">Athene</A>{' '}
+                      (2011-2013), I've come to be known for writing numerous songs. The most iconic
+                      of them are part of the canonical Aalto University student union songbook
+                      since 2017.
                     </Lead>
                   </Header>
                   <Tags>

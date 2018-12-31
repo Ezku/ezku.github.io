@@ -1,13 +1,6 @@
 import styled from '@emotion/styled';
 
-import {
-  bodyFontStack,
-  headerFontStack,
-  monospaceFontStack,
-  minorScale,
-  majorScale
-} from '../utils/typography';
-import { breakpoints } from '../utils/layout';
+import { headerFontStack, minorScale } from '../utils/typography';
 import * as colors from '../utils/colors';
 import makeStyled from '../utils/makeStyled';
 

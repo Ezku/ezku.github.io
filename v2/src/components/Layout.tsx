@@ -19,7 +19,7 @@ export const PageStyles = () => (
 export const Container = styled(Section)({
   boxSizing: 'border-box',
   minWidth: '320px',
-  maxWidth: '660px',
+  maxWidth: '80ch',
   margin: `0 auto`,
   padding: minorScale.s,
   width: '61.8%'

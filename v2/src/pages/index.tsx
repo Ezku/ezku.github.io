@@ -61,6 +61,30 @@ export default function index() {
             <Divider />
 
             <Subsection>
+              {({ Header, Title, Link, Lead, Tags, Tag }) => (
+                <div>
+                  <Header>
+                    <Title>
+                      <Link href="https://www.luotocompany.fi">Luoto Company</Link>{' '}
+                      <Small>2019–</Small>
+                    </Title>
+                    <Lead>
+                      Partner, consultant, <strong>full stack developer</strong>
+                    </Lead>
+                  </Header>
+                  <Tags>
+                    <Tag>Node.js</Tag>
+                    <Tag>React Native</Tag>
+                    <Tag>AWS</Tag>
+                    <Tag>Serverless</Tag>
+                    <Tag>Industrial IoT</Tag>
+                  </Tags>
+                </div>
+              )}
+            </Subsection>
+            <Divider />
+
+            <Subsection>
               {({ Header, Title, Link, Lead, Description, DescriptionLine, Tags, Tag }) => (
                 <div>
                   <Header>

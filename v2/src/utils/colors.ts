@@ -3,7 +3,7 @@ export const whites = {
 };
 export const blacks = {
   0: 'rgba(0,0,0,1)',
-  1: 'hsl(217, 23%, 23%)'
+  1: 'hsl(217, 15%, 23%)'
 };
 export const blues = {
   0: 'rgb(13, 70, 242, 1)',

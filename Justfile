@@ -1,9 +1,8 @@
-
-default:
-	just -l
-
-install:
-	yarn global add live-server
+@default:
+  just -l
 
 dev:
-	live-server
+  yarn dev
+
+build:
+  yarn build

@@ -41,6 +41,14 @@ const Subtitle = makeStyled(({ fontSizeScale, harmonic, spacing, colors }) =>
   )
 );
 
+const Aside = makeStyled(({ fontSizeScale, harmonic, spacing, colors }) =>
+  styled(H2.withComponent('aside'))(
+    {
+      color: colors.blacks[1]
+    },
+    fontSizeScale(harmonic(1), spacing.onehalf)
+  )
+);
 export default function Jumbotron(props: Props) {
   return (
     <Container>
@@ -49,18 +57,7 @@ export default function Jumbotron(props: Props) {
         Title: H1,
         Subtitle,
         Lead: P,
-        Aside: styled(H2.withComponent('aside'))({
-          fontSize: majorScale.s,
-          lineHeight: majorScale.s,
-          [breakpoints[0]]: {
-            fontSize: minorScale.m,
-            lineHeight: minorScale.m
-          },
-          [breakpoints[1]]: {
-            fontSize: minorScale.l,
-            lineHeight: minorScale.l
-          }
-        }),
+        Aside,
         Tags: TagList,
         Tag: Tag
       })}

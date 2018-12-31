@@ -8,7 +8,7 @@ import Subsection from '../components/Subsection';
 import Profile from '../components/Profile';
 import Recommendation from '../components/Recommendation';
 import EducationalAchievement from '../components/EducationalAchievement';
-import FontAwesomeIcon, { chevronDoubleRight } from '../components/FontAwesomeIcon';
+import FontAwesomeIcon, { chevronDoubleRight, heart } from '../components/FontAwesomeIcon';
 
 export default function index() {
   return (
@@ -819,7 +819,7 @@ export default function index() {
                     <Tag>Science Fiction</Tag>
                     <Tag>Photography</Tag>
                     <Tag>
-                      Hugs <span className="glyphicon glyphicon-heart" />
+                      Hugs <FontAwesomeIcon icon={heart} />
                     </Tag>
                   </Tags>
                 </div>

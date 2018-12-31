@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faChevronDoubleRight } from '@fortawesome/pro-solid-svg-icons';
+import { faChevronDoubleRight, faHeart } from '@fortawesome/pro-solid-svg-icons';
 import styled from '@emotion/styled';
 
 export default styled(FontAwesomeIcon)({
@@ -8,3 +8,4 @@ export default styled(FontAwesomeIcon)({
 });
 
 export const chevronDoubleRight = faChevronDoubleRight;
+export const heart = faHeart;

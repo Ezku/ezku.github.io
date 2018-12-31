@@ -10,7 +10,8 @@ export const PageStyles = () => (
   <Global
     styles={{
       html: {
-        background: colors.whites[0]
+        background: colors.whites[0],
+        color: colors.blacks[0]
       }
     }}
   />

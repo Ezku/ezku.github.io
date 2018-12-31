@@ -46,7 +46,7 @@ export default function index() {
             </Tags>
             <Aside>
               Sounds like exactly what you need?{' '}
-              <A className="btn btn-lg btn-primary" href="#contact">
+              <A href="#contact">
                 Skip the intros, cut to the chase <FontAwesomeIcon icon={chevronDoubleRight} />
               </A>
             </Aside>
@@ -108,11 +108,11 @@ export default function index() {
                   </Description>
                   <Tags>
                     {/* Tech stack */}
-                    <Tag className="language">ES6+</Tag>
+                    <Tag>ES6+</Tag>
                     <Tag>Node.js</Tag>
                     <Tag>Flowtype</Tag>
 
-                    <Tag className="language">Ruby</Tag>
+                    <Tag>Ruby</Tag>
                     <Tag>Ruby on Rails</Tag>
 
                     <Tag>React</Tag>
@@ -168,10 +168,10 @@ export default function index() {
                   </Description>
                   <Tags>
                     {/* Tech stack */}
-                    <Tag className="language">CoffeeScript</Tag>
+                    <Tag>CoffeeScript</Tag>
                     <Tag>Node.js</Tag>
 
-                    <Tag className="language">Ruby</Tag>
+                    <Tag>Ruby</Tag>
                     <Tag>Ruby on Rails</Tag>
 
                     <Tag>AngularJS</Tag>
@@ -219,7 +219,7 @@ export default function index() {
                   </Description>
                   <Tags>
                     {/* Tech stack */}
-                    <Tag className="language">Javascript</Tag>
+                    <Tag>Javascript</Tag>
                     <Tag>Node.js</Tag>
 
                     <Tag>Grunt</Tag>
@@ -262,10 +262,10 @@ export default function index() {
                   </Description>
                   <Tags>
                     {/* Tech stack */}
-                    <Tag className="language">Javascript</Tag>
+                    <Tag>Javascript</Tag>
                     <Tag>AngularJS</Tag>
 
-                    <Tag className="language">Ruby</Tag>
+                    <Tag>Ruby</Tag>
                     <Tag>Sinatra</Tag>
 
                     <Tag>Karma</Tag>
@@ -308,8 +308,8 @@ export default function index() {
                   </Description>
                   <Tags>
                     {/* Tech stack */}
-                    <Tag className="language">Scala</Tag>
-                    <Tag className="language">CoffeeScript</Tag>
+                    <Tag>Scala</Tag>
+                    <Tag>CoffeeScript</Tag>
 
                     <Tag>Rx.js</Tag>
                     <Tag>Selenium</Tag>
@@ -359,12 +359,12 @@ export default function index() {
                     </DescriptionLine>
                   </Description>
                   <Tags>
-                    <Tag className="language">PHP</Tag>
+                    <Tag>PHP</Tag>
                     <Tag>Zend Framework</Tag>
                     <Tag>Doctrine ORM</Tag>
                     <Tag>PHPUnit</Tag>
 
-                    <Tag className="language">Javascript</Tag>
+                    <Tag>Javascript</Tag>
                     <Tag>jQuery</Tag>
 
                     <Tag>MySQL</Tag>
@@ -837,7 +837,6 @@ export default function index() {
               <Title>So, that's me.</Title>
               <Subtitle>
                 <A
-                  className="btn btn-lg btn-success"
                   href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
                   title="Shoot me a message"
                 >

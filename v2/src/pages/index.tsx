@@ -69,7 +69,9 @@ export default function index() {
                       <Small>2019–</Small>
                     </Title>
                     <Lead>
-                      Partner, consultant, <strong>full stack developer</strong>
+                      <strong>Full stack developer</strong>, consultant and partner in a new-school
+                      consultancy company with equality, a sense of community, and learning in its{' '}
+                      <Abbr>DNA</Abbr>.
                     </Lead>
                   </Header>
                   <Tags>

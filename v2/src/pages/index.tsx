@@ -19,7 +19,7 @@ export default function index() {
           <div>
             <Header>
               <Subtitle>Hi, I'm</Subtitle>
-              <Title>Eevert Saukkokoski,</Title>
+              <Title>Eevert Novius,</Title>
               <Subtitle>Full Stack Developer, Facilitator and Methodology Coach</Subtitle>
             </Header>
 
@@ -787,7 +787,7 @@ export default function index() {
               <Title>So, that's me.</Title>
               <Subtitle>
                 <A
-                  href="mailto:eevert.saukkokoski+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
+                  href="mailto:eevert.novius+ezku.github.io@gmail.com?subject=We%20would%20love%20to%20have%20a%20chat"
                   title="Shoot me a message"
                 >
                   What could we do together?
@@ -797,7 +797,7 @@ export default function index() {
             <Lead>
               <A href="http://twitter.com/Ezku">Twitter</A> /{' '}
               <A href="http://github.com/Ezku">Github</A> /{' '}
-              <A href="https://fi.linkedin.com/in/eevert-saukkokoski-b8a4b830">LinkedIn</A>
+              <A href="https://www.linkedin.com/in/eevert-novius/">LinkedIn</A>
             </Lead>
           </div>
         )}

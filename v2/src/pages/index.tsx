@@ -795,9 +795,9 @@ export default function index() {
               </Subtitle>
             </Header>
             <Lead>
-              <A href="http://twitter.com/Ezku">Twitter</A> /{' '}
-              <A href="http://github.com/Ezku">Github</A> /{' '}
-              <A href="https://www.linkedin.com/in/eevert-novius/">LinkedIn</A>
+              <A key="twitter" href="http://twitter.com/Ezku">Twitter</A> /{' '}
+              <A key="github" href="http://github.com/Ezku">Github</A> /{' '}
+              <A key="linkedin" href="https://www.linkedin.com/in/eevert-novius/">LinkedIn</A>
             </Lead>
           </div>
         )}

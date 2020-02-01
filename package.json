@@ -2,6 +2,7 @@
   "name": "ezku-github-io",
   "dependencies": {
     "next": "latest",
+    "prettier": "latest",
     "react": "latest",
     "react-dom": "latest"
   }

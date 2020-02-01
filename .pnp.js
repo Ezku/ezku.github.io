@@ -138,6 +138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["next", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:9.2.1"],
+            ["prettier", "npm:1.19.1"],
             ["react", "npm:16.12.0"],
             ["react-dom", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:16.12.0"]
           ],
@@ -3970,6 +3971,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["ezku-github-io", "workspace:."],
             ["next", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:9.2.1"],
+            ["prettier", "npm:1.19.1"],
             ["react", "npm:16.12.0"],
             ["react-dom", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:16.12.0"]
           ],
@@ -7172,6 +7174,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prepend-http-npm-1.0.4-cd78a41247-1.zip/node_modules/prepend-http/",
           "packageDependencies": [
             ["prepend-http", "npm:1.0.4"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["prettier", [
+        ["npm:1.19.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-1.19.1-e56d246fd2-1.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:1.19.1"]
           ],
           "linkType": "HARD"
         }]

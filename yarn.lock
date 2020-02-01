@@ -3324,6 +3324,7 @@ __metadata:
   resolution: "ezku-github-io@workspace:."
   dependencies:
     next: latest
+    prettier: latest
     react: latest
     react-dom: latest
   languageName: unknown
@@ -6240,6 +6241,15 @@ fsevents@~2.1.2:
   version: 1.0.4
   resolution: "prepend-http@npm:1.0.4"
   checksum: d35b410a527ad3d80468cc6c86d08e15afcd32b7d08dc27a9176f42181830e244f2255612b30c5dbe93b4a97eb7bb9ca2db23c66074489282a5e8776d9839f0f
+  languageName: node
+  linkType: hard
+
+"prettier@npm:latest":
+  version: 1.19.1
+  resolution: "prettier@npm:1.19.1"
+  bin:
+    prettier: ./bin-prettier.js
+  checksum: 0b8665fa22259378feaf46a54a559a09bd2c367e6391015af5068e88c6fb8d96e20afc56a6a6b2bac2eb0ad1ad26302ea634377e6397eca09301f64b01f3021a
   languageName: node
   linkType: hard
 

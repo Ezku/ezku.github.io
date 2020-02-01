@@ -147,6 +147,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/node", "npm:13.7.0"],
             ["@types/react", "npm:16.9.19"],
+            ["@types/react-dom", "npm:16.9.5"],
             ["@typescript-eslint/eslint-plugin", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:2.18.0"],
             ["@typescript-eslint/parser", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:2.18.0"],
             ["eslint", "npm:6.8.0"],
@@ -1622,6 +1623,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.19"],
             ["@types/prop-types", "npm:15.7.3"],
             ["csstype", "npm:2.6.8"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["@types/react-dom", [
+        ["npm:16.9.5", {
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-16.9.5-99a0114129-1.zip/node_modules/@types/react-dom/",
+          "packageDependencies": [
+            ["@types/react-dom", "npm:16.9.5"],
+            ["@types/react", "npm:16.9.19"]
           ],
           "linkType": "HARD"
         }]
@@ -4480,6 +4491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ezku-github-io", "workspace:."],
             ["@types/node", "npm:13.7.0"],
             ["@types/react", "npm:16.9.19"],
+            ["@types/react-dom", "npm:16.9.5"],
             ["@typescript-eslint/eslint-plugin", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:2.18.0"],
             ["@typescript-eslint/parser", "virtual:e0b16caecd701042034f14839287c73ddd061137cb94fa4f3e0f22480b7f4fc64fa423a99212d990be23896dfb2353bafbdf3e622997ae84166b289d303a1ed1#npm:2.18.0"],
             ["eslint", "npm:6.8.0"],

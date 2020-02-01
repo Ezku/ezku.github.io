@@ -1226,7 +1226,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^16.9.19":
+"@types/react-dom@npm:^16.9.5":
+  version: 16.9.5
+  resolution: "@types/react-dom@npm:16.9.5"
+  dependencies:
+    "@types/react": "*"
+  checksum: 5748cb428399d176af2ce7a2423352e2b2e2fb511bb264234d86dd4bb1de24fa609da40f97cdb632a68cc07eb9a99d56cfcb84aff7a160e91ec4d717d92cd266
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:^16.9.19":
   version: 16.9.19
   resolution: "@types/react@npm:16.9.19"
   dependencies:
@@ -3753,6 +3762,7 @@ __metadata:
   dependencies:
     "@types/node": ^13.7.0
     "@types/react": ^16.9.19
+    "@types/react-dom": ^16.9.5
     "@typescript-eslint/eslint-plugin": ^2.18.0
     "@typescript-eslint/parser": ^2.18.0
     eslint: ^6.8.0

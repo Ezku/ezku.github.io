@@ -1212,6 +1212,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^13.7.0":
+  version: 13.7.0
+  resolution: "@types/node@npm:13.7.0"
+  checksum: 3ee505198cb714c56ce20fca902fcbd05643badc22c2f25917a2544b1a1d905b9086b90147e79bd977a9c8bb912db60240d11152827ad779e9373cdd5864e5c2
+  languageName: node
+  linkType: hard
+
+"@types/prop-types@npm:*":
+  version: 15.7.3
+  resolution: "@types/prop-types@npm:15.7.3"
+  checksum: 0499c1b2e22cce87e9e9b80e82692dc1fe4a6782327674162f42a9940275234569aac0c5f6e2f552694a3dd78bb70de5b2701eda74a3df12eb78b6d6b6aac1c2
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^16.9.19":
+  version: 16.9.19
+  resolution: "@types/react@npm:16.9.19"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^2.2.0
+  checksum: 00300319c33065351c5864ef8e7ae2854e3820d2d9d4a16789deeecb375c49cc5158de1d90ca18380070a655925715d579c0b9a5d5cb14585fd9861d413137a7
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:^2.18.0":
   version: 2.18.0
   resolution: "@typescript-eslint/eslint-plugin@npm:2.18.0"
@@ -2985,6 +3009,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^2.2.0":
+  version: 2.6.8
+  resolution: "csstype@npm:2.6.8"
+  checksum: eb432a104d39690548da78a9064138fee2e33773d1b4b069f79e7e8bd8a38c8267a0b1c4e75c808880e9ba4093997222fd46d33d0cb4820dffa123c06809b87a
+  languageName: node
+  linkType: hard
+
 "cyclist@npm:^1.0.1":
   version: 1.0.1
   resolution: "cyclist@npm:1.0.1"
@@ -3720,6 +3751,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ezku-github-io@workspace:."
   dependencies:
+    "@types/node": ^13.7.0
+    "@types/react": ^16.9.19
     "@typescript-eslint/eslint-plugin": ^2.18.0
     "@typescript-eslint/parser": ^2.18.0
     eslint: ^6.8.0
@@ -3730,6 +3763,7 @@ __metadata:
     prettier: latest
     react: latest
     react-dom: latest
+    typescript: ^3.7.5
   languageName: unknown
   linkType: soft
 
@@ -8620,6 +8654,26 @@ fsevents@~2.1.2:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: ac7ba7703641f111b6f3952033ebed4bc68f09afeef7dcc250bcf53653008a119a0904a00183a61e2ef96f19f59de6af28b462005be561612c6ff5dbdf30c8bd
+  languageName: node
+  linkType: hard
+
+typescript@^3.7.5:
+  version: 3.7.5
+  resolution: "typescript@npm:3.7.5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: d95ec853853af51cd766dd56b2495a18893b1a137ba317e10ef35fa4fcfb94e6b84cec6593fd44b67a16efd645619e990f09428cce7caf8cd3d26e736e1f0037
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^3.7.5#builtin<compat/typescript>":
+  version: 3.7.5
+  resolution: "typescript@patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: de497e57cffec3ddf3cd6b7e96d62aaeaad18fccee70e8f63bea194210578e74d0c2ec2c1471851c91ce6c2030cca3ce35cf7d10beb2c016de3724e182935333
   languageName: node
   linkType: hard
 

@@ -1,3 +1,8 @@
 {
-  "name": "ezku-github-io"
+  "name": "ezku-github-io",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }

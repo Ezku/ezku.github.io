@@ -3427,6 +3427,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-prettier@npm:^6.10.0":
+  version: 6.10.0
+  resolution: "eslint-config-prettier@npm:6.10.0"
+  dependencies:
+    get-stdin: ^6.0.0
+  peerDependencies:
+    eslint: ">=3.14.1"
+  bin:
+    eslint-config-prettier-check: bin/cli.js
+  checksum: f666dfc83a45dd548d55431692eb47b89df59068188036e2bbed55a4da11ef1320c4282e20ab8615f55553df8271e41189e0fb0155cc98b7c9b563eb5339fe61
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prettier@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "eslint-plugin-prettier@npm:3.1.2"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+  peerDependencies:
+    eslint: ">= 5.0.0"
+    prettier: ">= 1.13.0"
+  checksum: 73c9efb50ba27159bc05aff1bb6831650fcb9bab5081de9c025301f987316a759e9858286f4cace8cb861bbcb5087ddff0aeba8c48dfa458ac53948a30774c47
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react@npm:^7.18.0":
   version: 7.18.0
   resolution: "eslint-plugin-react@npm:7.18.0"
@@ -3698,6 +3723,8 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^2.18.0
     "@typescript-eslint/parser": ^2.18.0
     eslint: ^6.8.0
+    eslint-config-prettier: ^6.10.0
+    eslint-plugin-prettier: ^3.1.2
     eslint-plugin-react: ^7.18.0
     next: latest
     prettier: latest
@@ -3710,6 +3737,13 @@ __metadata:
   version: 3.1.1
   resolution: "fast-deep-equal@npm:3.1.1"
   checksum: 15a67ad01c2f73c64abf4e31e302c776be7497cd8f634b5dfd217af1a9e3b0ab6e340639bf02433ecd14c7fae7480e955bfea05cd1999227913eaa75f907be93
+  languageName: node
+  linkType: hard
+
+"fast-diff@npm:^1.1.2":
+  version: 1.2.0
+  resolution: "fast-diff@npm:1.2.0"
+  checksum: dc395728fc6b753aaae277a5bc6c868e51849f49f2b89c3db45aa152e7345053cf94c080bb4bb6fbaea7678a154194a315c8aed32a5bbf99a857819a43d9e014
   languageName: node
   linkType: hard
 
@@ -4051,6 +4085,13 @@ fsevents@~2.1.2:
     strip-ansi: ^3.0.1
     wide-align: ^1.1.0
   checksum: 0e97d66257a39635753778e4788e05423cb5b47fbb3ae3b4523d13c71bb13701a442a58efd826a597bb7993b0f97efcbd98c59458a6e9e58c34ea7f66e4cc01e
+  languageName: node
+  linkType: hard
+
+"get-stdin@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "get-stdin@npm:6.0.0"
+  checksum: e9f2ed32b872e15eab1009db1e871d744af98eb249d11b17d2a7c410f02f7bbd720c67128964ce82225423e363a98d664de24fa3dcdf3484abd2a680c8c3d644
   languageName: node
   linkType: hard
 
@@ -6918,6 +6959,15 @@ fsevents@~2.1.2:
   version: 1.0.4
   resolution: "prepend-http@npm:1.0.4"
   checksum: d35b410a527ad3d80468cc6c86d08e15afcd32b7d08dc27a9176f42181830e244f2255612b30c5dbe93b4a97eb7bb9ca2db23c66074489282a5e8776d9839f0f
+  languageName: node
+  linkType: hard
+
+"prettier-linter-helpers@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "prettier-linter-helpers@npm:1.0.0"
+  dependencies:
+    fast-diff: ^1.1.2
+  checksum: 35decb510a1376fb57db705b5016e6818c1bb9bdb3bed991ae785252c016367a6b575640fa077061aba04602b238ba3762de670aa3a1da7fa8bbba1569305271
   languageName: node
   linkType: hard
 

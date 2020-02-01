@@ -4,9 +4,9 @@
   "author": "Eevert Saukkokoski <eevert.saukkokoski@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "yarn parcel serve ./v2/index.html",
+    "dev": "yarn parcel serve ./src/index.html",
     "build": "yarn build:parcel && yarn build:prerender",
-    "build:parcel": "yarn parcel build ./v2/index.html",
+    "build:parcel": "yarn parcel build ./src/index.html",
     "build:prerender": "yarn prerender --renderer=jsdom --source=dist --target=dist --renderAfterDocumentEvent=react-render-complete index.html"
   },
   "dependencies": {

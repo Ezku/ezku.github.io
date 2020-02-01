@@ -1,3 +1,5 @@
 # https://next.yarnpkg.com/advanced/qa
 .yarn/unplugged/*
 .yarn/build-state.yml
+
+.next

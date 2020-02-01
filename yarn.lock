@@ -1345,6 +1345,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/fontawesome-common-types@npm:^0.2.26":
+  version: 0.2.26
+  resolution: "@fortawesome/fontawesome-common-types@npm:0.2.26"
+  checksum: db48ca2de374e90cf3d50057eed5182a42d01ec9c0a1fe3790dd4a46e474093a5984f6dd83815ca200186f76bb1c06e6991ed24c2df5c126430688581486849a
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^1.2.26":
+  version: 1.2.26
+  resolution: "@fortawesome/fontawesome-svg-core@npm:1.2.26"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.26
+  checksum: b6a8f832c85b5c89de17be8151d4c820b2f740463176b828e55705417588183af98ec9b0fe4dcb0f7f7f65610dc98e4cc83f8de4f261e61c4318daef41418dd5
+  languageName: node
+  linkType: hard
+
+"@fortawesome/pro-solid-svg-icons@npm:^5.12.0":
+  version: 5.12.0
+  resolution: "@fortawesome/pro-solid-svg-icons@npm:5.12.0::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-solid-svg-icons%2F-%2F5.12.0%2Fpro-solid-svg-icons-5.12.0.tgz"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.26
+  checksum: 5e23698f054e8682a9022933d0e7e850ed4f2355884a6389e1431772603c2c821e2f7940d7229de2f09a5cf72ec9d3ab24aa3fdadfb4976ee290b28f5d6a4054
+  languageName: node
+  linkType: hard
+
+"@fortawesome/react-fontawesome@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@fortawesome/react-fontawesome@npm:0.1.8"
+  dependencies:
+    prop-types: ^15.5.10
+  peerDependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.20
+    react: 16.x
+  checksum: c13777b29061dcca6d39ee2f30d820e1221e4293ce87d336197bb6e0c19adbd4bbb2963be03c71f8e093a36e813b8acf2079849e62a7450f1d871a8678ecd5d6
+  languageName: node
+  linkType: hard
+
 "@types/eslint-visitor-keys@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/eslint-visitor-keys@npm:1.0.0"
@@ -3969,6 +4006,9 @@ __metadata:
   dependencies:
     "@emotion/core": ^10.0.27
     "@emotion/styled": ^10.0.27
+    "@fortawesome/fontawesome-svg-core": ^1.2.26
+    "@fortawesome/pro-solid-svg-icons": ^5.12.0
+    "@fortawesome/react-fontawesome": ^0.1.8
     "@types/node": ^13.7.0
     "@types/react": ^16.9.19
     "@types/react-dom": ^16.9.5
@@ -7322,7 +7362,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.5.10, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:

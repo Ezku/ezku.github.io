@@ -3,6 +3,6 @@
 .yarn/build-state.yml
 
 .next
-next-export
+dist
 
 node_modules/*

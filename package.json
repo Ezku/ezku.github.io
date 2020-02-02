@@ -38,8 +38,5 @@
     "eslint-plugin-react": "^7.18.0",
     "prettier": "latest",
     "typescript": "^3.7.5"
-  },
-  "resolutions": {
-    "@ezku/harmonic": "workspace:packages/harmonic"
   }
 }

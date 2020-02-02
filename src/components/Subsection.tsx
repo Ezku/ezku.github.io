@@ -23,19 +23,19 @@ type Props = {
 const Title = styled(H3)({
   color: colors.blacks[1],
   fontWeight: 700,
-  fontSize: minorScale.m,
-  lineHeight: minorScale.m,
+  fontSize: majorScale.s,
+  lineHeight: majorScale.s,
   [breakpoints[0]]: {
     fontSize: minorScale.m,
     lineHeight: minorScale.m
   },
   [breakpoints[1]]: {
-    fontSize: minorScale.l,
-    lineHeight: minorScale.l
+    fontSize: majorScale.m,
+    lineHeight: majorScale.m
   },
   [breakpoints[2]]: {
-    fontSize: majorScale.l,
-    lineHeight: majorScale.l
+    fontSize: minorScale.l,
+    lineHeight: minorScale.l
   }
 });
 

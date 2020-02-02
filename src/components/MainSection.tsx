@@ -17,15 +17,15 @@ const Title = styled(H2)({
   lineHeight: minorScale.m,
   [breakpoints[0]]: {
     fontSize: majorScale.m,
-    lineHeight: majorScale.m
+    lineHeight: majorScale.m,
   },
   [breakpoints[1]]: {
-    fontSize: majorScale.l,
-    lineHeight: majorScale.l
+    fontSize: minorScale.l,
+    lineHeight: minorScale.l
   },
   [breakpoints[2]]: {
-    fontSize: minorScale.xl,
-    lineHeight: minorScale.xl
+    fontSize: majorScale.l,
+    lineHeight: majorScale.l
   }
 });
 

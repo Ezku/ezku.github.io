@@ -1,6 +1,7 @@
 {
   "name": "ezku-github-io",
   "private": true,
+  "version": "0.0.0",
   "workspaces": [
     ".",
     "./packages/*"
@@ -23,7 +24,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o ./next-export"
+    "export": "next build && next export -o ./dist"
   },
   "devDependencies": {
     "@types/node": "^13.7.0",

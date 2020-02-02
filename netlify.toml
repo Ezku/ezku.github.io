@@ -1,0 +1,9 @@
+[build]
+
+command = "npm install -g yarn@berry && yarn install && yarn export"
+publish = "./dist"
+
+[build.environment]
+
+NPM_VERSION = "6.13.4"
+YARN_VERSION = "1.12.3"

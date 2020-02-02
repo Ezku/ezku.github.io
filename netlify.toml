@@ -1,8 +1,8 @@
 [build]
 
-command = "yarn build"
+command = "yarn export"
 publish = "./dist"
 
 [build.environment]
 
-YARN_VERSION = "1.12.3"
+YARN_VERSION = "1.21.1"

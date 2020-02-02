@@ -1,9 +1,8 @@
-# node
-/node_modules
+# https://next.yarnpkg.com/advanced/qa
+.yarn/unplugged/*
+.yarn/build-state.yml
 
-# Parcel output
-/dist
-/.cache
+.next
+dist
 
-# Yarn
-/yarn-error.log
+node_modules/*

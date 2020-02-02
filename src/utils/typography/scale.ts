@@ -1,4 +1,4 @@
-import { makeScale } from 'harmonic';
+import { makeScale } from '@ezku/harmonic';
 
 export default makeScale({
   base: 18

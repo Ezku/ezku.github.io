@@ -28,21 +28,20 @@ export default function index() {
               users and business in mind. I love learning about new things, solving problems and
               helping find ways to do things better.
             </Lead>
-            <Lead>They tell me I'm buzzword-compliant, too. Here are a few, pick yours:</Lead>
+            <Lead>They tell me I'm buzzword-compliant, too.</Lead>
             <Tags>
+              <Tag>fullstack</Tag>
+              <Tag>cloud</Tag>
+              <Tag>architecture</Tag>
+              <Tag>functional-programming</Tag>
+              <Tag>test-automation</Tag>
+              <Tag>nodejs</Tag>
+              <Tag>devops</Tag>
+              <Tag>deployment-automation</Tag>
+              <Tag>containers</Tag>
               <Tag>lean</Tag>
               <Tag>kanban</Tag>
-              <Tag>servicedesign</Tag>
-              <Tag>xp</Tag>
-              <Tag>ci</Tag>
-              <Tag>cd</Tag>
-              <Tag>fp</Tag>
-              <Tag>oss</Tag>
-              <Tag>nodejs</Tag>
-              <Tag>react</Tag>
-              <Tag>docker</Tag>
-              <Tag>devops</Tag>
-              <Tag>fullstack</Tag>
+              <Tag>facilitation</Tag>
             </Tags>
             <Aside>
               Sounds like exactly what you need?{' '}

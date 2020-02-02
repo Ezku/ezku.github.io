@@ -28,15 +28,15 @@ const Quote = styled(P)({
   fontStyle: 'italic',
   fontWeight: 300,
   color: colors.blacks[1],
-  fontSize: minorScale.s,
-  lineHeight: minorScale.m,
+  fontSize: majorScale.xs,
+  lineHeight: majorScale.s,
   [breakpoints[0]]: {
-    fontSize: majorScale.s,
-    lineHeight: majorScale.m
+    fontSize: minorScale.s,
+    lineHeight: minorScale.m
   },
   [breakpoints[1]]: {
-    fontSize: minorScale.m,
-    lineHeight: minorScale.l
+    fontSize: majorScale.s,
+    lineHeight: majorScale.m
   }
 });
 

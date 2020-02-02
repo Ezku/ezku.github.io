@@ -4019,6 +4019,7 @@ __metadata:
     eslint-config-prettier: ^6.10.0
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-react: ^7.18.0
+    harmonic: "workspace:*"
     next: latest
     prettier: latest
     react: ^16.12.0
@@ -4521,6 +4522,12 @@ fsevents@~2.1.2:
   checksum: 048be5641c1cacfa8e72084e042d198e2f34ef4eca3d61ac3612402b45f6983c3d2d01ea16beb0d37902bd3d6310ffaa0b5f3c9b7b1219601252e1467bf09f28
   languageName: node
   linkType: hard
+
+"harmonic@workspace:*, harmonic@workspace:packages/harmonic":
+  version: 0.0.0-use.local
+  resolution: "harmonic@workspace:packages/harmonic"
+  languageName: unknown
+  linkType: soft
 
 "has-ansi@npm:^2.0.0":
   version: 2.0.0

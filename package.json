@@ -1,5 +1,10 @@
 {
   "name": "ezku-github-io",
+  "private": true,
+  "workspaces": [
+    ".",
+    "./packages/*"
+  ],
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
@@ -7,6 +12,7 @@
     "@fortawesome/pro-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "babel": "^6.23.0",
+    "harmonic": "workspace:*",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "latest"

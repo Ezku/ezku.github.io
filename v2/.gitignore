@@ -1,9 +1,0 @@
-# node
-/node_modules
-
-# Parcel output
-/dist
-/.cache
-
-# Yarn
-/yarn-error.log

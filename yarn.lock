@@ -4021,6 +4021,7 @@ __metadata:
     eslint-plugin-react: ^7.18.0
     harmonic: "workspace:*"
     next: latest
+    normalize.css: ^8.0.1
     prettier: latest
     react: ^16.12.0
     react-dom: latest
@@ -6202,6 +6203,13 @@ fsevents@~2.1.2:
     query-string: ^4.1.0
     sort-keys: ^1.0.0
   checksum: fe6ad56398229b9140c8aaebe7b273ca4bbefe40dc8253c32a8860689f37c4e5aed96d904645d7d712298cd6a6467a216c3f929ecf42274586ab01d4966d6d93
+  languageName: node
+  linkType: hard
+
+"normalize.css@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "normalize.css@npm:8.0.1"
+  checksum: df0e5f89d0be50525c17fe219bfe7fbc5c76fc093cf8180406e6b85a9235323b0c4515f36c4e4bc15818cde6417351f74d1b9de589089a3c1ae7bc69b198c98f
   languageName: node
   linkType: hard
 
